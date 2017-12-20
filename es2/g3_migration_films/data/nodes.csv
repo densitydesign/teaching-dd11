@@ -1,0 +1,1080 @@
+NODE;ID;LABEL;CLASS;WEIGHT
+abuse;abuse;abuse;ABUSE;2
+attempted rape;attempted rape;attempted rape;ABUSE;2
+child abuse;child abuse;child abuse;ABUSE;2
+harassment;harassment;harassment;ABUSE;2
+incest;incest;incest;ABUSE;2
+incestuous desire;incestuous desire;incestuous desire;ABUSE;2
+mistress;mistress;mistress;ABUSE;2
+sexual abuse;sexual abuse;sexual abuse;ABUSE;2
+strip club;strip club;strip club;ABUSE;2
+hooker;hooker;hooker;ABUSE;3
+pimp;pimp;pimp;ABUSE;4
+brothel;brothel;brothel;ABUSE;6
+prostitution;prostitution;prostitution;ABUSE;10
+prostitute;prostitute;prostitute;ABUSE;14
+cartel;cartel;cartel;ADDICTION;2
+cigarette lighter;cigarette lighter;cigarette lighter;ADDICTION;2
+drug abuse;drug abuse;drug abuse;ADDICTION;2
+drug dealing;drug dealing;drug dealing;ADDICTION;2
+drug lord;drug lord;drug lord;ADDICTION;2
+drunk driving;drunk driving;drunk driving;ADDICTION;2
+hangover;hangover;hangover;ADDICTION;2
+hashish;hashish;hashish;ADDICTION;2
+heroin;heroin;heroin;ADDICTION;2
+hookah;hookah;hookah;ADDICTION;2
+liquor store;liquor store;liquor store;ADDICTION;2
+opium;opium;opium;ADDICTION;2
+smoke;smoke;smoke;ADDICTION;2
+stoned;stoned;stoned;ADDICTION;2
+syringe;syringe;syringe;ADDICTION;2
+underage drinking;underage drinking;underage drinking;ADDICTION;2
+vodka;vodka;vodka;ADDICTION;2
+drug addiction;drug addiction;drug addiction;ADDICTION;3
+hallucination;hallucination;hallucination;ADDICTION;3
+junkie;junkie;junkie;ADDICTION;3
+pipe smoking;pipe smoking;pipe smoking;ADDICTION;3
+whiskey;whiskey;whiskey;ADDICTION;3
+alcoholic;alcoholic;alcoholic;ADDICTION;4
+beer;beer;beer;ADDICTION;4
+drug addict;drug addict;drug addict;ADDICTION;4
+drug overdose;drug overdose;drug overdose;ADDICTION;4
+snorting cocaine;snorting cocaine;snorting cocaine;ADDICTION;4
+cigar smoking;cigar smoking;cigar smoking;ADDICTION;5
+cocaine;cocaine;cocaine;ADDICTION;5
+marijuana;marijuana;marijuana;ADDICTION;5
+drug dealer;drug dealer;drug dealer;ADDICTION;6
+pills;pills;pills;ADDICTION;6
+drugs;drugs;drugs;ADDICTION;7
+wine;wine;wine;ADDICTION;8
+drug use;drug use;drug use;ADDICTION;9
+drunkenness;drunkenness;drunkenness;ADDICTION;13
+drink;drink;drink;ADDICTION;17
+drinking;drinking;drinking;ADDICTION;23
+cigarette smoking;cigarette smoking;cigarette smoking;ADDICTION;26
+accordion;accordion;accordion;ARTS;2
+amphitheater;amphitheater;amphitheater;ARTS;2
+artist;artist;artist;ARTS;2
+aspiring actress;aspiring actress;aspiring actress;ARTS;2
+audition;audition;audition;ARTS;2
+busker;busker;busker;ARTS;2
+con artist;con artist;con artist;ARTS;2
+d.j.;d.j.;d.j.;ARTS;2
+grand opening;grand opening;grand opening;ARTS;2
+guitar;guitar;guitar;ARTS;2
+jazz music;jazz music;jazz music;ARTS;2
+jitterbug;jitterbug;jitterbug;ARTS;2
+mariachi band;mariachi band;mariachi band;ARTS;2
+orchestra;orchestra;orchestra;ARTS;2
+painter;painter;painter;ARTS;2
+painting;painting;painting;ARTS;2
+pole dancer;pole dancer;pole dancer;ARTS;2
+rap music;rap music;rap music;ARTS;2
+rehearsal;rehearsal;rehearsal;ARTS;2
+rock 'n' roll;rock 'n' roll;rock 'n' roll;ARTS;2
+spontaneous choreography;spontaneous choreography;spontaneous choreography;ARTS;2
+stage play;stage play;stage play;ARTS;2
+street musician;street musician;street musician;ARTS;2
+swing;swing;swing;ARTS;2
+dance club;dance club;dance club;ARTS;3
+drum;drum;drum;ARTS;3
+humming;humming;humming;ARTS;3
+pianist;pianist;pianist;ARTS;3
+piano player;piano player;piano player;ARTS;3
+surrealism;surrealism;surrealism;ARTS;3
+tenor;tenor;tenor;ARTS;3
+theater;theater;theater;ARTS;3
+theatre;theatre;theatre;ARTS;3
+theatre audience;theatre audience;theatre audience;ARTS;3
+listening to music;listening to music;listening to music;ARTS;4
+movie theater;movie theater;movie theater;ARTS;4
+saxophone;saxophone;saxophone;ARTS;4
+violin;violin;violin;ARTS;4
+drummer;drummer;drummer;ARTS;5
+dance;dance;dance;ARTS;6
+disco;disco;disco;ARTS;6
+musician;musician;musician;ARTS;6
+piano;piano;piano;ARTS;7
+band;band;band;ARTS;8
+song;song;song;ARTS;17
+dancer;dancer;dancer;ARTS;19
+singer;singer;singer;ARTS;22
+singing;singing;singing;ARTS;25
+dancing;dancing;dancing;ARTS;33
+armed robbery;armed robbery;armed robbery;CRIMINALITY;2
+breaking and entering;breaking and entering;breaking and entering;CRIMINALITY;2
+climbing through a window;climbing through a window;climbing through a window;CRIMINALITY;2
+cosa nostra;cosa nostra;cosa nostra;CRIMINALITY;2
+crime epic;crime epic;crime epic;CRIMINALITY;2
+detainee;detainee;detainee;CRIMINALITY;2
+extortion;extortion;extortion;CRIMINALITY;2
+fake id;fake id;fake id;CRIMINALITY;2
+fraud;fraud;fraud;CRIMINALITY;2
+gang member;gang member;gang member;CRIMINALITY;2
+gang violence;gang violence;gang violence;CRIMINALITY;2
+godfather;godfather;godfather;CRIMINALITY;2
+illegal worker;illegal worker;illegal worker;CRIMINALITY;2
+informer;informer;informer;CRIMINALITY;2
+jail visitation;jail visitation;jail visitation;CRIMINALITY;2
+masked man;masked man;masked man;CRIMINALITY;2
+outlaw;outlaw;outlaw;CRIMINALITY;2
+peddler;peddler;peddler;CRIMINALITY;2
+protection racket;protection racket;protection racket;CRIMINALITY;2
+release from prison;release from prison;release from prison;CRIMINALITY;2
+shipping crate;shipping crate;shipping crate;CRIMINALITY;2
+terrorist;terrorist;terrorist;CRIMINALITY;2
+women's prison;women's prison;women's prison;CRIMINALITY;2
+crime boss;crime boss;crime boss;CRIMINALITY;3
+fugitive;fugitive;fugitive;CRIMINALITY;3
+gang leader;gang leader;gang leader;CRIMINALITY;3
+gang warfare;gang warfare;gang warfare;CRIMINALITY;3
+human smuggling;human smuggling;human smuggling;CRIMINALITY;3
+prisoner;prisoner;prisoner;CRIMINALITY;3
+criminal;criminal;criminal;CRIMINALITY;4
+kidnapping;kidnapping;kidnapping;CRIMINALITY;4
+political corruption;political corruption;political corruption;CRIMINALITY;4
+riot;riot;riot;CRIMINALITY;4
+terrorism;terrorism;terrorism;CRIMINALITY;4
+black market;black market;black market;CRIMINALITY;5
+mafia;mafia;mafia;CRIMINALITY;5
+organized crime;organized crime;organized crime;CRIMINALITY;5
+stealing;stealing;stealing;CRIMINALITY;5
+street gang;street gang;street gang;CRIMINALITY;5
+vandalism;vandalism;vandalism;CRIMINALITY;5
+corruption;corruption;corruption;CRIMINALITY;6
+gang;gang;gang;CRIMINALITY;7
+gangster;gangster;gangster;CRIMINALITY;7
+robbery;robbery;robbery;CRIMINALITY;14
+thief;thief;thief;CRIMINALITY;16
+theft;theft;theft;CRIMINALITY;18
+anti semitism;anti semitism;anti semitism;CULTURAL DIFFERENCE;2
+culture shock;culture shock;culture shock;CULTURAL DIFFERENCE;2
+ghetto;ghetto;ghetto;CULTURAL DIFFERENCE;2
+hijab;hijab;hijab;CULTURAL DIFFERENCE;2
+interracial couple;interracial couple;interracial couple;CULTURAL DIFFERENCE;2
+jewish culture;jewish culture;jewish culture;CULTURAL DIFFERENCE;2
+multiculturalism;multiculturalism;multiculturalism;CULTURAL DIFFERENCE;2
+nationalism;nationalism;nationalism;CULTURAL DIFFERENCE;2
+racial discrimination;racial discrimination;racial discrimination;CULTURAL DIFFERENCE;2
+racist insult;racist insult;racist insult;CULTURAL DIFFERENCE;2
+veil;veil;veil;CULTURAL DIFFERENCE;2
+yiddish;yiddish;yiddish;CULTURAL DIFFERENCE;2
+ethnic identity;ethnic identity;ethnic identity;CULTURAL DIFFERENCE;3
+ethnicity;ethnicity;ethnicity;CULTURAL DIFFERENCE;3
+interracial friendship;interracial friendship;interracial friendship;CULTURAL DIFFERENCE;3
+multicultural;multicultural;multicultural;CULTURAL DIFFERENCE;3
+racial prejudice;racial prejudice;racial prejudice;CULTURAL DIFFERENCE;3
+gypsy;gypsy;gypsy;CULTURAL DIFFERENCE;4
+inter cultural;inter cultural;inter cultural;CULTURAL DIFFERENCE;4
+racist;racist;racist;CULTURAL DIFFERENCE;4
+tradition;tradition;tradition;CULTURAL DIFFERENCE;4
+cultural difference;cultural difference;cultural difference;CULTURAL DIFFERENCE;5
+interracial romance;interracial romance;interracial romance;CULTURAL DIFFERENCE;6
+racial slur;racial slur;racial slur;CULTURAL DIFFERENCE;8
+xenophobia;xenophobia;xenophobia;CULTURAL DIFFERENCE;8
+ethnic slur;ethnic slur;ethnic slur;CULTURAL DIFFERENCE;9
+deportation;deportation;deportation;CULTURAL DIFFERENCE;12
+prejudice;prejudice;prejudice;CULTURAL DIFFERENCE;12
+culture clash;culture clash;culture clash;CULTURAL DIFFERENCE;13
+racism;racism;racism;CULTURAL DIFFERENCE;20
+asphyxiation;asphyxiation;asphyxiation;DEATH;2
+capital punishment;capital punishment;capital punishment;DEATH;2
+cremation;cremation;cremation;DEATH;2
+crematorium;crematorium;crematorium;DEATH;2
+dead baby;dead baby;dead baby;DEATH;2
+dead body on beach;dead body on beach;dead body on beach;DEATH;2
+dead boy;dead boy;dead boy;DEATH;2
+dead father;dead father;dead father;DEATH;2
+dead man;dead man;dead man;DEATH;2
+dead parents;dead parents;dead parents;DEATH;2
+death of baby;death of baby;death of baby;DEATH;2
+death of friend;death of friend;death of friend;DEATH;2
+death of husband;death of husband;death of husband;DEATH;2
+death row;death row;death row;DEATH;2
+mortuary;mortuary;mortuary;DEATH;2
+suicide by hanging;suicide by hanging;suicide by hanging;DEATH;2
+death of child;death of child;death of child;DEATH;3
+death of girlfriend;death of girlfriend;death of girlfriend;DEATH;3
+death of mother;death of mother;death of mother;DEATH;3
+hearse;hearse;hearse;DEATH;3
+suicide attempt;suicide attempt;suicide attempt;DEATH;3
+burial;burial;burial;DEATH;4
+death of brother;death of brother;death of brother;DEATH;4
+death of sister;death of sister;death of sister;DEATH;4
+death of son;death of son;death of son;DEATH;4
+dying;dying;dying;DEATH;4
+grave;grave;grave;DEATH;4
+graveyard;graveyard;graveyard;DEATH;4
+stabbed to death;stabbed to death;stabbed to death;DEATH;5
+death of wife;death of wife;death of wife;DEATH;6
+funeral;funeral;funeral;DEATH;7
+shot to death;shot to death;shot to death;DEATH;7
+suicide;suicide;suicide;DEATH;7
+death of father;death of father;death of father;DEATH;8
+cemetery;cemetery;cemetery;DEATH;13
+death;death;death;DEATH;26
+bank;bank;bank;ECONOMY;2
+capitalism;capitalism;capitalism;ECONOMY;2
+economics;economics;economics;ECONOMY;2
+loan;loan;loan;ECONOMY;2
+money problems;money problems;money problems;ECONOMY;2
+third world;third world;third world;ECONOMY;2
+wallet;wallet;wallet;ECONOMY;2
+credit card;credit card;credit card;ECONOMY;3
+coin;coin;coin;ECONOMY;4
+business;business;business;ECONOMY;5
+wealth;wealth;wealth;ECONOMY;5
+poverty;poverty;poverty;ECONOMY;20
+money;money;money;ECONOMY;31
+class;class;class;EDUCATION;2
+class photograph;class photograph;class photograph;EDUCATION;2
+college student;college student;college student;EDUCATION;2
+scholarship;scholarship;scholarship;EDUCATION;2
+school principal;school principal;school principal;EDUCATION;2
+university;university;university;EDUCATION;2
+college;college;college;EDUCATION;3
+school uniform;school uniform;school uniform;EDUCATION;4
+teacher student relationship;teacher student relationship;teacher student relationship;EDUCATION;4
+high school;high school;high school;EDUCATION;5
+classroom;classroom;classroom;EDUCATION;6
+student;student;student;EDUCATION;8
+teacher;teacher;teacher;EDUCATION;8
+school;school;school;EDUCATION;11
+affection;affection;affection;EMOTIONS;2
+bitterness;bitterness;bitterness;EMOTIONS;2
+compassion;compassion;compassion;EMOTIONS;2
+grief;grief;grief;EMOTIONS;2
+happiness;happiness;happiness;EMOTIONS;2
+hatred;hatred;hatred;EMOTIONS;2
+irony;irony;irony;EMOTIONS;2
+joy;joy;joy;EMOTIONS;2
+sadism;sadism;sadism;EMOTIONS;2
+solidarity;solidarity;solidarity;EMOTIONS;2
+wrath;wrath;wrath;EMOTIONS;2
+asking for forgiveness;asking for forgiveness;asking for forgiveness;EMOTIONS;3
+crying baby;crying baby;crying baby;EMOTIONS;3
+despair;despair;despair;EMOTIONS;3
+embarrassment;embarrassment;embarrassment;EMOTIONS;3
+frustration;frustration;frustration;EMOTIONS;3
+guilt;guilt;guilt;EMOTIONS;3
+homesickness;homesickness;homesickness;EMOTIONS;3
+melancholy;melancholy;melancholy;EMOTIONS;3
+mercilessness;mercilessness;mercilessness;EMOTIONS;3
+mourning;mourning;mourning;EMOTIONS;3
+obsession;obsession;obsession;EMOTIONS;3
+desperation;desperation;desperation;EMOTIONS;4
+fish out of water;fish out of water;fish out of water;EMOTIONS;4
+loneliness;loneliness;loneliness;EMOTIONS;4
+nostalgia;nostalgia;nostalgia;EMOTIONS;4
+shame;shame;shame;EMOTIONS;4
+apology;apology;apology;EMOTIONS;5
+hope;hope;hope;EMOTIONS;5
+humiliation;humiliation;humiliation;EMOTIONS;5
+pride;pride;pride;EMOTIONS;5
+unfaithfulness;unfaithfulness;unfaithfulness;EMOTIONS;5
+anger;anger;anger;EMOTIONS;6
+pain;pain;pain;EMOTIONS;7
+sadness;sadness;sadness;EMOTIONS;9
+fear;fear;fear;EMOTIONS;10
+tears;tears;tears;EMOTIONS;19
+crying;crying;crying;EMOTIONS;28
+absent mother;absent mother;absent mother;FAMILY;2
+bride;bride;bride;FAMILY;2
+brother in law sister in law relationship;brother in law sister in law relationship;brother in law sister in law relationship;FAMILY;2
+cheating husband;cheating husband;cheating husband;FAMILY;2
+family dog;family dog;family dog;FAMILY;2
+family history;family history;family history;FAMILY;2
+family reunion;family reunion;family reunion;FAMILY;2
+father in law son in law relationship;father in law son in law relationship;father in law son in law relationship;FAMILY;2
+grandfather granddaughter relationship;grandfather granddaughter relationship;grandfather granddaughter relationship;FAMILY;2
+grandfather grandson relationship;grandfather grandson relationship;grandfather grandson relationship;FAMILY;2
+grandmother;grandmother;grandmother;FAMILY;2
+interracial marriage;interracial marriage;interracial marriage;FAMILY;2
+loss of brother;loss of brother;loss of brother;FAMILY;2
+loss of mother;loss of mother;loss of mother;FAMILY;2
+loss of wife;loss of wife;loss of wife;FAMILY;2
+marital abuse;marital abuse;marital abuse;FAMILY;2
+marriage engagement;marriage engagement;marriage engagement;FAMILY;2
+mother in law daughter in law relationship;mother in law daughter in law relationship;mother in law daughter in law relationship;FAMILY;2
+parent child relationship;parent child relationship;parent child relationship;FAMILY;2
+poor family;poor family;poor family;FAMILY;2
+twin;twin;twin;FAMILY;2
+adoption;adoption;adoption;FAMILY;3
+bride and groom;bride and groom;bride and groom;FAMILY;3
+divorcee;divorcee;divorcee;FAMILY;3
+ex husband ex wife relationship;ex husband ex wife relationship;ex husband ex wife relationship;FAMILY;3
+immigrant family;immigrant family;immigrant family;FAMILY;3
+loss of father;loss of father;loss of father;FAMILY;3
+loss of husband;loss of husband;loss of husband;FAMILY;3
+mother in law son in law relationship;mother in law son in law relationship;mother in law son in law relationship;FAMILY;3
+parents;parents;parents;FAMILY;3
+sibling rivalry;sibling rivalry;sibling rivalry;FAMILY;3
+single father;single father;single father;FAMILY;3
+wedding ring;wedding ring;wedding ring;FAMILY;3
+dysfunctional family;dysfunctional family;dysfunctional family;FAMILY;4
+large family;large family;large family;FAMILY;4
+single mother;single mother;single mother;FAMILY;4
+aunt niece relationship;aunt niece relationship;aunt niece relationship;FAMILY;5
+dysfunctional marriage;dysfunctional marriage;dysfunctional marriage;FAMILY;5
+loss of son;loss of son;loss of son;FAMILY;5
+marriage proposal;marriage proposal;marriage proposal;FAMILY;5
+single parent;single parent;single parent;FAMILY;5
+uncle nephew relationship;uncle nephew relationship;uncle nephew relationship;FAMILY;5
+uncle niece relationship;uncle niece relationship;uncle niece relationship;FAMILY;5
+wedding reception;wedding reception;wedding reception;FAMILY;5
+arranged marriage;arranged marriage;arranged marriage;FAMILY;6
+aunt nephew relationship;aunt nephew relationship;aunt nephew relationship;FAMILY;6
+divorce;divorce;divorce;FAMILY;6
+grandmother grandson relationship;grandmother grandson relationship;grandmother grandson relationship;FAMILY;6
+marital separation;marital separation;marital separation;FAMILY;6
+widow;widow;widow;FAMILY;6
+widower;widower;widower;FAMILY;6
+orphan;orphan;orphan;FAMILY;9
+sister sister relationship;sister sister relationship;sister sister relationship;FAMILY;12
+cousin cousin relationship;cousin cousin relationship;cousin cousin relationship;FAMILY;13
+marriage;marriage;marriage;FAMILY;16
+wedding;wedding;wedding;FAMILY;17
+brother brother relationship;brother brother relationship;brother brother relationship;FAMILY;19
+brother sister relationship;brother sister relationship;brother sister relationship;FAMILY;19
+father daughter relationship;father daughter relationship;father daughter relationship;FAMILY;24
+mother daughter relationship;mother daughter relationship;mother daughter relationship;FAMILY;31
+father son relationship;father son relationship;father son relationship;FAMILY;33
+mother son relationship;mother son relationship;mother son relationship;FAMILY;33
+husband wife relationship;husband wife relationship;husband wife relationship;FAMILY;40
+family relationships;family relationships;family relationships;FAMILY;42
+apple;apple;apple;FOOD;2
+birthday cake;birthday cake;birthday cake;FOOD;2
+cake;cake;cake;FOOD;2
+champagne;champagne;champagne;FOOD;2
+chocolate;chocolate;chocolate;FOOD;2
+coca cola;coca cola;coca cola;FOOD;2
+couscous;couscous;couscous;FOOD;2
+dessert;dessert;dessert;FOOD;2
+giving a toast;giving a toast;giving a toast;FOOD;2
+hot dog;hot dog;hot dog;FOOD;2
+ice cream;ice cream;ice cream;FOOD;2
+italian restaurant;italian restaurant;italian restaurant;FOOD;2
+meat;meat;meat;FOOD;2
+meat cleaver;meat cleaver;meat cleaver;FOOD;2
+milk carton;milk carton;milk carton;FOOD;2
+picnic;picnic;picnic;FOOD;2
+potato chip;potato chip;potato chip;FOOD;2
+banana;banana;banana;FOOD;3
+chicken;chicken;chicken;FOOD;3
+fast food;fast food;fast food;FOOD;3
+fast food restaurant;fast food restaurant;fast food restaurant;FOOD;3
+vegetarian;vegetarian;vegetarian;FOOD;3
+bread;bread;bread;FOOD;4
+cook;cook;cook;FOOD;4
+dinner;dinner;dinner;FOOD;4
+hamburger;hamburger;hamburger;FOOD;4
+milk;milk;milk;FOOD;4
+coffee;coffee;coffee;FOOD;5
+diner;diner;diner;FOOD;5
+tea;tea;tea;FOOD;5
+grocery store;grocery store;grocery store;FOOD;6
+kitchen;kitchen;kitchen;FOOD;8
+eating;eating;eating;FOOD;10
+cooking;cooking;cooking;FOOD;11
+cafe;cafe;cafe;FOOD;18
+food;food;food;FOOD;20
+restaurant;restaurant;restaurant;FOOD;31
+homosexuality;homosexuality;homosexuality;GENDER ISSUES;2
+male male kiss;male male kiss;male male kiss;GENDER ISSUES;2
+tomboy;tomboy;tomboy;GENDER ISSUES;2
+closeted homosexual;closeted homosexual;closeted homosexual;GENDER ISSUES;3
+gay interest;gay interest;gay interest;GENDER ISSUES;3
+gay kiss;gay kiss;gay kiss;GENDER ISSUES;3
+gay;gay;gay;GENDER ISSUES;4
+gay slur;gay slur;gay slur;GENDER ISSUES;4
+homosexual;homosexual;homosexual;GENDER ISSUES;5
+algeria;algeria;algeria;GEO;2
+baltimore maryland;baltimore maryland;baltimore maryland;GEO;2
+bangladesh;bangladesh;bangladesh;GEO;2
+bosnia herzegovina;bosnia herzegovina;bosnia herzegovina;GEO;2
+broadway manhattan new york city;broadway manhattan new york city;broadway manhattan new york city;GEO;2
+cambodia;cambodia;cambodia;GEO;2
+central america;central america;central america;GEO;2
+cobbled street;cobbled street;cobbled street;GEO;2
+colorado;colorado;colorado;GEO;2
+coney island brooklyn new york city;coney island brooklyn new york city;coney island brooklyn new york city;GEO;2
+connecticut;connecticut;connecticut;GEO;2
+corleone italy;corleone italy;corleone italy;GEO;2
+delaware;delaware;delaware;GEO;2
+empire state building manhattan new york city;empire state building manhattan new york city;empire state building manhattan new york city;GEO;2
+germany;germany;germany;GEO;2
+hamburg germany;hamburg germany;hamburg germany;GEO;2
+hawaii;hawaii;hawaii;GEO;2
+hollywood california;hollywood california;hollywood california;GEO;2
+houston texas;houston texas;houston texas;GEO;2
+illinois;illinois;illinois;GEO;2
+ireland;ireland;ireland;GEO;2
+japan;japan;japan;GEO;2
+jfk international airport queens new york city;jfk international airport queens new york city;jfk international airport queens new york city;GEO;2
+las vegas nevada;las vegas nevada;las vegas nevada;GEO;2
+maryland;maryland;maryland;GEO;2
+michigan;michigan;michigan;GEO;2
+montana;montana;montana;GEO;2
+morocco;morocco;morocco;GEO;2
+nebraska;nebraska;nebraska;GEO;2
+new jersey;new jersey;new jersey;GEO;2
+new york city new york;new york city new york;new york city new york;GEO;2
+new york state;new york state;new york state;GEO;2
+new zealand;new zealand;new zealand;GEO;2
+nigeria;nigeria;nigeria;GEO;2
+queens new york city;queens new york city;queens new york city;GEO;2
+senegal;senegal;senegal;GEO;2
+sicily italy;sicily italy;sicily italy;GEO;2
+south carolina;south carolina;south carolina;GEO;2
+switzerland;switzerland;switzerland;GEO;2
+syria;syria;syria;GEO;2
+tokyo japan;tokyo japan;tokyo japan;GEO;2
+trieste italy;trieste italy;trieste italy;GEO;2
+united states;united states;united states;GEO;2
+west london;west london;west london;GEO;2
+west virginia;west virginia;west virginia;GEO;2
+arizona;arizona;arizona;GEO;3
+australia;australia;australia;GEO;3
+barcelona spain;barcelona spain;barcelona spain;GEO;3
+cuba;cuba;cuba;GEO;3
+florida;florida;florida;GEO;3
+guatemala;guatemala;guatemala;GEO;3
+iran;iran;iran;GEO;3
+istanbul turkey;istanbul turkey;istanbul turkey;GEO;3
+minnesota;minnesota;minnesota;GEO;3
+quebec;quebec;quebec;GEO;3
+rural setting;rural setting;rural setting;GEO;3
+southern california;southern california;southern california;GEO;3
+tijuana mexico;tijuana mexico;tijuana mexico;GEO;3
+united states of america;united states of america;united states of america;GEO;3
+washington d.c.;washington d.c.;washington d.c.;GEO;3
+washington state;washington state;washington state;GEO;3
+world trade center manhattan new york city;world trade center manhattan new york city;world trade center manhattan new york city;GEO;3
+atlantic ocean;atlantic ocean;atlantic ocean;GEO;4
+brooklyn bridge;brooklyn bridge;brooklyn bridge;GEO;4
+canada;canada;canada;GEO;4
+central park manhattan new york city;central park manhattan new york city;central park manhattan new york city;GEO;4
+england;england;england;GEO;4
+france;france;france;GEO;4
+mountain;mountain;mountain;GEO;4
+poland;poland;poland;GEO;4
+san diego california;san diego california;san diego california;GEO;4
+texas;texas;texas;GEO;4
+times square manhattan new york city;times square manhattan new york city;times square manhattan new york city;GEO;4
+turkey the country;turkey the country;turkey the country;GEO;4
+miami florida;miami florida;miami florida;GEO;5
+paris france;paris france;paris france;GEO;5
+suburb;suburb;suburb;GEO;5
+usa;usa;usa;GEO;5
+america;america;america;GEO;6
+london england;london england;london england;GEO;6
+new york;new york;new york;GEO;6
+russia;russia;russia;GEO;6
+urban setting;urban setting;urban setting;GEO;6
+brooklyn new york city;brooklyn new york city;brooklyn new york city;GEO;7
+california;california;california;GEO;7
+los angeles california;los angeles california;los angeles california;GEO;7
+village;village;village;GEO;7
+desert;desert;desert;GEO;8
+italy;italy;italy;GEO;8
+ellis island new york city;ellis island new york city;ellis island new york city;GEO;10
+statue of liberty new york city;statue of liberty new york city;statue of liberty new york city;GEO;10
+mexico;mexico;mexico;GEO;12
+manhattan new york city;manhattan new york city;manhattan new york city;GEO;16
+new york city;new york city;new york city;GEO;30
+abortion;abortion;abortion;HEALTH;2
+blood transfusion;blood transfusion;blood transfusion;HEALTH;2
+broken arm;broken arm;broken arm;HEALTH;2
+bruise;bruise;bruise;HEALTH;2
+childbirth;childbirth;childbirth;HEALTH;2
+coughing;coughing;coughing;HEALTH;2
+dehydration;dehydration;dehydration;HEALTH;2
+depression;depression;depression;HEALTH;2
+diabetic;diabetic;diabetic;HEALTH;2
+disease;disease;disease;HEALTH;2
+healing;healing;healing;HEALTH;2
+kidney;kidney;kidney;HEALTH;2
+loss of eyesight;loss of eyesight;loss of eyesight;HEALTH;2
+mental breakdown;mental breakdown;mental breakdown;HEALTH;2
+nosebleed;nosebleed;nosebleed;HEALTH;2
+obesity;obesity;obesity;HEALTH;2
+paranoia;paranoia;paranoia;HEALTH;2
+psychologist;psychologist;psychologist;HEALTH;2
+psychopath;psychopath;psychopath;HEALTH;2
+public health;public health;public health;HEALTH;2
+red cross;red cross;red cross;HEALTH;2
+sickness;sickness;sickness;HEALTH;2
+sleeping pills;sleeping pills;sleeping pills;HEALTH;2
+spanish flu;spanish flu;spanish flu;HEALTH;2
+starving child;starving child;starving child;HEALTH;2
+surgeon;surgeon;surgeon;HEALTH;2
+surgery;surgery;surgery;HEALTH;2
+surgical operation;surgical operation;surgical operation;HEALTH;2
+terminal illness;terminal illness;terminal illness;HEALTH;2
+veterinarian;veterinarian;veterinarian;HEALTH;2
+visually impaired person;visually impaired person;visually impaired person;HEALTH;2
+wheelchair;wheelchair;wheelchair;HEALTH;2
+blind woman;blind woman;blind woman;HEALTH;3
+hypodermic needle;hypodermic needle;hypodermic needle;HEALTH;3
+injection;injection;injection;HEALTH;3
+quarantine;quarantine;quarantine;HEALTH;3
+sleeplessness;sleeplessness;sleeplessness;HEALTH;3
+starving;starving;starving;HEALTH;3
+terminal cancer;terminal cancer;terminal cancer;HEALTH;3
+tuberculosis;tuberculosis;tuberculosis;HEALTH;3
+illness;illness;illness;HEALTH;4
+injury;injury;injury;HEALTH;4
+blindness;blindness;blindness;HEALTH;6
+medicine;medicine;medicine;HEALTH;6
+ambulance;ambulance;ambulance;HEALTH;7
+nurse;nurse;nurse;HEALTH;8
+pregnancy;pregnancy;pregnancy;HEALTH;10
+doctor;doctor;doctor;HEALTH;17
+hospital;hospital;hospital;HEALTH;21
+american citizenship;american citizenship;american citizenship;IMMIGRATION;2
+border fence;border fence;border fence;IMMIGRATION;2
+border protection;border protection;border protection;IMMIGRATION;2
+bridge;bridge;bridge;IMMIGRATION;2
+cuban refugee;cuban refugee;cuban refugee;IMMIGRATION;2
+czech immigrant;czech immigrant;czech immigrant;IMMIGRATION;2
+emigre;emigre;emigre;IMMIGRATION;2
+exile;exile;exile;IMMIGRATION;2
+expulsion;expulsion;expulsion;IMMIGRATION;2
+federal agent;federal agent;federal agent;IMMIGRATION;2
+guard;guard;guard;IMMIGRATION;2
+homeland security;homeland security;homeland security;IMMIGRATION;2
+identification;identification;identification;IMMIGRATION;2
+immigration detention center;immigration detention center;immigration detention center;IMMIGRATION;2
+man without a country;man without a country;man without a country;IMMIGRATION;2
+migrant farmworker;migrant farmworker;migrant farmworker;IMMIGRATION;2
+naturalized citizen;naturalized citizen;naturalized citizen;IMMIGRATION;2
+river crossing;river crossing;river crossing;IMMIGRATION;2
+security;security;security;IMMIGRATION;2
+u.s. canadian border;u.s. canadian border;u.s. canadian border;IMMIGRATION;2
+u.s. citizenship;u.s. citizenship;u.s. citizenship;IMMIGRATION;2
+u.s. department of homeland security;u.s. department of homeland security;u.s. department of homeland security;IMMIGRATION;2
+barbed wire;barbed wire;barbed wire;IMMIGRATION;3
+checkpoint;checkpoint;checkpoint;IMMIGRATION;3
+fake identity;fake identity;fake identity;IMMIGRATION;3
+green card;green card;green card;IMMIGRATION;3
+id card;id card;id card;IMMIGRATION;3
+immigrant experience;immigrant experience;immigrant experience;IMMIGRATION;3
+migrant worker;migrant worker;migrant worker;IMMIGRATION;3
+naturalization;naturalization;naturalization;IMMIGRATION;3
+settler;settler;settler;IMMIGRATION;3
+surveillance;surveillance;surveillance;IMMIGRATION;3
+asylum;asylum;asylum;IMMIGRATION;4
+border guard;border guard;border guard;IMMIGRATION;4
+immigration agent;immigration agent;immigration agent;IMMIGRATION;4
+irish immigrant;irish immigrant;irish immigrant;IMMIGRATION;4
+italian immigrant;italian immigrant;italian immigrant;IMMIGRATION;4
+mexican american border;mexican american border;mexican american border;IMMIGRATION;4
+political asylum;political asylum;political asylum;IMMIGRATION;4
+migrant;migrant;migrant;IMMIGRATION;5
+migration;migration;migration;IMMIGRATION;6
+exploitation;exploitation;exploitation;IMMIGRATION;7
+immigration officer;immigration officer;immigration officer;IMMIGRATION;7
+mexican border;mexican border;mexican border;IMMIGRATION;7
+border crossing;border crossing;border crossing;IMMIGRATION;8
+emigrant;emigrant;emigrant;IMMIGRATION;8
+u.s. mexico border;u.s. mexico border;u.s. mexico border;IMMIGRATION;9
+border;border;border;IMMIGRATION;11
+emigration;emigration;emigration;IMMIGRATION;11
+border patrol;border patrol;border patrol;IMMIGRATION;12
+cross;cross;cross;IMMIGRATION;12
+illegal immigration;illegal immigration;illegal immigration;IMMIGRATION;12
+mexican immigrant;mexican immigrant;mexican immigrant;IMMIGRATION;12
+refugee;refugee;refugee;IMMIGRATION;13
+illegal immigrant;illegal immigrant;illegal immigrant;IMMIGRATION;28
+immigrant;immigrant;immigrant;IMMIGRATION;81
+immigration;immigration;immigration;IMMIGRATION;88
+accountant;accountant;accountant;JOB;2
+butcher;butcher;butcher;JOB;2
+cattle ranch;cattle ranch;cattle ranch;JOB;2
+chambermaid;chambermaid;chambermaid;JOB;2
+cleaning woman;cleaning woman;cleaning woman;JOB;2
+construction;construction;construction;JOB;2
+doorman;doorman;doorman;JOB;2
+farm worker;farm worker;farm worker;JOB;2
+farming;farming;farming;JOB;2
+first day at work;first day at work;first day at work;JOB;2
+fisherman;fisherman;fisherman;JOB;2
+gardener;gardener;gardener;JOB;2
+gardner;gardner;gardner;JOB;2
+grocer;grocer;grocer;JOB;2
+hairdresser;hairdresser;hairdresser;JOB;2
+hot dog vendor;hot dog vendor;hot dog vendor;JOB;2
+job;job;job;JOB;2
+labor activist;labor activist;labor activist;JOB;2
+plumber;plumber;plumber;JOB;2
+supervisor;supervisor;supervisor;JOB;2
+tailor;tailor;tailor;JOB;2
+undocumented worker;undocumented worker;undocumented worker;JOB;2
+union;union;union;JOB;2
+bartender;bartender;bartender;JOB;3
+bus driver;bus driver;bus driver;JOB;3
+cleaning lady;cleaning lady;cleaning lady;JOB;3
+customs officer;customs officer;customs officer;JOB;3
+day laborer;day laborer;day laborer;JOB;3
+housekeeper;housekeeper;housekeeper;JOB;3
+quitting a job;quitting a job;quitting a job;JOB;3
+seamstress;seamstress;seamstress;JOB;3
+agriculture;agriculture;agriculture;JOB;4
+businessman;businessman;businessman;JOB;4
+fired from the job;fired from the job;fired from the job;JOB;4
+foreman;foreman;foreman;JOB;4
+laborer;laborer;laborer;JOB;4
+street vendor;street vendor;street vendor;JOB;4
+vacuum cleaner;vacuum cleaner;vacuum cleaner;JOB;4
+construction site;construction site;construction site;JOB;5
+construction worker;construction worker;construction worker;JOB;5
+factory;factory;factory;JOB;5
+factory worker;factory worker;factory worker;JOB;5
+janitor;janitor;janitor;JOB;5
+labor;labor;labor;JOB;5
+peasant;peasant;peasant;JOB;5
+farm;farm;farm;JOB;6
+farmer;farmer;farmer;JOB;6
+sweatshop;sweatshop;sweatshop;JOB;6
+unemployment;unemployment;unemployment;JOB;6
+waiter;waiter;waiter;JOB;6
+working class;working class;working class;JOB;6
+maid;maid;maid;JOB;7
+waitress;waitress;waitress;JOB;7
+taxi driver;taxi driver;taxi driver;JOB;8
+civil rights;civil rights;civil rights;JUSTICE;2
+ethics;ethics;ethics;JUSTICE;2
+ex convict;ex convict;ex convict;JUSTICE;2
+injustice;injustice;injustice;JUSTICE;2
+law;law;law;JUSTICE;2
+legal aid;legal aid;legal aid;JUSTICE;2
+name change;name change;name change;JUSTICE;2
+perjury;perjury;perjury;JUSTICE;2
+seizure of property;seizure of property;seizure of property;JUSTICE;2
+suspect;suspect;suspect;JUSTICE;2
+u.s. constitution;u.s. constitution;u.s. constitution;JUSTICE;2
+witness;witness;witness;JUSTICE;2
+women's rights;women's rights;women's rights;JUSTICE;2
+wrongful arrest;wrongful arrest;wrongful arrest;JUSTICE;2
+bureaucracy;bureaucracy;bureaucracy;JUSTICE;3
+detention center;detention center;detention center;JUSTICE;3
+human rights;human rights;human rights;JUSTICE;3
+judge;judge;judge;JUSTICE;3
+united nations;united nations;united nations;JUSTICE;3
+discrimination;discrimination;discrimination;JUSTICE;4
+justice;justice;justice;JUSTICE;4
+attorney;attorney;attorney;JUSTICE;5
+courtroom;courtroom;courtroom;JUSTICE;5
+interrogation;interrogation;interrogation;JUSTICE;5
+false accusation;false accusation;false accusation;JUSTICE;7
+lawyer;lawyer;lawyer;JUSTICE;12
+child translates for adult;child translates for adult;child translates for adult;LANGUAGE;2
+english lesson;english lesson;english lesson;LANGUAGE;2
+english teacher;english teacher;english teacher;LANGUAGE;2
+interpreter;interpreter;interpreter;LANGUAGE;2
+language;language;language;LANGUAGE;2
+language learning;language learning;language learning;LANGUAGE;2
+sign language;sign language;sign language;LANGUAGE;2
+translation;translation;translation;LANGUAGE;2
+translator;translator;translator;LANGUAGE;4
+language barrier;language barrier;language barrier;LANGUAGE;6
+loveless marriage;loveless marriage;loveless marriage;LOVE;2
+obsessive love;obsessive love;obsessive love;LOVE;2
+unrequited love;unrequited love;unrequited love;LOVE;2
+character says i love you;character says i love you;character says i love you;LOVE;3
+forbidden love;forbidden love;forbidden love;LOVE;3
+loss of loved one;loss of loved one;loss of loved one;LOVE;3
+love at first sight;love at first sight;love at first sight;LOVE;4
+love triangle;love triangle;love triangle;LOVE;5
+kiss;kiss;kiss;LOVE;27
+love;love;love;LOVE;28
+albanian;albanian;albanian;NATIONALITIES;2
+american;american;american;NATIONALITIES;2
+arab american;arab american;arab american;NATIONALITIES;2
+arabic;arabic;arabic;NATIONALITIES;2
+asian american;asian american;asian american;NATIONALITIES;2
+asian indian;asian indian;asian indian;NATIONALITIES;2
+cuban;cuban;cuban;NATIONALITIES;2
+german;german;german;NATIONALITIES;2
+hungarian;hungarian;hungarian;NATIONALITIES;2
+indian pakistani;indian pakistani;indian pakistani;NATIONALITIES;2
+italian abroad;italian abroad;italian abroad;NATIONALITIES;2
+japanese;japanese;japanese;NATIONALITIES;2
+korean;korean;korean;NATIONALITIES;2
+kurd;kurd;kurd;NATIONALITIES;2
+lebanese;lebanese;lebanese;NATIONALITIES;2
+mexican flag;mexican flag;mexican flag;NATIONALITIES;2
+national anthem;national anthem;national anthem;NATIONALITIES;2
+north african;north african;north african;NATIONALITIES;2
+palestinian;palestinian;palestinian;NATIONALITIES;2
+puerto rican;puerto rican;puerto rican;NATIONALITIES;2
+russian american;russian american;russian american;NATIONALITIES;2
+senegalese;senegalese;senegalese;NATIONALITIES;2
+star spangled banner;star spangled banner;star spangled banner;NATIONALITIES;2
+syrian;syrian;syrian;NATIONALITIES;2
+texan;texan;texan;NATIONALITIES;2
+turkish;turkish;turkish;NATIONALITIES;2
+asian;asian;asian;NATIONALITIES;3
+black american;black american;black american;NATIONALITIES;3
+canadian;canadian;canadian;NATIONALITIES;3
+chicano;chicano;chicano;NATIONALITIES;3
+greek;greek;greek;NATIONALITIES;3
+hispanic american;hispanic american;hispanic american;NATIONALITIES;3
+latin;latin;latin;NATIONALITIES;3
+nigerian;nigerian;nigerian;NATIONALITIES;3
+polish american;polish american;polish american;NATIONALITIES;3
+russian jew;russian jew;russian jew;NATIONALITIES;3
+spanish;spanish;spanish;NATIONALITIES;3
+turk;turk;turk;NATIONALITIES;3
+algerian;algerian;algerian;NATIONALITIES;4
+arab;arab;arab;NATIONALITIES;4
+english;english;english;NATIONALITIES;4
+iranian;iranian;iranian;NATIONALITIES;4
+mexican american;mexican american;mexican american;NATIONALITIES;4
+native american;native american;native american;NATIONALITIES;4
+pakistani;pakistani;pakistani;NATIONALITIES;4
+african american;african american;african american;NATIONALITIES;5
+french;french;french;NATIONALITIES;5
+irish;irish;irish;NATIONALITIES;5
+irish american;irish american;irish american;NATIONALITIES;5
+chinese;chinese;chinese;NATIONALITIES;6
+citizenship;citizenship;citizenship;NATIONALITIES;6
+african;african;african;NATIONALITIES;7
+italian american;italian american;italian american;NATIONALITIES;7
+russian;russian;russian;NATIONALITIES;7
+hispanic;hispanic;hispanic;NATIONALITIES;8
+italian;italian;italian;NATIONALITIES;8
+latino;latino;latino;NATIONALITIES;8
+american flag;american flag;american flag;NATIONALITIES;9
+jew;jew;jew;NATIONALITIES;10
+mexican;mexican;mexican;NATIONALITIES;11
+declaration of independence;declaration of independence;declaration of independence;POLITICS;2
+government;government;government;POLITICS;2
+iron curtain;iron curtain;iron curtain;POLITICS;2
+revolution;revolution;revolution;POLITICS;2
+rise to power;rise to power;rise to power;POLITICS;2
+socialism;socialism;socialism;POLITICS;2
+anarchist;anarchist;anarchist;POLITICS;3
+communism;communism;communism;POLITICS;3
+political activism;political activism;political activism;POLITICS;3
+power;power;power;POLITICS;3
+propaganda;propaganda;propaganda;POLITICS;3
+senator;senator;senator;POLITICS;4
+politics;politics;politics;POLITICS;9
+community;community;community;RELATIONSHIP;2
+cross cultural friendship;cross cultural friendship;cross cultural friendship;RELATIONSHIP;2
+older man younger woman relationship;older man younger woman relationship;older man younger woman relationship;RELATIONSHIP;2
+older woman younger man relationship;older woman younger man relationship;older woman younger man relationship;RELATIONSHIP;2
+partner;partner;partner;RELATIONSHIP;2
+reunion;reunion;reunion;RELATIONSHIP;2
+separation;separation;separation;RELATIONSHIP;3
+best friend;best friend;best friend;RELATIONSHIP;4
+race relations;race relations;race relations;RELATIONSHIP;5
+interracial relationship;interracial relationship;interracial relationship;RELATIONSHIP;7
+adultery;adultery;adultery;RELATIONSHIP;9
+jealousy;jealousy;jealousy;RELATIONSHIP;9
+extramarital affair;extramarital affair;extramarital affair;RELATIONSHIP;10
+infidelity;infidelity;infidelity;RELATIONSHIP;10
+boyfriend girlfriend relationship;boyfriend girlfriend relationship;boyfriend girlfriend relationship;RELATIONSHIP;15
+friend;friend;friend;RELATIONSHIP;20
+friendship;friendship;friendship;RELATIONSHIP;24
+catholic priest;catholic priest;catholic priest;RELIGION;2
+confessional;confessional;confessional;RELIGION;2
+crossing self;crossing self;crossing self;RELIGION;2
+crucifixion;crucifixion;crucifixion;RELIGION;2
+first communion;first communion;first communion;RELIGION;2
+irish catholic;irish catholic;irish catholic;RELIGION;2
+mosque;mosque;mosque;RELIGION;2
+praying;praying;praying;RELIGION;2
+procession;procession;procession;RELIGION;2
+rabbi;rabbi;rabbi;RELIGION;2
+redemption;redemption;redemption;RELIGION;2
+religious icon;religious icon;religious icon;RELIGION;2
+faith;faith;faith;RELIGION;3
+islam;islam;islam;RELIGION;3
+ritual;ritual;ritual;RELIGION;3
+bigotry;bigotry;bigotry;RELIGION;4
+jewish american;jewish american;jewish american;RELIGION;4
+catholic church;catholic church;catholic church;RELIGION;5
+crucifix;crucifix;crucifix;RELIGION;5
+catholic;catholic;catholic;RELIGION;7
+priest;priest;priest;RELIGION;7
+religion;religion;religion;RELIGION;8
+church;church;church;RELIGION;10
+jewish;jewish;jewish;RELIGION;11
+prayer;prayer;prayer;RELIGION;15
+muslim;muslim;muslim;RELIGION;16
+cia;cia;cia;SECURITY FORCE;2
+cop killer;cop killer;cop killer;SECURITY FORCE;2
+female agent;female agent;female agent;SECURITY FORCE;2
+military draft;military draft;military draft;SECURITY FORCE;2
+military enlistment;military enlistment;military enlistment;SECURITY FORCE;2
+police officer killed;police officer killed;police officer killed;SECURITY FORCE;2
+police raid;police raid;police raid;SECURITY FORCE;2
+police violence;police violence;police violence;SECURITY FORCE;2
+policewoman;policewoman;policewoman;SECURITY FORCE;2
+stopped by police;stopped by police;stopped by police;SECURITY FORCE;2
+vigilante;vigilante;vigilante;SECURITY FORCE;2
+corrupt official;corrupt official;corrupt official;SECURITY FORCE;3
+fbi;fbi;fbi;SECURITY FORCE;3
+investigation;investigation;investigation;SECURITY FORCE;3
+italian american cop;italian american cop;italian american cop;SECURITY FORCE;3
+kgb;kgb;kgb;SECURITY FORCE;3
+police brutality;police brutality;police brutality;SECURITY FORCE;3
+police station;police station;police station;SECURITY FORCE;3
+sheriff;sheriff;sheriff;SECURITY FORCE;3
+soldier;soldier;soldier;SECURITY FORCE;3
+corrupt cop;corrupt cop;corrupt cop;SECURITY FORCE;4
+police corruption;police corruption;police corruption;SECURITY FORCE;4
+police car;police car;police car;SECURITY FORCE;5
+police officer;police officer;police officer;SECURITY FORCE;6
+security guard;security guard;security guard;SECURITY FORCE;6
+confession;confession;confession;SECURITY FORCE;7
+prison;prison;prison;SECURITY FORCE;8
+jail;jail;jail;SECURITY FORCE;11
+policeman;policeman;policeman;SECURITY FORCE;14
+arrest;arrest;arrest;SECURITY FORCE;16
+police;police;police;SECURITY FORCE;29
+blow job;blow job;blow job;SEX;2
+female pubic hair;female pubic hair;female pubic hair;SEX;2
+female removes her clothes;female removes her clothes;female removes her clothes;SEX;2
+female removes her dress;female removes her dress;female removes her dress;SEX;2
+fondling;fondling;fondling;SEX;2
+foreplay;foreplay;foreplay;SEX;2
+gay sex;gay sex;gay sex;SEX;2
+hairy chest;hairy chest;hairy chest;SEX;2
+impotence;impotence;impotence;SEX;2
+interrupted sex;interrupted sex;interrupted sex;SEX;2
+leg spreading;leg spreading;leg spreading;SEX;2
+longing;longing;longing;SEX;2
+lust;lust;lust;SEX;2
+male underwear;male underwear;male underwear;SEX;2
+no panties;no panties;no panties;SEX;2
+orgasm;orgasm;orgasm;SEX;2
+penis;penis;penis;SEX;2
+premarital sex;premarital sex;premarital sex;SEX;2
+sex in car;sex in car;sex in car;SEX;2
+sexism;sexism;sexism;SEX;2
+sexuality;sexuality;sexuality;SEX;2
+upskirt;upskirt;upskirt;SEX;2
+vagina;vagina;vagina;SEX;2
+anal sex;anal sex;anal sex;SEX;3
+bare butt;bare butt;bare butt;SEX;3
+oral sex;oral sex;oral sex;SEX;3
+passion;passion;passion;SEX;3
+pubic hair;pubic hair;pubic hair;SEX;3
+scantily clad female;scantily clad female;scantily clad female;SEX;3
+cleavage;cleavage;cleavage;SEX;4
+fellatio;fellatio;fellatio;SEX;4
+female full frontal nudity;female full frontal nudity;female full frontal nudity;SEX;4
+female rear nudity;female rear nudity;female rear nudity;SEX;4
+flirting;flirting;flirting;SEX;4
+topless female nudity;topless female nudity;topless female nudity;SEX;4
+virgin;virgin;virgin;SEX;4
+male frontal nudity;male frontal nudity;male frontal nudity;SEX;5
+masturbation;masturbation;masturbation;SEX;5
+rape;rape;rape;SEX;5
+undressing;undressing;undressing;SEX;5
+bra;bra;bra;SEX;6
+male nudity;male nudity;male nudity;SEX;6
+sex scene;sex scene;sex scene;SEX;6
+bare breasts;bare breasts;bare breasts;SEX;7
+kissing;kissing;kissing;SEX;7
+female frontal nudity;female frontal nudity;female frontal nudity;SEX;9
+bare chested male;bare chested male;bare chested male;SEX;12
+breasts;breasts;breasts;SEX;12
+nudity;nudity;nudity;SEX;14
+sex;sex;sex;SEX;18
+female nudity;female nudity;female nudity;SEX;29
+begging for life;begging for life;begging for life;SOCIAL ISSUES;2
+class differences;class differences;class differences;SOCIAL ISSUES;2
+demonstration;demonstration;demonstration;SOCIAL ISSUES;2
+feminism;feminism;feminism;SOCIAL ISSUES;2
+insurance;insurance;insurance;SOCIAL ISSUES;2
+social commentary;social commentary;social commentary;SOCIAL ISSUES;2
+social drama;social drama;social drama;SOCIAL ISSUES;2
+sociology;sociology;sociology;SOCIAL ISSUES;2
+beggar;beggar;beggar;SOCIAL ISSUES;3
+begging;begging;begging;SOCIAL ISSUES;3
+social issues;social issues;social issues;SOCIAL ISSUES;3
+neighbor;neighbor;neighbor;SOCIAL ISSUES;9
+el train;el train;el train;TRAVEL;2
+ferry;ferry;ferry;TRAVEL;2
+moving;moving;moving;TRAVEL;2
+moving van;moving van;moving van;TRAVEL;2
+ocean liner;ocean liner;ocean liner;TRAVEL;2
+port hole;port hole;port hole;TRAVEL;2
+raft;raft;raft;TRAVEL;2
+railroad;railroad;railroad;TRAVEL;2
+riding a freight train;riding a freight train;riding a freight train;TRAVEL;2
+road movie;road movie;road movie;TRAVEL;2
+rowboat;rowboat;rowboat;TRAVEL;2
+sea voyage;sea voyage;sea voyage;TRAVEL;2
+shipyard;shipyard;shipyard;TRAVEL;2
+steamship;steamship;steamship;TRAVEL;2
+tent;tent;tent;TRAVEL;2
+tour bus;tour bus;tour bus;TRAVEL;2
+train station;train station;train station;TRAVEL;2
+bus station;bus station;bus station;TRAVEL;3
+helicopter;helicopter;helicopter;TRAVEL;3
+jeep;jeep;jeep;TRAVEL;3
+ocean;ocean;ocean;TRAVEL;3
+on the road;on the road;on the road;TRAVEL;3
+packing;packing;packing;TRAVEL;3
+passenger;passenger;passenger;TRAVEL;3
+pier;pier;pier;TRAVEL;3
+railway station;railway station;railway station;TRAVEL;3
+seasickness;seasickness;seasickness;TRAVEL;3
+tourist;tourist;tourist;TRAVEL;3
+train tracks;train tracks;train tracks;TRAVEL;3
+travel;travel;travel;TRAVEL;3
+trolley;trolley;trolley;TRAVEL;3
+van;van;van;TRAVEL;3
+backpack;backpack;backpack;TRAVEL;4
+map;map;map;TRAVEL;4
+motorcycle;motorcycle;motorcycle;TRAVEL;4
+voyage;voyage;voyage;TRAVEL;4
+pickup truck;pickup truck;pickup truck;TRAVEL;5
+visa;visa;visa;TRAVEL;5
+bicycle;bicycle;bicycle;TRAVEL;6
+journey;journey;journey;TRAVEL;6
+truck;truck;truck;TRAVEL;6
+passport;passport;passport;TRAVEL;7
+suitcase;suitcase;suitcase;TRAVEL;9
+airplane;airplane;airplane;TRAVEL;10
+boat;boat;boat;TRAVEL;10
+bus;bus;bus;TRAVEL;12
+hotel;hotel;hotel;TRAVEL;12
+ship;ship;ship;TRAVEL;12
+taxi;taxi;taxi;TRAVEL;13
+train;train;train;TRAVEL;16
+airport;airport;airport;TRAVEL;17
+accidental shooting;accidental shooting;accidental shooting;VIOLENCE;2
+army;army;army;VIOLENCE;2
+battle;battle;battle;VIOLENCE;2
+bouncer;bouncer;bouncer;VIOLENCE;2
+bribery;bribery;bribery;VIOLENCE;2
+broken jaw;broken jaw;broken jaw;VIOLENCE;2
+brutality;brutality;brutality;VIOLENCE;2
+bully;bully;bully;VIOLENCE;2
+bullying;bullying;bullying;VIOLENCE;2
+car bomb;car bomb;car bomb;VIOLENCE;2
+child with gun;child with gun;child with gun;VIOLENCE;2
+explosive;explosive;explosive;VIOLENCE;2
+gambling syndicate;gambling syndicate;gambling syndicate;VIOLENCE;2
+handcuffed;handcuffed;handcuffed;VIOLENCE;2
+handgun;handgun;handgun;VIOLENCE;2
+hate;hate;hate;VIOLENCE;2
+head wound;head wound;head wound;VIOLENCE;2
+hit in the crotch;hit in the crotch;hit in the crotch;VIOLENCE;2
+hit on the head;hit on the head;hit on the head;VIOLENCE;2
+impalement;impalement;impalement;VIOLENCE;2
+intimidation;intimidation;intimidation;VIOLENCE;2
+invasion;invasion;invasion;VIOLENCE;2
+knife fight;knife fight;knife fight;VIOLENCE;2
+knife throwing;knife throwing;knife throwing;VIOLENCE;2
+murder attempt;murder attempt;murder attempt;VIOLENCE;2
+murder of cousin;murder of cousin;murder of cousin;VIOLENCE;2
+murder of wife;murder of wife;murder of wife;VIOLENCE;2
+neck breaking;neck breaking;neck breaking;VIOLENCE;2
+nude woman murdered;nude woman murdered;nude woman murdered;VIOLENCE;2
+pogrom;pogrom;pogrom;VIOLENCE;2
+public humiliation;public humiliation;public humiliation;VIOLENCE;2
+shot in the eye;shot in the eye;shot in the eye;VIOLENCE;2
+shot in the neck;shot in the neck;shot in the neck;VIOLENCE;2
+shot in the throat;shot in the throat;shot in the throat;VIOLENCE;2
+shot repeatedly;shot repeatedly;shot repeatedly;VIOLENCE;2
+silencer;silencer;silencer;VIOLENCE;2
+slaughter;slaughter;slaughter;VIOLENCE;2
+smuggler;smuggler;smuggler;VIOLENCE;2
+sniper;sniper;sniper;VIOLENCE;2
+squatter;squatter;squatter;VIOLENCE;2
+stabbed in the arm;stabbed in the arm;stabbed in the arm;VIOLENCE;2
+stabbed in the face;stabbed in the face;stabbed in the face;VIOLENCE;2
+stabbed in the leg;stabbed in the leg;stabbed in the leg;VIOLENCE;2
+stabbed in the stomach;stabbed in the stomach;stabbed in the stomach;VIOLENCE;2
+threatened with a knife;threatened with a knife;threatened with a knife;VIOLENCE;2
+torture;torture;torture;VIOLENCE;2
+undercover;undercover;undercover;VIOLENCE;2
+uzi;uzi;uzi;VIOLENCE;2
+world war two veteran;world war two veteran;world war two veteran;VIOLENCE;2
+wrist slitting;wrist slitting;wrist slitting;VIOLENCE;2
+actual animal killed;actual animal killed;actual animal killed;VIOLENCE;3
+arson;arson;arson;VIOLENCE;3
+bombing;bombing;bombing;VIOLENCE;3
+boxing;boxing;boxing;VIOLENCE;3
+cane;cane;cane;VIOLENCE;3
+child murder;child murder;child murder;VIOLENCE;3
+cruelty;cruelty;cruelty;VIOLENCE;3
+domestic violence;domestic violence;domestic violence;VIOLENCE;3
+garrote;garrote;garrote;VIOLENCE;3
+hit in the face;hit in the face;hit in the face;VIOLENCE;3
+hitman;hitman;hitman;VIOLENCE;3
+machete;machete;machete;VIOLENCE;3
+mob violence;mob violence;mob violence;VIOLENCE;3
+mugging;mugging;mugging;VIOLENCE;3
+revolver;revolver;revolver;VIOLENCE;3
+severed head;severed head;severed head;VIOLENCE;3
+stabbed in the back;stabbed in the back;stabbed in the back;VIOLENCE;3
+stabbed in the chest;stabbed in the chest;stabbed in the chest;VIOLENCE;3
+suffocation;suffocation;suffocation;VIOLENCE;3
+switchblade;switchblade;switchblade;VIOLENCE;3
+vengeance;vengeance;vengeance;VIOLENCE;3
+wound;wound;wound;VIOLENCE;3
+assassin;assassin;assassin;VIOLENCE;4
+blackmail;blackmail;blackmail;VIOLENCE;4
+bloody nose;bloody nose;bloody nose;VIOLENCE;4
+bomb;bomb;bomb;VIOLENCE;4
+brawl;brawl;brawl;VIOLENCE;4
+bullet;bullet;bullet;VIOLENCE;4
+coffin;coffin;coffin;VIOLENCE;4
+eviction;eviction;eviction;VIOLENCE;4
+execution;execution;execution;VIOLENCE;4
+fistfight;fistfight;fistfight;VIOLENCE;4
+gang war;gang war;gang war;VIOLENCE;4
+gore;gore;gore;VIOLENCE;4
+gunfight;gunfight;gunfight;VIOLENCE;4
+gunfire;gunfire;gunfire;VIOLENCE;4
+gunshot wound;gunshot wound;gunshot wound;VIOLENCE;4
+handcuffs;handcuffs;handcuffs;VIOLENCE;4
+hanging;hanging;hanging;VIOLENCE;4
+held at gunpoint;held at gunpoint;held at gunpoint;VIOLENCE;4
+henchman;henchman;henchman;VIOLENCE;4
+hostage;hostage;hostage;VIOLENCE;4
+machine gun;machine gun;machine gun;VIOLENCE;4
+shot in the arm;shot in the arm;shot in the arm;VIOLENCE;4
+shot in the forehead;shot in the forehead;shot in the forehead;VIOLENCE;4
+shot in the leg;shot in the leg;shot in the leg;VIOLENCE;4
+shot in the shoulder;shot in the shoulder;shot in the shoulder;VIOLENCE;4
+stabbed in the hand;stabbed in the hand;stabbed in the hand;VIOLENCE;4
+assassination;assassination;assassination;VIOLENCE;5
+assassination attempt;assassination attempt;assassination attempt;VIOLENCE;5
+pistol;pistol;pistol;VIOLENCE;5
+scar;scar;scar;VIOLENCE;5
+shot in the back;shot in the back;shot in the back;VIOLENCE;5
+shot in the head;shot in the head;shot in the head;VIOLENCE;5
+smuggling;smuggling;smuggling;VIOLENCE;5
+blood splatter;blood splatter;blood splatter;VIOLENCE;6
+explosion;explosion;explosion;VIOLENCE;6
+gambling;gambling;gambling;VIOLENCE;6
+kicking;kicking;kicking;VIOLENCE;6
+punched in the face;punched in the face;punched in the face;VIOLENCE;6
+strangulation;strangulation;strangulation;VIOLENCE;6
+gunshot;gunshot;gunshot;VIOLENCE;7
+shot in the chest;shot in the chest;shot in the chest;VIOLENCE;7
+shotgun;shotgun;shotgun;VIOLENCE;7
+throat slitting;throat slitting;throat slitting;VIOLENCE;7
+corpse;corpse;corpse;VIOLENCE;8
+rifle;rifle;rifle;VIOLENCE;8
+shootout;shootout;shootout;VIOLENCE;8
+stabbing;stabbing;stabbing;VIOLENCE;10
+dead body;dead body;dead body;VIOLENCE;11
+face slap;face slap;face slap;VIOLENCE;12
+shooting;shooting;shooting;VIOLENCE;14
+beating;beating;beating;VIOLENCE;15
+gun;gun;gun;VIOLENCE;15
+knife;knife;knife;VIOLENCE;16
+violence;violence;violence;VIOLENCE;18
+blood;blood;blood;VIOLENCE;22
+fight;fight;fight;VIOLENCE;24
+murder;murder;murder;VIOLENCE;27

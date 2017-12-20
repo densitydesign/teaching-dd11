@@ -1,0 +1,56 @@
+
+g.description{
+    opacity: 0;
+    -webkit-transition: ease-in-out, 0.8s; /* Safari 3.1 to 6.0 */
+    transition: ease-in-out, 0.8s;
+}
+
+.one_1:hover ~ .one_2{
+  opacity:1;
+    
+}
+
+.two_1:hover ~ .two_2{
+  opacity:1;
+    
+}
+
+.three_1:hover ~ .three_2{
+  opacity:1;
+    
+}
+
+.four_1:hover ~ .four_2{
+  opacity:1;
+    
+}
+
+.five_1:hover ~ .five_2{
+  opacity:1;
+    
+}
+
+.six_1:hover ~ .six_2{
+  opacity:1;
+    
+}
+
+.seven_1:hover ~ .seven_2{
+  opacity:1;
+    
+}
+
+.eight_1:hover ~ .eight_2{
+  opacity:1;
+    
+}
+
+.nine_1:hover ~ .nine_2{
+  opacity:1;
+    
+}
+
+.ten_1:hover ~ .ten_2{
+  opacity:1;
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+
+<head>
+    <link rel="stylesheet" href="tinycarousel.css" type="text/css" media="screen" />
+</head>
+
+<body>
+    <div id="carousel">
+        <div id="slider1">
+            <img class="buttons prev" href="#" src="img/indietro.png">
+            <img class="buttons next" href="#" src="img/avanti.png">
+            <div class="viewport">
+                <ul class="overview">
+                    <li><img src="img/almond.svg"></li>
+                    <li><img src="img/coconut.svg"></li>
+                    <li><img src="img/rice.svg"></li>
+                    <li><img src="img/soy.svg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="jquery.tinycarousel.js"></script>
+    <script src="../../js/scripts.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#slider1').tinycarousel();
+        });
+    </script>
+</body>
+
+</html>

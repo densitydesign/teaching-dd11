@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>The Milk Myth</h4>
+                </li>
+                <li>
+                    <a href="introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">What about milk?</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">On Google</a>
+                    <a href="../chapter01/chapter01_viz02.html">On Wikipedia</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Is drinking milk healthy?</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Inside the queries</a>
+                    <a href="../chapter02/chapter02_viz02.html">By authors - Category</a>
+                    <a href="../chapter02/chapter02_viz03.html">By authors - Topic</a>
+                    <a href="../chapter02/chapter02_viz04.html">Network of results</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Science vs Intermediary</h5>
+                </li>
+
+                <li>
+                    <a href="chapter03_viz01.html">In simple terms</a>
+                    <a href="chapter03_viz02.html">Common words</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Alternative users</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">#instamilk</a>
+                    <a href="../chapter04/chapter04_viz02.html">Active instagrammers</a>
+                    <a href="../chapter04/chapter04_viz03.html">Producers influence</a>
+                    <a href="../chapter04/chapter04_viz04.html">Same #hashtags</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <!-- Add your viz here -->
+                <iframe src="../chapter03/Parole/index.html" height="650" width="1425"></iframe>
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Chapter 3 - Science vs Intermediary</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>In simple terms</h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <p>The following protocol focuses on the analysis of the two main voices, that arise from the network of all the websites. On one side there is Pubmed, the academic point of view of the science, and on the other a more immediate and popular source of information, that is The New York Times.</p>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <img id="tree" src="../img/Chapter_3/viz01/tree.svg" />
+                                <p>In The New York Times site, in the Health section, the articles obtained by the research milk are sorted by relevance and are filtered by date, after the 01/01/2005. The first 300 outcomes are downloaded with Kimono, manually taking out those concerning Human Milk and Recipes, in order to reach a list of 100 pertinent results. The texts are downloaded with Blockspring (Extract Text from URL) for all the articles.</p>
+
+                                <p>In the Health section of PubMed, the papers obtained by the research milk are sorted by relevance, manually excluding those of Human Milk. The title texts and the abstracts of the first 100 pertinent results are downloaded and ISS code, copyright, authors’ information, French and Spanish translations, link and words as “abstract” and “keywords” are deleted.</p>
+
+                                <p>Keyword Density Analyzer is used to search the most frequent single words and couple of words, both in the texts of The New York Times and of PubMed. The final four lists of 50 words are assembled manually, omitting articles, conjunctions, verbs, some adjectives, without relevance if they’re single, plurals of words already in singular, declensions of the same term, and “milk”, because it’s the requirement. Some medical contractions are combined with their complete expressions.</p>
+
+                                <p>The words from the 4 lists are categorized, based on their definition in One Look Dictionary Search; the groups are the same for the single words and the couple of words.</p>
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <p>The two columns on the left refers to single words most repeated in The New York Times and in PubMed, while on the right side there are the couples of words, that appear always together. The higher the word in the list, the higher is the frequency of it in the texts.</p>
+
+                                <p>Every color refers to a specific category, while some words are left in blank, because they don’t belong to any group.</p>
+
+                                <p>Generally self-explicative, the emerging categories are: <strong>food</strong>, <strong>milk typologies</strong> (both of animal and vegetal origins), <strong>diseases</strong>, <strong>who and when</strong> (subjects and temporal information), <strong>studies and treatments</strong>, <strong>human body</strong> and <strong>nutrients</strong>.</p>
+
+                                <p>The legend is interactive and let you highlight every single category, in order to explore it more.</p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <p>Comparing the same categories, it’s clear that the food is named very little by Pubmed and it’s mostly related to milk’s derivatives; on the contrary, the N.Y. Times doesn’t have a specific focus and develop really different food’s typologies, for example meat, tea, olive oil and French fries</p>
+
+                                <p>As predictable, the milk typologies are more common as couple of words and they consist almost completely of cow’s milks declinations (also named “conventional milk”), of other animal’s milks’ and of milks for infant.</p>
+
+                                <p>For the diseases the N.Y. Times and Pubmed speak about different topics, that are respectively cancer, obesity and heart attacks for the news and allergy, intolerance and diabetes for the papers. No word is in common between them, except for “risk”, a generic one.</p>
+
+                                <p>The status of nutrients is quite the same, with the calcium for the N.Y. Times, not mentioned by the other side, and more specific and detailed components for the science.</p>
+
+                                <p>The underlying summary better shows that the main topic discussed by The New York Times is food, while Pubmed mostly speaks about studies and treatments, milk typologies and diseases, confirming the expectations.</p>
+                                <img id="findings_words" src="../img/Chapter_3/viz01/8_words_NY_PB.svg" />
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Timestamp: 12/12/2015</h4>
+                                <h4>Data source: <a href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank">PubMed</a>, <a href="http://www.nytimes.com" target="_blank">The New York Times</a></h4>
+                                <h4><a href="../data/chapter03_viz01_metadata.zip"><i class="fa fa-arrow-circle-o-down"></i> Download data (152KB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <li>Carola Barnaba</li>
+                            <li>Maddalena Bernasconi</li>
+                            <li>Chiara Bonsignore</li>
+                            <li>Eyleen Carolina Camargo</li>
+                            <li>Giada Casella</li>
+                            <li>Carlo Colombo</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

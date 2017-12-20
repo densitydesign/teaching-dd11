@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1012px"
+	 height="160.405px" viewBox="0 -17.405 1012 160.405" enable-background="new 0 -17.405 1012 160.405" xml:space="preserve">
+<g id="genereBaseStat">
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="23" y1="115.75" x2="990" y2="115.75"/>
+</g>
+<g id="westernStat">
+	<text transform="matrix(1 0 0 1 925.3193 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">western</text>
+	<g>
+		<g>
+			<g id="crime_8_">
+				<rect x="932.109" y="92.666" fill="#865846" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 968.1406 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#865846</text>
+		</g>
+		<g>
+			<g id="crime_7_">
+				<rect x="932.109" y="69.518" fill="#F5621F" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 968.1406 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#f5621f</text>
+		</g>
+		<g>
+			<g id="crime_6_">
+				<rect x="932.109" y="46.37" fill="#D6A586" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 968.1406 60.709)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#d6a586</text>
+		</g>
+		<g>
+			<g id="crime_5_">
+				<rect x="932.109" y="23.222" fill="#F5E7CE" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 968.1406 37.5615)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#f5e7ce</text>
+		</g>
+	</g>
+</g>
+<g id="shortStat">
+	<text transform="matrix(1 0 0 1 859.8926 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">short</text>
+	<g>
+		<g>
+			<g id="crime_12_">
+				<rect x="857.167" y="92.666" fill="#2E1E15" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 893.1406 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#2e1e15</text>
+		</g>
+		<g>
+			<g id="crime_11_">
+				<rect x="857.167" y="69.518" fill="#80593C" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 893.1406 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#80593c</text>
+		</g>
+		<g>
+			<g id="crime_10_">
+				<rect x="857.167" y="46.37" fill="#C9955D" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 893.1406 60.71)" fill="#FFFFFF" font-family="'Raleway'" font-size="7">#c9955dd</text>
+		</g>
+		<g>
+			<rect x="857.167" y="23.222" fill="#EFDB93" width="35" height="22.999"/>
+			<g>
+				<text transform="matrix(1 0 0 1 893.1406 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#efdb93</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="romanceStat">
+	<text transform="matrix(1 0 0 1 773.0625 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">romance</text>
+	<g>
+		<g id="crime_16_">
+			<rect x="782.226" y="92.666" fill="#543227" width="35" height="23"/>
+		</g>
+		<text transform="matrix(1 0 0 1 818.8066 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#543227</text>
+	</g>
+	<g>
+		<g id="crime_15_">
+			<rect x="782.226" y="69.518" fill="#399DA8" width="35" height="23"/>
+		</g>
+		<text transform="matrix(1 0 0 1 818.8066 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#399da8</text>
+	</g>
+	<g>
+		<g id="crime_14_">
+			<rect x="782.226" y="46.37" fill="#CF9563" width="35" height="22.999"/>
+		</g>
+		<text transform="matrix(1 0 0 1 818.8066 60.71)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#cf9563</text>
+	</g>
+	<g>
+		<g id="crime_13_">
+			<rect x="782.226" y="23.222" fill="#E2E2D5" width="35" height="22.999"/>
+		</g>
+		<text transform="matrix(1 0 0 1 818.8066 37.5605)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#e2e2d5</text>
+	</g>
+</g>
+<g id="musicStat">
+	<text transform="matrix(1 0 0 1 706.8379 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">music</text>
+	<g>
+		<g>
+			<g id="crime_20_">
+				<rect x="707.283" y="92.666" fill="#422219" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 743.4736 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#422219</text>
+		</g>
+		<g>
+			<g id="crime_19_">
+				<rect x="707.283" y="69.518" fill="#DC3B17" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 743.4736 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#dc3b17</text>
+		</g>
+		<g>
+			<g id="crime_18_">
+				<rect x="707.283" y="46.37" fill="#BB8E62" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 743.4736 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#bb8e62</text>
+		</g>
+		<g>
+			<g id="crime_17_">
+				<rect x="707.283" y="23.222" fill="#EFDDC6" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 743.4736 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#efddc6</text>
+		</g>
+	</g>
+</g>
+<g id="flim-noirStat">
+	<text transform="matrix(1 0 0 1 624.791 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">flim-noir</text>
+	<g>
+		<g>
+			<g id="crime_24_">
+				<rect x="632.342" y="92.666" fill="#3E2726" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 668.4727 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#3e2726</text>
+		</g>
+		<g>
+			<g id="crime_23_">
+				<rect x="632.342" y="69.518" fill="#C33B31" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 668.4727 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#c33b31</text>
+		</g>
+		<g>
+			<g id="crime_22_">
+				<rect x="632.342" y="46.37" fill="#DBC535" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 668.4727 60.71)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#dbc535</text>
+		</g>
+		<g>
+			<g id="crime_21_">
+				<rect x="632.342" y="23.222" fill="#CCCDC8" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 668.4727 37.5615)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#cccdc8</text>
+		</g>
+	</g>
+</g>
+<g id="dramaStat">
+	<text transform="matrix(1 0 0 1 555.5566 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">drama</text>
+	<g>
+		<g>
+			<g id="crime_28_">
+				<rect x="557.399" y="92.666" fill="#4A2A24" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 593.8066 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#4a2a24</text>
+		</g>
+		<g>
+			<g id="crime_27_">
+				<rect x="557.399" y="69.518" fill="#4E8B93" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 593.8066 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#4e8b93</text>
+		</g>
+		<g>
+			<g id="crime_26_">
+				<rect x="557.399" y="46.37" fill="#D6955E" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 593.8066 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#d6955e</text>
+		</g>
+		<g>
+			<g id="crime_25_">
+				<rect x="557.399" y="23.222" fill="#E4E4D8" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 593.8066 37.5605)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#e4e4d8</text>
+		</g>
+	</g>
+</g>
+<g id="documentaryStat">
+	<text transform="matrix(1 0 0 1 459.7168 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">documentary</text>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 518.8066 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#dad0c3</text>
+			<g id="crime_29_">
+				<rect x="482.458" y="23.222" fill="#DAD0C3" width="35" height="22.999"/>
+			</g>
+		</g>
+		<g>
+			<g id="crime_32_">
+				<rect x="482.458" y="92.666" fill="#2D292D" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 518.8066 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#2d292d</text>
+		</g>
+		<g>
+			<g id="crime_31_">
+				<rect x="482.458" y="69.518" fill="#B75C40" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 518.8066 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#b75c40</text>
+		</g>
+		<g>
+			<g id="crime_30_">
+				<rect x="482.458" y="46.37" fill="#259DBD" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 518.8066 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#259dbd</text>
+		</g>
+	</g>
+</g>
+<g id="crimeStat">
+	<text transform="matrix(1 0 0 1 408.2168 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">crime</text>
+	<g>
+		<g>
+			<rect x="407.516" y="92.666" fill="#2C2727" width="35" height="23"/>
+			<text transform="matrix(1 0 0 1 445.1392 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#2c2727</text>
+		</g>
+		<g>
+			<rect x="407.516" y="69.518" fill="#A44F3A" width="35" height="23"/>
+			<text transform="matrix(1 0 0 1 444.4727 83.8574)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#A44f3a</tspan><tspan x="33.975" y="0" fill="#FFFFFF" font-family="'Raleway'" font-size="8">	</tspan></text>
+		</g>
+		<g>
+			<rect x="407.516" y="46.37" fill="#BD9E79" width="35" height="22.999"/>
+			<text transform="matrix(1 0 0 1 444.1392 60.709)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#bd9e79</text>
+		</g>
+		<g>
+			<rect x="407.516" y="23.222" fill="#D7E1D9" width="35" height="22.999"/>
+			<text transform="matrix(1 0 0 1 444.8062 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#d7e1d9</text>
+		</g>
+	</g>
+</g>
+<g id="comedyStat">
+	<text transform="matrix(1 0 0 1 325.478 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">comedy</text>
+	<g>
+		<g>
+			<g id="crime_40_">
+				<rect x="332.574" y="92.666" fill="#302B2F" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 368.4727 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#302B2f</text>
+		</g>
+		<g>
+			<g id="crime_39_">
+				<rect x="332.574" y="69.518" fill="#995F50" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 368.4727 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#995f50</text>
+		</g>
+		<g>
+			<g id="crime_38_">
+				<rect x="332.574" y="46.37" fill="#CCA179" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 368.4727 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#cca179</text>
+		</g>
+		<g>
+			<g id="crime_37_">
+				<rect x="332.574" y="23.222" fill="#CFE0D8" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 368.4727 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#cfe0d8</text>
+		</g>
+	</g>
+</g>
+<g id="biographyStat">
+	<g>
+		<text transform="matrix(1 0 0 1 245.0176 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">biography</text>
+	</g>
+	<g>
+		<g>
+			<g id="crime_44_">
+				<rect x="257.632" y="92.666" fill="#314A44" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 294.1392 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#314A44</text>
+		</g>
+		<g>
+			<g id="crime_43_">
+				<rect x="257.632" y="69.518" fill="#D33C1A" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 294.1392 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#D33c1A</text>
+		</g>
+		<g>
+			<g id="crime_42_">
+				<rect x="257.632" y="46.37" fill="#E49B5E" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 294.1392 60.71)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#E49B5E</text>
+		</g>
+		<g>
+			<g id="crime_41_">
+				<rect x="257.632" y="23.222" fill="#C3D6CE" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 294.1392 37.5615)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#C3d6ce</text>
+		</g>
+	</g>
+</g>
+<g id="animationStat">
+	<text transform="matrix(1 0 0 1 170.8232 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">animation</text>
+	<g>
+		<g>
+			<g id="crime_48_">
+				<rect x="182.689" y="92.666" fill="#30384B" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 219.1392 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#30384B</text>
+		</g>
+		<g>
+			<g id="crime_47_">
+				<rect x="182.689" y="69.518" fill="#CC492C" width="35" height="23"/>
+			</g>
+			<text transform="matrix(1 0 0 1 219.1392 83.8574)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#CC492C</tspan><tspan x="35.318" y="0" fill="#FFFFFF" font-family="'Raleway'" font-size="8" letter-spacing="-1">	</tspan></text>
+		</g>
+		<g>
+			<g id="crime_46_">
+				<rect x="182.689" y="46.37" fill="#EF9F57" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 219.1392 60.71)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#EF9F57</text>
+		</g>
+		<g>
+			<g id="crime_45_">
+				<rect x="182.689" y="23.222" fill="#CAC5C3" width="35" height="22.999"/>
+			</g>
+			<text transform="matrix(1 0 0 1 219.1392 37.5605)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#CAC5C3</text>
+		</g>
+	</g>
+</g>
+<g id="adventureStat">
+	<text transform="matrix(1 0 0 1 94.5352 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">adventure</text>
+	<g>
+		<g id="crime_52_">
+			<rect x="107.748" y="92.666" fill="#2B3438" width="35" height="23"/>
+		</g>
+		<text transform="matrix(1 0 0 1 144.8057 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#2B3438</text>
+	</g>
+	<g>
+		<g id="crime_51_">
+			<rect x="107.748" y="69.518" fill="#14AFB8" width="35" height="23"/>
+		</g>
+		<text transform="matrix(1 0 0 1 144.8057 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#14AFB8</text>
+	</g>
+	<g>
+		<g id="crime_50_">
+			<rect x="107.748" y="46.37" fill="#B4806E" width="35" height="22.999"/>
+		</g>
+		<text transform="matrix(1 0 0 1 144.8057 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#B4806E</text>
+	</g>
+	<g>
+		<g id="crime_49_">
+			<rect x="107.748" y="23.222" fill="#D5DACE" width="35" height="22.999"/>
+		</g>
+		<text transform="matrix(1 0 0 1 144.8057 37.5605)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#D5DACE</text>
+	</g>
+</g>
+<g id="actionStat">
+	<text transform="matrix(1 0 0 1 31.9888 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">action</text>
+	<g>
+		<g>
+			<g id="crime_1_">
+				<rect x="32.806" y="92.666" fill="#27281F" width="35" height="23"/>
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 69.4727 107.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#27281F</text>
+			</g>
+		</g>
+		<g>
+			<g id="crime_2_">
+				<rect x="32.806" y="69.518" fill="#8B5D44" width="35" height="23"/>
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 69.1392 83.8574)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#8B5D44</text>
+			</g>
+		</g>
+		<g>
+			<g id="crime_3_">
+				<rect x="32.806" y="46.37" fill="#D39968" width="35" height="22.999"/>
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 69.4727 60.7095)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#D39968</text>
+			</g>
+		</g>
+		<g>
+			<g id="crime_4_">
+				<rect x="32.806" y="23.222" fill="#C8D6C6" width="35" height="22.999"/>
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 69.1392 37.561)" fill="#FFFFFF" font-family="'Raleway'" font-size="8">#C8D6C6</text>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

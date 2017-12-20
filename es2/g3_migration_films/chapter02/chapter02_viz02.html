@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+
+
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>Migration Backstage</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Definition of our movie corpus</h5>
+                    <!--CHAPTER 1-->
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">What films are the most relevant when searching for migration movies?</a>
+                    <!-- confronto liste-->
+                    <a href="../chapter01/chapter01_viz02.html">How do we define the selection criteria?</a>
+                    <!--box office-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Related topics</h5>
+                    <!--CHAPTER 2-->
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Which are the most relevant themes and how are they distributed in our movies?</a>
+                    <!-- treemaps-->
+                    <a href="../chapter02/chapter02_viz02.html">How are these topics linked to each other?</a>
+                    <!--gephi-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">From where to where</h5>
+                    <!--CHAPTER 3-->
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">How nations and cultures are connected through the eyes of cinema?</a>
+                    <!-- map-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Movies visuals </h5>
+                    <!--CHAPTER 4-->
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">Are trends identified on the pieces that film producers make to advertise their films?</a>
+                </li>
+
+                <li>
+                    <h5 class="text-uppercase">How do people react</h5>
+                    <!--CHAPTER 5-->
+                </li>
+
+                <li>
+                    <a href="../chapter05/chapter05_viz01.html">What aspects of our movies are more interesting  for spectators? How do they talk about these aspects?</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <iframe src="sigmajs_embed/index.html"></iframe>
+                <!-- Add your viz here -->
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Related topics</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>How are these topics linked to each other?</h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <br/>
+                                <p>With this visualization we wanted explore the connection between specific words to help us to understand the keywords in a context. We imagined it as something that could help us in defining the main topics of our area of interest and shows us how these topics interacted with each other.
+                                    <br/> These keywords are written by Imdb users, so we can say that these words are in a way an hybrid between the perception of a person watching a movie and what the director wants to communicate.
+                                    <br/> The aim was to see how the clusters of tagged keywords interact with each other, see if there were peculiar behaviors, exceptions, and if so, which ones.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <br/>
+                                <p>1. All Imdb keywords were collected and tagged (see previous chapter)
+                                    <br/> 2. A contingency table was created with <a href="https://www.rstudio.com/" target="_blank">R</a> starting from an excel table with two columns: “<i>Movie title”</i>, “<i>Keywords</i>”. This table compares couples of keywords and verifies in how many movies these couples are present.
+                                    <br/> 3. Once this matrix has been done, it was re-converted in a list using Python. This list contains 831,825 lines, with a couple each. The couples that were not matching at all (value=0) were deleted.
+                                    <br/> 4. The occurrences of the couples formed by words related to these tag were imported in <a href="https://gephi.org/" target="_blank">Gephi</a>: job, arts, immigration, family, criminality, cultural differences, sex, violence and security forces.
+                                    <br/> 5. In the “<i>nodes</i>” section of the data laboratory we imported a spreadsheet including the name of the keyword, its weight (given by the occurrences in all movies) and its degree (the number of links with other keywords). A columns contained the tags related to each keyword.
+                                    <br/> 6. In the “<i>edges</i>” section of the data laboratory we imported the datasheet containing the links between keywords. Each couple of keyword was considered as a “<i>source</i>” and a “<i>target</i>” (the two nodes involved in the relationship) as well as other parameters. We used the “<i>Type</i>” parameter set to “<i>undirected</i>” and we also made advantage of the Weight parameter. This latter parameter allowed us to manage the visual representation in a more meaningful way. To a greater edge weight corresponded a visually closer relationship between keywords.
+                                    <br/> 7. We used the “<i>Force Atlas 2</i>” algorithm as “<i>layout</i>” parameter.
+                                    <br/> 8. We edited the settings in order to control the overlapping of the information in the areas of the graph in which information is composed by very little circles.
+                                    <br/> 9. The size of nodes is given by the “<i>Degree</i>”.
+                                    <br/> 10. The colors of the nodes are given by the tag we assigned by theme.
+                                    <br/> 11. We exported our visualization with the <i>Sigma.js Gephi plugin</i>. It is a plugin which writes an animated webpage with JavaScript code, for an interactive and more complete visualization of the graph.
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <br/>
+                                <p>The nodes represent the single keywords and the edges are the relationships between them. The dimension of each circle represents the “Degree” level of each keyword, which means that the bigger a circle is, the highest number of connections with other keywords it has.
+                                    <br/> In the center of the visualization there are the biggest nodes, representing the most common keywords. They’re in the center of the graph because they have many connections, which prevent them to be pushed to the sides.
+                                    <br/> We can also see that there are two macro-clusters, one that is more red and another which is more blue. The red one contains the themes that we defined as violent, and therefore we gave them a similar red color. The blue one has more to do with themes which are more positive, like the arts, family and jobs. The user is able to move in the interactive graph seeing at first glance the most common keywords, and then focusing on particular relationships and interesting clusters: in order to do that is suggested to open the visualization in full screen to better use the included tools.
+                                    <br/>Clicking on a keyword it’s possibile to see all its network, its weight (on the panel appearing on the right), and the category it belongs to.
+                                    <br/>It is also possible to see a single group of keywords based on the topics, available in the grouping tool on the left panel.
+                                </p>
+                                <p><a href="./sigmajs_full/index.html" target="_blank">Click HERE to see the visualization full screen on a new tab</a></p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <br/>
+                                <p>The themes in the two macro clusters (the red ones and the blue ones) don’t often mix their keywords. Anyway we can see some exceptions that can be studied navigating the graph. Themes characterized by a neutral or quite neutral connotation (like Cultural difference or Security forces) appear more diffused through the whole visualization.
+                                    <br/> From the graph also emerges that some movies tend to appear in clusters because their keywords are unique or not very shared with other films. An example of this is surely the most red cluster on the left which represents the movie “<i>Machete</i>”.
+                                    <br/> More popular movies tend to have more detailed description also through the high precision used by Imdb users to write them down and a confirmation of this comes when observing the keywords in detail.
+                                    <br/> Furthermore, keywords related to violence, criminality or to the sexual sphere appear to be more detailed. For instance if “<i>shot</i>” would be a relevant descriptor for one movie the keywords that appears instead are way more precise.
+                                    <br/> All possible conjugation are listed: “<i>shot in the chest</i>”, “<i>shot in the back</i>", “<i>shot in the head</i>”, “<i>shot in the forehead</i>”, “<i>shot in the arm</i>”, “<i>shot in the shoulder</i>”, “<i>shot in the leg</i>”, “<i>shot in the throat</i>”, “<i>shot in the eye</i>”, “<i>child shot in the head</i>”, “<i>shot through the mouth</i>”, “<i>shot through the eye</i>”, “<i>shot in the knee</i>” and more others.
+                                    <br/> In this way movies have an higher amount of keywords not only because they are more popular but also because, when it comes to these topics, they are obsessively described by the users who, once they saw the movie, spend their time writing extremely precise keywords on Imdb.
+                                    <br/> On the other hand it is also true that Imdb is used as a tool for professionals, like actors and directors, who want to be able to search specific actions or scenes to get help with their professional activity.
+                                    <br/>
+
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Data source: <a href="http://www.imdb.com/" target="_blank">IMDB</a></h4>
+                                <h4><a href="../data/chapter2/gephi_edges.csv"><i class="fa fa-arrow-circle-o-down"></i> Gephi Edges (1.6KB)</a></h4>
+                                <h4><a href="../data/chapter2/gephi_nodes.csv"><i class="fa fa-arrow-circle-o-down"></i> Gephi Nodes (51KB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <ul>
+                                <li>Camila Borrero</li>
+                                <li>Pietro Cedone</li>
+                                <li><a href="https://www.behance.net/luciacosma" target="_blank">Lucia Cosma</a></li>
+                                <li><a href="http://www.sebastianforero-mcd.com" target="_blank">Sebastián Forero</a></li>
+                                <li>Giovanni Rabuffetti</li>
+                                <li>Ziqiao Xie</li>
+                            </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

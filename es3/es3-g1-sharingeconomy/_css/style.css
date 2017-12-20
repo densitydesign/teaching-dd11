@@ -1,0 +1,1107 @@
+/*----------------------------------------------------------------.--------------------------------------*/
+/*--------------------------------------       TYPOGRAPHY             ----------------------------------*/
+/*---------------------------------------------------------------.-------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,500italic,500,600,600italic,700,700italic);
+/*font-family: 'Metrophobic', Arial, serif; font-weight: 400; */
+
+@font-face {
+    font-family: Ostrich;
+    src: url(../_fonts/OstrichSansInline-Regular.otf);
+}
+
+@font-face {
+    font-family: Cabin-Regular;
+    src: url(../_fonts/Cabin-Regular.otf);
+}
+@font-face {
+    font-family: Cabin-Medium;
+    src: url(../_fonts/Cabin-Medium.otf);
+}
+@font-face {
+    font-family: Cabin-Italic;
+    src: url(../_fonts/Cabin-Italic.otf);
+}
+@font-face {
+    font-family: Cabin-Bold;
+    src: url(../_fonts/Cabin-Bold.otf);
+}
+@font-face {
+    font-family: Cabin-MediumItalic;
+    src: url(../_fonts/Cabin-MediumItalic.otf);
+}
+
+
+h1 {
+    font-family: 'Cabin', Arial, serif; 
+    font-weight:700;
+    text-transform: uppercase;
+    color: #063F84;
+    font-size: 150%;
+    letter-spacing: .2em;
+}
+
+h2 {
+    font-family: 'Cabin', Arial, serif; 
+    font-weight:700;
+    text-transform: uppercase;
+    color: #063F84;
+    font-size: 150%;
+    letter-spacing: .2em;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Ostrich', Arial, serif; 
+    font-weight:700;
+    text-transform: uppercase;
+    color: #27E0AD;
+    font-size: 150%;
+    letter-spacing: .1em;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Cabin', Arial, serif; 
+    font-weight:700;
+    text-transform: uppercase;
+    color: #27E0AD;
+    font-size: 150%;
+    letter-spacing: .2em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Cabin', Arial, serif; 
+    font-weight: 400;
+    color: #063F84;
+    font-size: 90%;
+    letter-spacing: .2em;
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/*----------------------------------------------------------------.--------------------------------------*/
+/*--------------------------------------       MOBILE             ----------------------------------------*/
+/*---------------------------------------------------------------.-------------------------------------*/
+
+body {
+    background-color: #FBF7F3;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    flex: 1;
+}
+
+/*(mobile)--------------------     sidebar     --------------------*/
+
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 4em;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 3em;
+    background-color: orchid;
+}
+
+/*--------------------     introduction     --------------------*/
+
+#slide1Conteiner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 768px;
+}
+
+.lightBack {
+    background-color: #FBF7F3;
+}
+
+.blueBack {
+    background-color: #455770;
+}
+
+#introduction {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#questionBox {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#questinoConteiner {
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 2em;
+}
+
+#questinoConteiner p {
+    padding: 0 30px;
+    flex: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:700;
+    font-size: 150%;
+    line-height: 1.4em;
+}
+
+#answerButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#answerButtons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.buttons {
+    padding: .2em 1em;
+    text-align: center;
+    border: 3px solid;
+    margin: 0;
+    cursor: pointer;
+    width: 100px;
+    font-size: 100%;
+    background-color: #fff;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.buttons:hover {
+    background-color:#27E0AD;
+    color: #fff;
+    border: 3px solid #27E0AD;
+}
+
+.intro {
+    flex: 0 calc(50% - 4em);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5em auto;
+}
+
+.intro:nth-child(2){
+    flex-direction: column-reverse;
+}
+
+.introImage {
+    flex: 0 23em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#airbnbGif {
+    background-image: url(../_images/AIRBNB.gif);
+}
+
+#uberGif {
+    background-image: url(../_images/UBER.gif);
+}
+
+.introDescription {
+    flex: 0 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    max-height: 15em;
+   
+    
+}
+
+.introParagraph {
+    line-height: 1.7em;
+    flex: 0;
+}
+
+.introLogo {
+    flex: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    height: 5em;
+    width: 15em;
+}
+
+#uberLogo {
+    background-image: url(../_images/LOGO-uber.svg);
+}
+
+#airbnbLogo {
+    background-image: url(../_images/LOGO-airbnb.svg);
+}
+
+.hidden {
+    display: none;
+}
+
+/*--------------------     examples     --------------------*/
+
+#examples {
+    padding: 4em;
+    position: relative;
+}
+
+
+.sectionTitle {
+    width: 400px;
+}
+
+.filetto {
+    margin-top: .3em;
+    margin-bottom: 1em;
+    width: 100px;
+    height: 2px;
+    background-color: #27E0AD;
+    
+}
+
+#slide2Arrow {
+    width: 750px;
+    margin-top: 200px;
+    left: 50%;
+    margin-left: -355px;
+    position: absolute;
+}
+
+#slide2TextBox {
+    width: 280px;
+    margin-top: 150px;
+    margin-bottom: -200px;
+    left: 50%;
+    margin-left: -170px;
+    z-index: 4;
+    position: absolute;
+    
+}
+
+#slide2Video1 {
+    margin-left: -80px;
+    margin top: -350px;
+    margin-bottom: -250px;
+    z-index: 2;
+}
+
+#slide2Video2 {
+    
+   float: right;
+    margin-bottom: -40px;
+    z-index: 2;
+}
+
+#textSupply {
+    position: absolute;
+    left: 80px;
+    margin-top: 40px;
+    
+}
+
+#textDemand {
+    position: absolute;
+    left: 700px;
+}
+
+.slide {
+    width: calc(1024px - 8em);
+    height: 768px;
+    position: relative;
+}
+
+/*--------------------     SLIDE 3     --------------------*/
+
+#slide3Title {
+    margin-top: 20px;
+    margin-bottom: -170px;
+}
+
+#slide3TextBox {
+     width: 280px;
+    margin-top: 250px;
+    margin-bottom: -200px;
+    left: 50%;
+    margin-left: -170px;
+    z-index: 4;
+    position: absolute;
+}
+
+#slide3Example1 {
+    position: absolute;
+    right: 50px;
+    width: 450px;
+    height: 300px;
+}
+
+#slide3Video1 {
+    position: absolute;   
+    z-index: 2;
+    top:-20px;
+}
+
+#slide3Video2 {
+    position: absolute;
+    bottom:-10px;
+    right: 35px;
+    z-index: 2;
+}
+
+#slide3Svg1 {
+    height:127px;
+    width:315px;
+    right: 0;
+    top: 90px;
+    position: absolute;
+    z-index: 3;
+}
+
+#slide3Example2 {
+    position: absolute;
+    bottom: 50px;
+    width: 350px;
+    height: 400px;
+}
+
+#slide3Video3 {
+    position: absolute;
+    top: 0;
+    left:50px;
+     z-index: 2;
+}
+
+#slide3Video4 {
+    position: absolute;
+    bottom: 0;
+    right:0;
+     z-index: 2;
+}
+
+#slide3Svg3 {
+    height:77px;
+    width:220px;
+    right: 80px;
+    bottom: 80px;
+    position: absolute;
+    z-index: 3;
+}
+
+#slide3Example3 {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 470px;
+    height: 320px;
+}
+
+#slide3Video5 {
+    position: absolute;
+    top: 0;
+    right:0;
+     z-index: 2;
+    
+}
+
+#slide3Video6 {
+    position: absolute;
+    bottom: 0;
+    left:0;
+     z-index: 2;
+}
+
+#slide3Svg2 {
+    height:227px;
+    width:184px;
+    left: 0px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slide3Example_description {
+    opacity: 0;
+}
+
+/*--------------------     SLIDE 4     --------------------*/
+
+section {
+     padding: 4em;
+    position: relative;
+}
+
+
+
+#slide4Background {
+    position: absolute;
+    height: 1200px;
+    width: calc(100% + 8em);
+    left: -4em;
+    background-color: #455770;
+}
+
+/*
+.appear {
+    opacity: 0;
+}
+*/
+
+.appearLater {
+    opacity: 0.99;
+}
+
+#slide4 {
+    height: 500px;
+}
+
+#slide4 h2 {
+    color: #fff;
+}
+
+#slide4 p {
+    color: #fff;
+}
+
+#slide4Video1 {
+    position: absolute;
+    top:50px;
+    left:0px;
+}
+
+#slide4Title {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top:100px;
+    right: 100px;
+    background-image: url(../_images/slide4Title.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide4Text {
+    width: 350px;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+}
+
+
+/*--------------------     SLIDE 5     --------------------*/
+
+#slide5Title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#slide5 p {
+    color: #fff;
+}
+
+#slide5 h2 {
+    color: #fff;
+}
+
+#slide5Title p {
+    width: 400px;
+}
+
+#slide5 h4 {
+    position: absolute;
+    top: 100px;
+    width: 150px;
+    font-size: 100%;
+}
+
+#slide5Diagram {
+    position: absolute;
+    top: 200px;
+    width: 900px;
+    height: 500px;
+    background-image: url(../_images/slide5diagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*--------------------     SLIDE 6     --------------------*/
+
+#slide6Title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.blueBack p {
+    color: #fff;
+    font-weight: 200;
+}
+
+.blueBack h2 {
+    color: #fff;
+}
+
+#slide6Title p {
+    width: 330px;
+}
+
+#slide6 h4 {
+    position: absolute;
+    top: 100px;
+    width: 160px;
+    font-size: 120%;
+    background-color: #fff;
+}
+
+#slide6Diagram {
+    position: absolute;
+    top: 20px;
+    right:0px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../_images/slide6diagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide6 {
+    height: 350px;
+}
+
+/*--------------------     SLIDE 7     --------------------*/
+
+#slide7TopImage {
+    position: absolute;
+    top: -150px;
+    left:0px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../_images/slide7TopImage.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide7Text1 {
+    width: 400px;
+    position: absolute;
+    right: 0;
+}
+
+#slide7Visualization {
+    width: 620px;
+    height: 470px;
+    position: absolute;
+    top: 200px;
+}
+
+#slide7Caption {
+    position: absolute;
+    top: 400px;
+    right: 0;
+    width: 200px;
+
+}
+
+.caption {
+    font-size: 80%;
+}
+
+#slide7Interact {
+    width: 200px;
+    height: 100px;
+    background-image: url(../_images/slide7Interact.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 570px;
+    right: 0;
+}
+
+.text {
+    width: 300px;
+}
+
+#slide8 {
+    height: 550px;
+}
+
+/*--------------------     SLIDE 8     --------------------*/
+
+
+
+#slide8Visualization {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-image: url(../_images/slide8Visualization.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*--------------------     SLIDE 9     --------------------*/
+
+
+#slide9Text {
+    position: absolute;
+    top: -15px;
+    left: 300px;
+    
+}
+
+#slide9Button {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100px;
+    font-size: 100%;
+    width: 150px;
+
+}
+
+#slide9Visualization {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+}
+
+/*--------------------     SLIDE 10     --------------------*/
+
+
+#slide10Text1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slide10Text2 {
+    position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+#slide10Button {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    width: 170px;
+    font-size: 100%;
+}
+
+#slide10Visualization {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+   background-image: url(../_images/slide10Visualization.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*--------------------     SLIDE 11     --------------------*/
+
+
+#slide11Button {
+    text-align: center;
+    width: 120px;
+    margin-top: 70px;
+}
+
+#slide11Visualization {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-image: url(../_images/slide11Visualization.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide11 {
+    height: 600px;
+}
+
+/*--------------------     SLIDE 12     --------------------*/
+
+#slide12Text {
+    position: absolute;
+    top: -15px;
+    left: 300px;
+    
+}
+
+#slide12Button {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100px;
+    font-size: 100%;
+    width: 150px;
+
+}
+
+#slide12Visualization {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+}
+
+/*--------------------     SLIDE 13     --------------------*/
+
+#slide13Video {
+    opacity: 0.99;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 550px;   
+}
+
+#slide13 {
+    height: 350px;
+}
+
+/*--------------------     SLIDE 14     --------------------*/
+
+
+#slide14TopImage {
+    position: absolute;
+    top: -150px;
+    left:0px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../_images/slide14TopImage.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide14Text {
+    width: 500px;
+    position: absolute;
+    top: -20px;
+    right: 0;    
+}
+
+#slide14 {
+    height: 150px;
+}
+
+/*--------------------     TOOL TITLE     --------------------*/
+
+#tool {
+    padding: 0;
+    position: relative;
+}
+
+#toolTitle {
+    position: ;
+    width: 350px;
+    height: 100px;
+    left: 50%;
+    margin: 0 auto;
+    background-image: url(../_images/toolTitle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+fieldset {
+    font-size: 60%;
+    border: 0;
+    border-bottom: solid 3px #27E0AD; 
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+    display: block;
+    background-color: #fff;
+    
+    overflow: scroll;
+}
+
+fieldset button {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    font-size: 120%;
+    text-transform: uppercase;
+    color: #27E0AD;
+    font-family: cabin;
+    letter-spacing: .15em;
+    text-align: left; 
+    transition: all .5s ease;
+}
+
+#filters {
+    position: absolute;
+    left: 50%;
+    margin-left: -390px;
+    z-index: 4;
+}
+
+fieldset button:nth-child(2) {
+    margin-top: 1em;
+}
+
+fieldset button:hover {
+    color: #063F84;
+    margin-left: .2em;
+}
+
+#needCan {
+    width: 120px;
+    float: left;
+}
+
+#verb {
+    width: 190px;
+     float: left;
+}
+
+#complement {
+    width: 370px;
+     float: left;
+}
+
+.locked {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.buttonHidden {
+    display: none;
+}
+
+fieldset h2 {
+text-align: center;
+}
+
+#grid {
+    position: absolute;
+    top: 200px;
+    width: 900px;
+    padding: 0;
+    margin-bottom: 100px;
+    z-index: 3;
+}
+
+.companyBox {
+    width: 250px;
+    height: 200px;
+    margin: 10px 15px;
+    display: block;
+    float: left;
+    padding: 10px;
+    background-image: url(../_images/companyBackground.svg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    
+}
+
+.companyDescription {
+    font-size: 80%;
+    margin-left: 80px;
+}
+
+.companyName {
+    font-size: 80%;
+    text-transform: uppercase;
+    font-family: cabin;
+    letter-spacing: .15em;
+    margin: -60px 0 0 80px;
+    color: #063F84;
+
+}
+
+.companyLogo {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.mix {
+    display: none;
+}
+
+.active {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.notPertinent {
+    display: none;
+}
+
+footer {
+    height: 250px;
+    margin-bottom: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+#footerVideoConteiner {
+    flex: 0 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 3em;
+}
+
+#footerVideoConteiner img {
+    height: 150px;
+    width: 150px;
+    border: none;
+}
+
+
+#popUp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.85);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popUpBox {
+    height: 768px;
+    width: 1024px;
+    background-color: transparent;
+    position: relative;
+    display: none;
+}
+
+.closeButton {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#popUp-1 {
+    width: 420px;
+    height: 363px;
+    background-image: url(../_images/pupUp-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 50%;
+}
+
+#popUp-2 {
+    width: 420px;
+    height: 363px;
+    background-image: url(../_images/popUp-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 50%;
+    
+}
+
+#popUp-3 {
+    background-image: url(../_images/popUp-3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 50%;
+    
+}
+
+#popUp-4 {
+    width: 420px;
+    height: 363px;
+    background-image: url(../_images/popUp-4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: 50%;
+    
+}
+
+/*----------------------------------------------------------------.--------------------------------------*/
+/*--------------------------------------       TABLET             --------------------------------------*/
+/*---------------------------------------------------------------.-------------------------------------*/
+@media only screen and (min-width: 40em) {
+/*---------------------------------------------------------------.-------------------------------------*/
+    
+    
+    
+    
+    
+    
+}/*END TABLET -----------------------------------------------------.-----------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------.--------------------------------------*/
+/*--------------------------------------       WIDE SCREEN             ---------------------------------*/
+/*---------------------------------------------------------------.-------------------------------------*/
+@media only screen and (min-width: 60em) {
+/*---------------------------------------------------------------.-------------------------------------*/
+    
+    
+    aside {
+        display: flex;
+    }
+    
+    
+}/*END WIDE SCREEN-----------------------------------------------------.------------------------------*/
+

@@ -1,0 +1,302 @@
+body {
+    font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+ol, ul {
+	padding: 0px;
+	margin: 0px;
+}
+/* FEATURES */
+
+.btn {
+	padding: 0;
+	opacity: 0.4;
+}
+.btn-default {
+	border: none;
+}
+.btn.active, .btn:active {
+	background-color: none;
+	color: #000;
+	opacity: 1;
+	box-shadow: none;
+}
+.right {
+	float: right;
+	margin-right: 10px;
+}
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+	background-color: #FFF;
+	opacity: 1;
+
+}
+
+svg text {
+	font-weight: 300;
+}
+/* PORTFOLIO */
+#coverViz {
+	width: 100%;
+	height: 410px;
+	background-color: #333;
+	margin-top: 40px;
+}
+#portfolio-filters {
+	width: 8%;
+	float: left;
+    text-align: center;
+	margin-bottom: 1em;
+}
+#portfolio-filters ul {
+    list-style-type: none;
+    padding: 0;
+}
+#portfolio-filters ul li {
+    display: block;
+	color: #ccc;
+	font-family:  'Roboto', sans-serif;
+	border-radius: 0;
+	margin-bottom: 0.3em;
+	background-color: rgba(0,0,0,0);
+}
+#portfolio-wrapper {
+	width: 80%;
+	height: 410px;
+	float: left;
+	overflow: auto;
+}
+#portfolio-wrapper .mix {
+    display: none;
+}
+.portfolio-item {
+    width: 4%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 0.3em;
+}
+.portfolio-item img {
+    width: 100%;
+}
+#coverVizControls {
+	width: 12%;
+	height: 335px;
+	float: right;
+	overflow: hidden;
+}
+#controlItem {
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+#controlItem:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+#turnButton {
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	color: #EEE;
+	text-indent: 1em;
+	padding: 2px 0 2px 0;
+	background-color: rgba(255,255,255,0.1);
+	font-size: 1em;
+}
+#turnButton:hover, .activeTurnButton {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.turnButtonActivo {
+	background-color: rgba(0,0,0,0.2) !important;
+}
+
+.luminance, .colors, .trailers {
+	display: none;
+}
+#infoFilm {
+	width: 12%;
+	height: 70px;
+	float: right;
+}
+.resetFilters {
+	color: #999 !important;
+}
+.resetFilters:hover {
+	color: orangered !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+#titleFilm {
+	width: 100%;
+	height: 20px;
+	color: #FFF;
+	font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+    .portfolio-item {
+        width: 49%;
+    }
+}
+
+/** BUTTONS VIZ **/
+#controlTitle {
+	display: block;
+	color: #FFF;
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 3px;
+}
+#controlTitle2 {
+	display: block;
+	color: #CCC;
+	font-size: 0.8em;
+	font-weight: 400;
+	margin-bottom: 3px;
+}
+.active {
+	background-color: rgba(255,255,255,0.8);
+	color: #333;
+}
+.highlight {
+	opacity: 0.1;
+	transition-duration: 1s;
+}
+
+.highlightStats {
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+
+.diagramDrop, .typeImgDrop, .etnicDrop, .relationPeopleDrop, .kinesicDrop, .genderDrop {
+	display: none;
+}
+.upwards {
+	transform: rotate(180deg);
+}
+
+
+/** VIZ STATISTICS **/
+#vizStatistics {
+	width: 100%;
+	height: 180px;
+	display: inline-block;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #777;
+}
+h2,h3,h4,h5,li {
+    font-family:  'Roboto', sans-serif;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2dbbb3; /* Palette */
+}
+
+h5{
+    color: #aaa;
+	text-align: center;
+	letter-spacing: 1px;
+    font-weight: 700;
+	margin: 3px;
+}
+
+#vizStatsCovers {
+	width: 75%;
+	height: 150px;
+	float: left;
+}
+
+#barchartsCovers rect {
+	opacity: 0.3;
+}
+
+#barchartsCovers rect:hover {
+	opacity: 1;
+	transition: 0.3s all linear;
+}
+
+#barchartsCovers text {
+	opacity: 0;
+	transition: 0.3s all linear;
+}
+
+#barchartsCovers rect:hover + text, .opacityBarFull {
+	color: #FFF;
+	opacity: 1 !important;
+}
+.statsDiagram, .statsTypeImg, .statsEtnic, .statsRelational, .statsKinesic, .statsGender, .statsCoversColors, .statsCoversLuminance {
+	display: none;
+}
+
+#westernStatBar text, #shortStatBar text, #romanceStatBar text, #musicStatBar text, #flim-noirStatBar text, #dramaStatBar text, #documentaryStatBar text, #crimeStatBar text, #comedyStatBar text, #biographyStatBar text, #animationStatBar text, #adventureStatBar text, #actionStatBar text { 
+	opacity: 0;
+	transition: 0.3s all linear;
+	text-transform: lowercase;
+}
+
+#westernStatBar rect:hover + text, #shortStatBar rect:hover + text, #romanceStatBar rect:hover + text, #musicStatBar rect:hover + text, #flim-noirStatBar rect:hover + text, #dramaStatBar rect:hover + text, #documentaryStatBar rect:hover + text, #crimeStatBar rect:hover + text, #comedyStatBar rect:hover + text, #biographyStatBar rect:hover + text, #animationStatBar rect:hover + text, #adventureStatBar rect:hover + text, #actionStatBar rect:hover + text  {
+	color: #FFF;
+	font-size: 10px;
+	opacity: 1 !important;
+	text-transform: lowercase;
+}
+
+
+
+/** VIZ STATISTICS END **/
+#etnicBarBase {
+	width: 50%;
+	height: 30px;
+	border-style:solid;
+	border-color: #111;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#etnicBarYes {
+	width: 25%;
+	height: 28px;
+	background-color: #DDD;
+	display: none;
+	float: left
+}
+#etnicBarNo {
+	width: 75%;
+	height: 28px;
+	background-color: #111;
+	display: none;
+	float: right;
+}
+
+/** DIALOG BOX **/
+
+#dialogBox {
+	width: 25%;
+	height: 180px;
+	float: right;
+	padding: 10px;
+	border-left-style: solid;
+	border-left-color: #777;
+	border-left-width: 1px;
+}
+#dialogText {
+	color: #ccc;
+	
+}
+.dialogNote2 {
+	display: none;
+}
+
+/** DIALOG BOX END **/
+
+
+
+/** PALLETTE STATS **/
+

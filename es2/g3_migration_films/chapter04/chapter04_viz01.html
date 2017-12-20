@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+
+
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>Migration Backstage</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Definition of our movie corpus</h5>
+                    <!--CHAPTER 1-->
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">What films are the most relevant when searching for migration movies?</a>
+                    <!-- confronto liste-->
+                    <a href="../chapter01/chapter01_viz02.html">How do we define the selection criteria?</a>
+                    <!--box office-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Related topics</h5>
+                    <!--CHAPTER 2-->
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Which are the most relevant themes and how are they distributed in our movies?</a>
+                    <!-- treemaps-->
+                    <a href="../chapter02/chapter02_viz02.html">How are these topics linked to each other?</a>
+                    <!--gephi-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">From where to where</h5>
+                    <!--CHAPTER 3-->
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">How nations and cultures are connected through the eyes of cinema?</a>
+                    <!-- map-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Movies visuals </h5>
+                    <!--CHAPTER 4-->
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">Are trends identified on the pieces that film producers make to advertise their films?</a>
+                </li>
+
+                <li>
+                    <h5 class="text-uppercase">How do people react</h5>
+                    <!--CHAPTER 5-->
+                </li>
+
+                <li>
+                    <a href="../chapter05/chapter05_viz01.html">What aspects of our movies are more interesting  for spectators? How do they talk about these aspects?</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <iframe src="./viz/index_new.html"></iframe>
+                <!-- Add your viz here -->
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Movies visuals </h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>Are trends identified on the pieces that film producers make to advertise <br/>their films?</h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <p>The visual expression of this phenomena help to understand how film producers address the issue of migration. This involves both the movie in itself and the artifacts produced to advertise it. We decided to analyze the film covers and the official trailer of each film, because of their character. It gives them the chance to be viewed by lot of people, makes them most likely the first touchpoint and constitute a sort of access to the movie itself.</p>
+                                <!-- End of intro -->
+
+                                <!-- Protocol  -->
+                                <div class="section-content" id="sec1">
+                                    <div class="section-text">
+                                        <h3>Protocol</h3>
+                                        <p>1. Download cover images from <a href="http://www.imdb.com/" target="_blank">IMDB</a> using <a href="http://cloudscrape.com/" target="_blank">CloudScrape</a>, we create a bot in which we introduce all IMDB links of each film and we create a process were the bot in each website take the image of the cover and downloaded it.</p>
+
+                                        <p>2. We download manually from <a href="https://www.youtube.com/" target="_blank">YouTube</a> each trailer using <a href="http://keepvid.com/" target="_blank">KeepVid</a></p>
+
+                                        <p>3. We create a database classifying each cover by this categories: Genre, Diagram, Type of image, Etnic difference, Relational, Kinesic ande Gender.</p>
+
+                                        <p>4. Usig Photoshop and creating Actions, we create the 256 color palette of each film, ones organized by its importance of each color in the image, and other palette organized by Luminance.
+                                            <br/>
+                                            <br/> Load each img > save for web > GIF 128 > 256 colors > screenshots > change the name of each screenshot to film name.
+                                            <br/>
+                                            <br/> Photoshop > create action > load one screenshot > crop tool to select just the palette > save.
+                                            <br/>
+                                            <br/> Photoshop > automate > batch > apply the action to the folder where screenshots are.
+                                        </p>
+                                        <p>5. For the interactive visualization we organized 113 film covers (7 were unavailable) to present them all together, and we create the possibility to filter them by genre.</p>
+                                        <p>6. We dispose another commands to filter each film by transparency using the categories purposed on point 3.</p>
+                                        <p>7. For each category we make a horizontal bar graph to show the information presented on each category and helps to make conclusion for each interaction by category.</p>
+                                        <p>8. For the color visualization, we take all palettes obtained on point 4 and we organized them by genre, then we make the same analysis of point 4 to create a four color palette for each genre.</p>
+                                        <p>9. In the case of luminance visualization we create an index using the formula for measuring luminace Y = 0.2126*R + 0.7152*G + 0.0722*B. Then we make the media of each four color luminance to have a unique luminance index and we graph them.</p>
+                                        <p>10. For the trailer barcode we download manually each trailer from <a href="https://www.youtube.com/" target="_blank">YouTube</a>, using <a href="http://keepvid.com/" target="_blank">KeepVid</a>. Using <a href="http://arcanesanctum.net/movie-barcode-generator/" target="_blank">Movie Barcode</a> we upload each trailer and this software creates a 1 image compressed of the whole trailer by seconds organized linearly, creating a kind of barcode width the variation of color of the trailer.</p>
+                                    </div>
+                                </div>
+                                <!-- End of protocol  -->
+
+                                <!-- How to read it  -->
+                                <div class="section-content" id="sec2">
+                                    <div class="section-text">
+                                        <h3>How to read it</h3>
+                                        <p>The visualization offers the possibility to interact applying filters. The first way to visualize is by filtering by genre: this will regroup films that belongs to the same genre, turning off the rest of the films.
+                                            <br/> The second control console permits to show either the cover films, the color palettes or the trailer barcode. Then it presents a series of categories that let apply opacity filters that can be also combined with the genre filter, so that users can see trends on each category.
+                                            <br/> Each category is accompanied with a graphic visualization of the information presented to help the understanding of trends.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End of how to read it -->
+
+                                <!-- Findings  -->
+                                <div class="section-content" id="sec3">
+                                    <div class="section-text">
+                                        <h3>Findings</h3>
+                                        <p>The first conclusion that emerges is that migration films are significantly more belonging to drama genre over the rest of genres.
+                                            <br/> The color predominance is set to a variation of ochre across all film covers. It was hard to find color trends by genre, because we couldn’t find trends by each category. Cold colors for genres like adventure and action, warmer colors for genres like film-noir and romance.
+                                            <br/> Looking at diagram styles and type of images used in cover films the use of photography and digital edition is the most present style. Related to human characters and how they are shown we conclude that at least on the cover, the relation between them is more important than showing relation towards places. For gender presence the trend is to show both male and female characters, followed by male and then female. In conclusion, we realized that there are't significant differentiations between ethnicities or races.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <!-- End of findings  -->
+
+                                <!-- Data  -->
+                                <div class="section-content" id="sec4">
+                                    <div class="section-text">
+                                        <h3>Data</h3>
+                                        <h4>Data source: <a href="http://www.imdb.com/" target="_blank">IMDB</a>, <a href="https://www.youtube.com/" target="_blank">YouTube</a></h4>
+                                        <h4><a href="../data/chapter4/cover%20colors%20-%20luminance.xlsx"><i class="fa fa-arrow-circle-o-down"></i> Color and Luminance (7KB)</a></h4>
+                                        <h4><a href="../data/chapter4/film%20covers.xlsx"><i class="fa fa-arrow-circle-o-down"></i> Film Covers (2KB)</a></h4>
+                                        <h4><a href="../data/chapter4/genere.csv"><i class="fa fa-arrow-circle-o-down"></i> Genre (5KB)</a></h4>
+                                    </div>
+                                </div>
+                                <!-- End of data  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <ul>
+                                <li>Camila Borrero</li>
+                                <li>Pietro Cedone</li>
+                                <li><a href="https://www.behance.net/luciacosma" target="_blank">Lucia Cosma</a></li>
+                                <li><a href="http://www.sebastianforero-mcd.com" target="_blank">Sebastián Forero</a></li>
+                                <li>Giovanni Rabuffetti</li>
+                                <li>Ziqiao Xie</li>
+                            </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

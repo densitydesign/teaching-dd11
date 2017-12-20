@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/fixed-positioning.css" rel="stylesheet" type="text/css" />
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+        function preloader() {
+            document.getElementById("loading").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }
+        window.onload = preloader;
+    </script>
+</head>
+
+<body>
+
+    <main>
+
+        <section id="app_cow_2">
+            <p class="title_montserrat title_montserrat_cow_milk_2 col-md-offset-1">How Are News and Science
+                <br>Talking About It?</p>
+            <p class="text text_cow_milk_2 col-md-offset-1 col-md-5">Speaking about cow’s milk, New York Times and Pubmed clearly focus on different topics. As predictable by their nature and audience, the attention focus on food in the first one, while academics are mostly interested in studies and treatments, milk typologies and diseases. A more colloquial way of talking is counterposed to a specific medical words.</p>
+            <div>
+                <div id="legenda_parole">
+                    <svg version="1.1" id="legenda" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="351.606px" height="97.941px" viewBox="0 0 351.606 97.941" enable-background="new 0 0 351.606 97.941" xml:space="preserve">
+                        <switch>
+                            <g i:extraneous="self">
+                                <g id="food" onclick="changeParole('parole2')">
+                                    <text transform="matrix(1 0 0 1 9.6462 14.1759)" font-family="'Montserrat-Regular'" font-size="15">Food</text>
+                                    <rect x="0.5" y="0.5" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="56.979" height="16.667" />
+                                </g>
+                                <g id="milk" onclick="changeParole('parole3')">
+                                    <text transform="matrix(1 0 0 1 9.6471 40.8425)" font-family="'Montserrat-Regular'" font-size="15">Milk </text>
+                                    <rect x="0.5" y="27.167" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="134.146" height="16.667" />
+                                </g>
+                                <g id="deseases" onclick="changeParole('parole4')">
+                                    <text transform="matrix(1 0 0 1 9.6461 67.5095)" font-family="'Montserrat-Regular'" font-size="15">Deseases</text>
+                                    <rect x="0.5" y="53.834" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="87.646" height="16.667" />
+                                </g>
+                                <g id="who" onclick="changeParole('parole5')">
+                                    <text transform="matrix(1 0 0 1 9.6461 94.1765)" font-family="'Montserrat-Regular'" font-size="15">Who and When</text>
+                                    <rect x="0.5" y="80.501" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="134.146" height="16.667" />
+                                </g>
+                                <g id="studies" onclick="changeParole('parole6')">
+                                    <text transform="matrix(1 0 0 1 163.4582 14.1758)" font-family="'Montserrat-Regular'" font-size="15">Studies and Treatments</text>
+                                    <rect x="154.312" y="0.5" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="196.794" height="16.667" />
+                                </g>
+                                <g id="human" onclick="changeParole('parole7')">
+                                    <text transform="matrix(1 0 0 1 163.987 40.8425)" font-family="'Montserrat-Regular'" font-size="15">Human Body</text>
+                                    <rect x="154.841" y="27.167" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="117.518" height="16.667" />
+                                </g>
+                                <g id="nutrients" onclick="changeParole('parole8')">
+                                    <text transform="matrix(1 0 0 1 163.9884 67.5091)" font-family="'Montserrat-Regular'" font-size="15">Nutrients</text>
+                                    <rect x="154.842" y="53.833" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" width="87.646" height="16.667" />
+                                </g>
+                                <g id="all" onclick="changeParole('parole1')">
+                                    <text transform="matrix(1 0 0 1 163.9874 94.1765)" font-family="'Montserrat-Regular'" font-size="15">All</text>
+                                    <rect x="154.842" y="80.501" fill="none" stroke="#000000" stroke-miterlimit="10" width="134.146" height="16.667" />
+                                </g>
+                            </g>
+                        </switch>
+                    </svg>
+                </div>
+
+                <div id="grafico_parole">
+                    <div id="parole1">
+                        <img src="../img/0_Parole_spento.svg" />
+                    </div>
+
+                    <div id="parole2" style="display:none">
+                        <img src="../img/1_Parole_food.svg" />
+                    </div>
+
+                    <div id="parole3" style="display:none">
+                        <img src="../img/2_Parole_mylktypologies.svg" />
+                    </div>
+
+                    <div id="parole4" style="display:none">
+                        <img src="../img/3_Parole_diseases.svg" />
+                    </div>
+
+                    <div id="parole5" style="display:none">
+                        <img src="../img/4_Parole_whoandwhen.svg" />
+                    </div>
+
+                    <div id="parole6" style="display:none">
+                        <img src="../img/5_Parole_studies.svg" />
+                    </div>
+
+                    <div id="parole7" style="display:none">
+                        <img src="../img/6_Parole_humanbody.svg" />
+                    </div>
+
+                    <div id="parole8" style="display:none">
+                        <img src="../img/7_Parole_nutrients.svg" />
+                    </div>
+
+                    <div id="parole9" style="display:none">
+                        <img src="../img/0_Parole_spento.svg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/scripts.js" type="text/javascript"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/modalEffects.js"></script>
+</body>
+
+</html>

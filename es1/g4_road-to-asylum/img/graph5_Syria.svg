@@ -1,0 +1,195 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="auto" viewBox="0 0 1140 360"> 
+    <style>
+        .graph05-title {
+            fill: #4C6363;
+            font-family: 'Lekton', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .graph05-bkg {
+            fill: #F7D3BF;
+            opacity: 0.5;
+        }
+        .graph05-geneva {
+            fill: #5DA093;
+            opacity: 0.9;
+        }
+        .graph05-subs {
+            fill: #8DBBB4;
+            opacity: 0.8;
+        }
+        .graph05-hum {
+            fill:#AAE5CF;
+            opacity:0.8;
+        }
+        .graph05-y--text {
+            fill: #4C6363;
+            font-family: 'Lekton', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .graph05-x--text {
+            fill: #4C6363;
+            font-family: 'Lekton', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .graph05-axes {
+            fill: none;
+            opacity: 0.3;
+            stroke-linecap: round;
+            stroke: #4C6363;
+        }
+    </style>
+<text transform="matrix(1 0 0 1 144.2002 20)" class="graph05-title">
+    Italy
+</text>
+<rect x="45" y="54.699" width="265" height="249" class="graph05-bkg"/>
+<g>
+    <polygon points="45 180.191 110.258 181.021 176.384 71.847 243.605 178.737 310 146.151 310 303.699 45 303.699 " class="graph05-geneva"/>
+    <polygon points="45 283.139 110.258 235.816 176.384 181.021 242.778 256.843 310 263.212 310 303.699 45 303.699 " class="graph05-subs"/>
+    <polygon points="45 283.139 110.258 273.176 176.384 298.082 242.778 303.063 310 298.082 310 303.699 45 303.699 " class="graph05-hum"/>
+</g>
+  <text transform="matrix(1 0 0 1 4.9805 255.7422)" class="graph05-y--text">
+    20%
+  </text>
+  <text transform="matrix(1 0 0 1 4.9805 208.4189)" class="graph05-y--text">
+    40%
+  </text>
+  <text transform="matrix(1 0 0 1 4.9805 156.1143)" class="graph05-y--text">
+    60%
+  </text>
+  <text transform="matrix(1 0 0 1 4.9805 108.792)" class="graph05-y--text">
+    80%
+  </text>
+  <text transform="matrix(1 0 0 1 0 58.9785)" class="graph05-y--text">
+    100%
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 31.6338 347.1484)" class="graph05-x--text">
+    2010
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 97.9492 347.1484)" class="graph05-x--text">
+    2011
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 164.2622 347.1465)" class="graph05-x--text">
+    2012
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 230.5781 347.1475)" class="graph05-x--text">
+    2013
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 296.894 347.1484)" class="graph05-x--text">
+    2014
+  </text>
+  <g>
+    <line x1="45.5" y1="296.699" x2="45.5" y2="310.699" class="graph05-axes"/>
+    <line x1="110.5" y1="296.699" x2="110.5" y2="310.699" class="graph05-axes"/>
+    <line x1="176.5" y1="296.699" x2="176.5" y2="310.699" class="graph05-axes"/>
+    <line x1="243.5" y1="296.699" x2="243.5" y2="310.699" class="graph05-axes"/>
+    <line x1="309.5" y1="296.699" x2="309.5" y2="310.699" class="graph05-axes"/>
+    <line x1="36" y1="254.199" x2="311" y2="254.199" class="graph05-axes"/>
+    <line x1="36" y1="205.199" x2="311" y2="205.199" class="graph05-axes"/>
+    <line x1="36" y1="154.199" x2="311" y2="154.199" class="graph05-axes"/>
+    <line x1="36" y1="104.199" x2="311" y2="104.199" class="graph05-axes"/>
+    <line x1="36" y1="55.199" x2="311" y2="55.199" class="graph05-axes"/>
+    <line x1="36" y1="304.199" x2="311" y2="304.199" class="graph05-axes"/>
+  </g>
+  <text transform="matrix(1 0 0 1 545.9399 20)" class="graph05-title">
+    Greece
+  </text>
+  <rect x="453" y="54.699" width="266" height="249" class="graph05-bkg"/>
+  <text transform="matrix(1 0 0 1 414.3862 255.7422)" class="graph05-y--text">
+    20%
+  </text>
+  <text transform="matrix(1 0 0 1 414.3862 208.4189)" class="graph05-y--text">
+    40%
+  </text>
+  <text transform="matrix(1 0 0 1 414.3862 156.1143)" class="graph05-y--text">
+    60%
+  </text>
+  <text transform="matrix(1 0 0 1 414.3862 108.792)" class="graph05-y--text">
+    80%
+  </text>
+  <text transform="matrix(1 0 0 1 409.4048 58.9785)" class="graph05-y--text">
+    100%
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 441.0381 347.1494)" class="graph05-x--text">
+    2010
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 507.3535 347.1484)" class="graph05-x--text">
+    2011
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 573.668 347.1484)" class="graph05-x--text">
+    2012
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 639.9834 347.1494)" class="graph05-x--text">
+    2013
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 706.2979 347.1494)" class="graph05-x--text">
+    2014
+  </text>
+  <polygon points="454.652 303.699 521.275 295.91 587.484 288.28 653.656 128.796 719 148.642 719 303.699 455.065 303.699 " class="graph05-geneva"/>
+  <polygon points="455.065 303.699 521.275 303.699 587.484 288.439 653.656 203.597 719 263.283 719 303.699 455.065 303.699 " class="graph05-subs"/>
+  <g>
+    <line x1="453.5" y1="296.699" x2="453.5" y2="310.699" class="graph05-axes"/>
+    <line x1="519.5" y1="296.699" x2="519.5" y2="310.699" class="graph05-axes"/>
+    <line x1="585.5" y1="296.699" x2="585.5" y2="310.699" class="graph05-axes"/>
+    <line x1="652.5" y1="296.699" x2="652.5" y2="310.699" class="graph05-axes"/>
+    <line x1="718.5" y1="296.699" x2="718.5" y2="310.699" class="graph05-axes"/>
+    <line x1="444" y1="254.199" x2="720" y2="254.199" class="graph05-axes"/>
+    <line x1="444" y1="205.199" x2="720" y2="205.199" class="graph05-axes"/>
+    <line x1="444" y1="154.199" x2="720" y2="154.199" class="graph05-axes"/>
+    <line x1="444" y1="104.199" x2="720" y2="104.199" class="graph05-axes"/>
+    <line x1="444" y1="55.199" x2="720" y2="55.199" class="graph05-axes"/>
+    <line x1="444" y1="304.199" x2="720" y2="304.199" class="graph05-axes"/>
+  </g>
+  <text transform="matrix(1 0 0 1 925 20)" class="graph05-title">
+    European Union
+  </text>
+  <rect x="865" y="54.699" width="263" height="249" class="graph05-bkg"/>
+  <polygon points="865 244.74 931.567 188.908 997.645 82.225 1063.237 86.375 1128 68.941 1128 303.699 865 303.699 " class="graph05-geneva"/>
+  <polygon points="865 290.61 931.567 268.194 997.645 158.605 1063.237 153.624 1128 193.475 1128 303.699 865 303.699 " class="graph05-subs"/>
+  <polygon points="865 295.731 931.361 288.429 997.305 298.699 1063.724 298.699 1128 293.102 1128 303.699 865 303.699 " class="graph05-hum"/>
+  <text transform="matrix(1 0 0 1 823.7881 255.7422)" class="graph05-y--text">
+    20%
+  </text>
+  <text transform="matrix(1 0 0 1 823.7881 208.4189)" class="graph05-y--text">
+    40%
+  </text>
+  <text transform="matrix(1 0 0 1 823.7881 156.1143)" class="graph05-y--text">
+    60%
+  </text>
+  <text transform="matrix(1 0 0 1 823.7881 108.792)" class="graph05-y--text">
+    80%
+  </text>
+  <text transform="matrix(1 0 0 1 818.8086 58.9785)" class="graph05-y--text">
+    100%
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 850.4395 347.1484)" class="graph05-x--text">
+    2010
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 916.7559 347.1484)" class="graph05-x--text">
+    2011
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 983.0693 347.1494)" class="graph05-x--text">
+    2012
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 1049.3848 347.1484)" class="graph05-x--text">
+    2013
+  </text>
+  <text transform="matrix(0.7071 -0.7071 0.7071 0.7071 1115.7012 347.1484)" class="graph05-x--text">
+    2014
+  </text>
+  <g>
+    <line x1="865.5" y1="296.699" x2="865.5" y2="310.699" class="graph05-axes"/>
+    <line x1="928.5" y1="296.699" x2="928.5" y2="310.699" class="graph05-axes"/>
+    <line x1="995.5" y1="296.699" x2="995.5" y2="310.699" class="graph05-axes"/>
+    <line x1="1062.5" y1="296.699" x2="1062.5" y2="310.699" class="graph05-axes"/>
+    <line x1="1127.5" y1="296.699" x2="1127.5" y2="310.699" class="graph05-axes"/>
+    <line x1="854" y1="254.199" x2="1128" y2="254.199" class="graph05-axes"/>
+    <line x1="854" y1="205.199" x2="1128" y2="205.199" class="graph05-axes"/>
+    <line x1="854" y1="154.199" x2="1128" y2="154.199" class="graph05-axes"/>
+    <line x1="854" y1="104.199" x2="1128" y2="104.199" class="graph05-axes"/>
+    <line x1="854" y1="55.199" x2="1128" y2="55.199" class="graph05-axes"/>
+    <line x1="854" y1="304.199" x2="1128" y2="304.199" class="graph05-axes"/>
+  </g>
+</svg>

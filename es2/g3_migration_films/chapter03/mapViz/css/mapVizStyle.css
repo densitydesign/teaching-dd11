@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#vizWrapper {
+	width: 100%;
+	height:640px;
+	background-color: #333;
+	overflow: hidden;
+}
+#mapWrapper {
+	width: 1340px;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.turnOff {
+	opacity: 0;
+}
+.turnOn {
+	opacity: 1;
+}
+
+#controls {
+	width: 180px;
+	height: 60px;
+	float: right;
+	margin-top: -390px;
+	position: relative;
+	z-index: 9999;
+}
+#toggleButton {
+	width: 100%;
+	height: 20px;
+	display: block;
+	text-indent: 10px;
+	color: #CCC;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+#toggleButton:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.active {
+	background-color: rgba(0,0,0,0.5);
+}
+}

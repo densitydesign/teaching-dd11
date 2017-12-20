@@ -1,0 +1,104 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#vizWrapper {
+	width: 100%;
+	height:620px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+#treeMapWrapper {
+	width: 1066px;
+	height: 578px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#treeMapSVG {
+	width: 906px;
+	height: 450px;
+	float: left;
+}
+#treeMapSVGcontrols {
+	width: 160px;
+	height: 450px;
+	margin-top: 98px;
+	float: left;
+}
+#treeMapControl {
+	width: 100%;
+	height: 20px;
+	display: block;
+	color: #CCC;
+}
+
+ul, ol {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.offLight {
+	opacity: 0.2;
+}
+/** HOVERS CONTROLS BORDERS **/
+#treeMapSVGcontrols ul li {
+	width: 100%;
+	height: 25px;
+	color: #CCC;
+	display: block;
+	text-indent: 5px;
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+#baselines tspan {
+	color: #CCC;
+}
+.treeMapAll:hover {
+	background-color: #fff;
+	color: #000000;
+	transition: 0.3s all linear;
+}
+.treeMapJob:hover {
+	color: #333 !important;
+	background-color: #4EBAAD;
+	transition: 0.3s all linear;
+}
+.treeMapArt:hover {
+	color: #333 !important;
+	background-color: #1E7C96;
+	transition: 0.3s all linear;
+}
+.treeMapImm:hover {
+	color: #333 !important;
+	background-color: #77B6E0;
+	transition: 0.3s all linear;
+}
+.treeMapFam:hover {
+	background-color: #1D3975;
+	transition: 0.3s all linear;
+}
+.treeMapCri:hover {
+	background-color: #912F65;
+	transition: 0.3s all linear;
+}
+.treeMapCul:hover {
+	color: #333 !important;
+	background-color: #A2AFDD;
+	transition: 0.3s all linear;
+}
+.treeMapSex:hover {
+	color: #333 !important;
+	background-color: #E2C2C8;
+	transition: 0.3s all linear;
+}
+.treeMapVio:hover {
+	background-color: #93112D;
+	transition: 0.3s all linear;
+}
+.treeMapSec:hover {
+	color: #333 !important;
+	background-color: #C48490;
+	transition: 0.3s all linear;
+}

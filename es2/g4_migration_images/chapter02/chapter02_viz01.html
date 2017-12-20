@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Agata Brilli, Giacomo Ciurlo, Michele Invernizzi, Giulia Piccoli Trapletti, Laura Toffetti, Hou Xuanxuan">
+
+    <title>Shaping public awareness - DensityDesign 2015/2016</title>
+
+    <link rel="icon" href="../img/favicon.png" type="image/gif" sizes="32x32">
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Slider CSS -->
+    <link href="../css/bootstrap-slider.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5816319-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>When a picture is worth more<br>than 950.317 words</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">At the crisis peak</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">How did the migration crisis debate spread online?</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Shaping public awareness</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Which photographs circulate the most in each EU country?</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">The migration on stage</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">What are the most recurring elements depicted? Can we observe any pattern?</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">When an event becomes THE event</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">Are there events that impact the debate more than others? How are they exploit by different actors?</a>
+                </li>
+                <li>
+                    <a href="../chapter04/chapter04_viz02.html">How did these events evolve in time on the web?</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Archetypes in the making</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter05/chapter05_viz01.html">Which aspects of the migration phenomenon do actors tend to privilege when talking about it? What language do they use?</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz viz-02-01">
+                <img class="corpus-video--img" src="../img/viz02-01--r.png" alt="most relevant images">
+                <video class="corpus-video">
+                    <source class="corpus-video--source" src="../img/viz02-01.mp4" type="video/mp4">
+                </video>
+                <button class="btn btn-default corpus-btn" type="button">Highlight groups</button>
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Shaping public awareness</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>Which photographs circulate the most in each EU country?</h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <p>Alan Kurdi case made us think about the importance of images as a medium with the power of increasing the attention towards the phenomenon and steering the debate. Since migration affects Europe as a whole we decided to gather a corpus composed by the most relevant and viewed images in every country of the European Union in order to make a thorough synthesis of this phenomenon.
+                                </p>
+                                <p>Online news organizations are one of the most relevant source of structured information in Europe and their images, more than others, have the power to influence opinions due to their wide visibility. Looking at Alexa’s rank of the most clicked news organizations we selected two actors for each country and, from these actors, we gathered a corpus of 2.800 images. With this corpus the aim was to find common characteristics and analogies in the content.</p>
+                                <div class="gallery">
+                                    <svg class="corpus-text" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1170 507">
+                                        <g id="eu">
+                                            <text transform="matrix(1 0 0 1 14.1733 25.2997)" class="corpus-country">
+                                                Austria
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4813 25.2997)" class="corpus-country">
+                                                Belgium
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8147 25.2997)" class="corpus-country">
+                                                Bulgaria
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.148 25.2997)" class="corpus-country">
+                                                Croatia
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4813 25.2997)" class="corpus-country">
+                                                Cyprus
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8146 25.2997)" class="corpus-country">
+                                                Czech Republic
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0334 25.2996)" class="corpus-country">
+                                                Denmark
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 144.2938)" class="corpus-country">
+                                                Estonia
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4813 144.2938)" class="corpus-country">
+                                                Finland
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8146 144.2938)" class="corpus-country">
+                                                France
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1479 144.2938)" class="corpus-country">
+                                                Germany
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4813 144.2938)" class="corpus-country">
+                                                Greece
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8146 144.2938)" class="corpus-country">
+                                                Hungary
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0333 144.2936)" class="corpus-country">
+                                                Ireland
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 274.2938)" class="corpus-country">
+                                                Italy
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4812 274.2938)" class="corpus-country">
+                                                Latvia
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8146 274.2938)" class="corpus-country">
+                                                Lithuania
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1479 274.2938)" class="corpus-country">
+                                                Luxembourg
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4812 274.2938)" class="corpus-country">
+                                                Malta
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 274.2938)" class="corpus-country">
+                                                Netherlands
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0333 274.2936)" class="corpus-country">
+                                                Poland
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 404.7938)" class="corpus-country">
+                                                Portugal
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4812 404.7938)" class="corpus-country">
+                                                Romania
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8146 404.7938)" class="corpus-country">
+                                                Slovakia
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1479 404.7938)" class="corpus-country">
+                                                Slovenia
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4812 404.7938)" class="corpus-country">
+                                                Spain
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 404.7938)" class="corpus-country">
+                                                Sweden
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0333 404.7936)" class="corpus-country">
+                                                United Kingdom
+                                            </text>
+                                        </g>
+                                        <g id="websites">
+                                            <text transform="matrix(1 0 0 1 14.1732 44)" class="corpus-news">
+                                                orf.at
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 96.1732 44)" class="corpus-news">
+                                                derstandard.at
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4811 44)" class="corpus-news">
+                                                hln.be
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 260.7311 44)" class="corpus-news">
+                                                nieuwsblad.be
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8147 44)" class="corpus-news">
+                                                offnews.bg
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 425.0647 44)" class="corpus-news">
+                                                dnevnik.bg
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1477 44)" class="corpus-news">
+                                                jutarnji.hr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 589.3977 44)" class="corpus-news">
+                                                index.hr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4814 44)" class="corpus-news">
+                                                sigmalive.com
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 753.7314 44)" class="corpus-news">
+                                                philenews.com
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 44)" class="corpus-news">
+                                                novinky.cz
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 918.0645 44)" class="corpus-news">
+                                                idnes.cz
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0334 44)" class="corpus-news">
+                                                ekstrabladet.dk
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1082.2834 44)" class="corpus-news">
+                                                dr.dk
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 163)" class="corpus-news">
+                                                delfi.ee
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 96.1732 163)" class="corpus-news">
+                                                postimees.ee
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4811 163)" class="corpus-news">
+                                                iltalehtu.fi
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 260.7311 163)" class="corpus-news">
+                                                iltasanomat.fi
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8147 163)" class="corpus-news">
+                                                lemonde.fr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 425.0647 163)" class="corpus-news">
+                                                lefigaro.fr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1477 163)" class="corpus-news">
+                                                bild.de
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 589.3977 163)" class="corpus-news">
+                                                spiegel.de
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4814 163)" class="corpus-news">
+                                                zougla.gr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 753.7314 163)" class="corpus-news">
+                                                protothema.gr
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 163)" class="corpus-news">
+                                                index.huz
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 918.0645 163)" class="corpus-news">
+                                                origo.hu
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0334 163)" class="corpus-news">
+                                                independent.ie
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1082.2834 163)" class="corpus-news">
+                                                irishtimes.ie
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 293.5)" class="corpus-news">
+                                                repubblica.it
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 96.1732 293.5)" class="corpus-news">
+                                                corriere.it
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4811 293.5)" class="corpus-news">
+                                                tvnet.lv
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 260.7311 293.5)" class="corpus-news">
+                                                delfi.lv
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8147 293.5)" class="corpus-news">
+                                                delfi.lt
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 425.0647 293.5)" class="corpus-news">
+                                                15min.lt
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1477 293.5)" class="corpus-news">
+                                                rtl.lu
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 589.3977 293.5)" class="corpus-news">
+                                                wort.lu
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4814 293.5)" class="corpus-news">
+                                                timesofmalta.com
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 753.7314 293.5)" class="corpus-news">
+                                                maltatoday.com.mt
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 293.5)" class="corpus-news">
+                                                nu.nl
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 918.0645 293.5)" class="corpus-news">
+                                                telegraaf.nl
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0334 293.5)" class="corpus-news">
+                                                wp.pl
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1082.2834 293.5)" class="corpus-news">
+                                                gazeta.pl
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 14.1732 424)" class="corpus-news">
+                                                sapo.pt
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 96.1732 424)" class="corpus-news">
+                                                publico.pt
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 178.4811 424)" class="corpus-news">
+                                                adevarul.ro
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 260.7311 424)" class="corpus-news">
+                                                hotnews.ro
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 342.8147 424)" class="corpus-news">
+                                                sme.sk
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 425.0647 424)" class="corpus-news">
+                                                topky.sk
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 507.1477 424)" class="corpus-news">
+                                                24ur.si
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 589.3977 424)" class="corpus-news">
+                                                rtvslo.si
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 671.4814 424)" class="corpus-news">
+                                                elpais.es
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 753.7314 424)" class="corpus-news">
+                                                elmundo.es
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 835.8145 424)" class="corpus-news">
+                                                aftonbladet.se
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 918.0645 424)" class="corpus-news">
+                                                expressen.se
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1000.0334 424)" class="corpus-news">
+                                                bbc.co.uk
+                                            </text>
+                                            <text transform="matrix(1 0 0 1 1082.2834 424)" class="corpus-news">
+                                                dailymail.co.uk
+                                            </text>
+                                        </g>
+                                        <g id="stroke">
+                                            <line x1="14.173" y1="30.095" x2="169.917" y2="30.095" class="corpus-line" />
+                                            <line x1="178.481" y1="30.095" x2="334.225" y2="30.095" class="corpus-line" />
+                                            <line x1="342.815" y1="30.095" x2="498.558" y2="30.095" class="corpus-line" />
+                                            <line x1="507.128" y1="30.095" x2="662.872" y2="30.095" class="corpus-line" />
+                                            <line x1="671.481" y1="30.095" x2="827.225" y2="30.095" class="corpus-line" />
+                                            <line x1="835.815" y1="30.095" x2="991.558" y2="30.095" class="corpus-line" />
+                                            <line x1="1000.033" y1="30.095" x2="1155.777" y2="30.095" class="corpus-line" />
+                                            <line x1="14.173" y1="48.52" x2="87.823" y2="48.52" class="corpus-line--under" />
+                                            <line x1="96.173" y1="48.52" x2="169.823" y2="48.52" class="corpus-line--under" />
+                                            <line x1="178.528" y1="48.52" x2="252.178" y2="48.52" class="corpus-line--under" />
+                                            <line x1="260.528" y1="48.52" x2="334.178" y2="48.52" class="corpus-line--under" />
+                                            <line x1="342.861" y1="48.52" x2="416.511" y2="48.52" class="corpus-line--under" />
+                                            <line x1="424.862" y1="48.52" x2="498.512" y2="48.52" class="corpus-line--under" />
+                                            <line x1="507.175" y1="48.52" x2="580.825" y2="48.52" class="corpus-line--under" />
+                                            <line x1="589.175" y1="48.52" x2="662.825" y2="48.52" class="corpus-line--under" />
+                                            <line x1="671.528" y1="48.52" x2="745.178" y2="48.52" class="corpus-line--under" />
+                                            <line x1="753.528" y1="48.52" x2="827.178" y2="48.52" class="corpus-line--under" />
+                                            <line x1="835.881" y1="48.52" x2="909.531" y2="48.52" class="corpus-line--under" />
+                                            <line x1="917.882" y1="48.52" x2="991.532" y2="48.52" class="corpus-line--under" />
+                                            <line x1="1000.235" y1="48.52" x2="1073.885" y2="48.52" class="corpus-line--under" />
+                                            <line x1="1082.235" y1="48.52" x2="1155.885" y2="48.52" class="corpus-line--under" />
+                                            <line x1="14.173" y1="148.785" x2="169.917" y2="148.785" class="corpus-line" />
+                                            <line x1="178.481" y1="148.785" x2="334.225" y2="148.785" class="corpus-line" />
+                                            <line x1="342.815" y1="148.785" x2="498.558" y2="148.785" class="corpus-line" />
+                                            <line x1="507.128" y1="148.785" x2="662.872" y2="148.785" class="corpus-line" />
+                                            <line x1="671.481" y1="148.785" x2="827.225" y2="148.785" class="corpus-line" />
+                                            <line x1="835.815" y1="148.785" x2="991.558" y2="148.785" class="corpus-line" />
+                                            <line x1="1000.033" y1="148.785" x2="1155.777" y2="148.785" class="corpus-line" />
+                                            <line x1="14.173" y1="167.21" x2="87.823" y2="167.21" class="corpus-line--under" />
+                                            <line x1="96.173" y1="167.21" x2="169.823" y2="167.21" class="corpus-line--under" />
+                                            <line x1="178.528" y1="167.21" x2="252.178" y2="167.21" class="corpus-line--under" />
+                                            <line x1="260.528" y1="167.21" x2="334.178" y2="167.21" class="corpus-line--under" />
+                                            <line x1="342.861" y1="167.21" x2="416.511" y2="167.21" class="corpus-line--under" />
+                                            <line x1="424.862" y1="167.21" x2="498.512" y2="167.21" class="corpus-line--under" />
+                                            <line x1="507.175" y1="167.21" x2="580.825" y2="167.21" class="corpus-line--under" />
+                                            <line x1="589.175" y1="167.21" x2="662.825" y2="167.21" class="corpus-line--under" />
+                                            <line x1="671.528" y1="167.21" x2="745.178" y2="167.21" class="corpus-line--under" />
+                                            <line x1="753.528" y1="167.21" x2="827.178" y2="167.21" class="corpus-line--under" />
+                                            <line x1="835.881" y1="167.21" x2="909.531" y2="167.21" class="corpus-line--under" />
+                                            <line x1="917.882" y1="167.21" x2="991.532" y2="167.21" class="corpus-line--under" />
+                                            <line x1="1000.235" y1="167.21" x2="1073.885" y2="167.21" class="corpus-line--under" />
+                                            <line x1="1082.235" y1="167.21" x2="1155.885" y2="167.21" class="corpus-line--under" />
+                                            <line x1="14.173" y1="279.5" x2="169.917" y2="279.5" class="corpus-line" />
+                                            <line x1="178.481" y1="279.5" x2="334.225" y2="279.5" class="corpus-line" />
+                                            <line x1="342.815" y1="279.5" x2="498.558" y2="279.5" class="corpus-line" />
+                                            <line x1="507.128" y1="279.5" x2="662.872" y2="279.5" class="corpus-line" />
+                                            <line x1="671.481" y1="279.5" x2="827.225" y2="279.5" class="corpus-line" />
+                                            <line x1="835.815" y1="279.5" x2="991.558" y2="279.5" class="corpus-line" />
+                                            <line x1="1000.033" y1="279.5" x2="1155.777" y2="279.5" class="corpus-line" />
+                                            <line x1="14.173" y1="297.925" x2="87.823" y2="297.925" class="corpus-line--under" />
+                                            <line x1="96.173" y1="297.925" x2="169.823" y2="297.925" class="corpus-line--under" />
+                                            <line x1="178.528" y1="297.925" x2="252.178" y2="297.925" class="corpus-line--under" />
+                                            <line x1="260.528" y1="297.925" x2="334.178" y2="297.925" class="corpus-line--under" />
+                                            <line x1="342.861" y1="297.925" x2="416.511" y2="297.925" class="corpus-line--under" />
+                                            <line x1="424.862" y1="297.925" x2="498.512" y2="297.925" class="corpus-line--under" />
+                                            <line x1="507.175" y1="297.925" x2="580.825" y2="297.925" class="corpus-line--under" />
+                                            <line x1="589.175" y1="297.925" x2="662.825" y2="297.925" class="corpus-line--under" />
+                                            <line x1="671.528" y1="297.925" x2="745.178" y2="297.925" class="corpus-line--under" />
+                                            <line x1="753.528" y1="297.925" x2="827.178" y2="297.925" class="corpus-line--under" />
+                                            <line x1="835.881" y1="297.925" x2="909.531" y2="297.925" class="corpus-line--under" />
+                                            <line x1="917.882" y1="297.925" x2="991.532" y2="297.925" class="corpus-line--under" />
+                                            <line x1="1000.235" y1="297.925" x2="1073.885" y2="297.925" class="corpus-line--under" />
+                                            <line x1="1082.235" y1="297.925" x2="1155.885" y2="297.925" class="corpus-line--under" />
+                                            <line x1="14.173" y1="410" x2="169.917" y2="410" class="corpus-line" />
+                                            <line x1="178.481" y1="410" x2="334.225" y2="410" class="corpus-line" />
+                                            <line x1="342.815" y1="410" x2="498.558" y2="410" class="corpus-line" />
+                                            <line x1="507.128" y1="410" x2="662.872" y2="410" class="corpus-line" />
+                                            <line x1="671.481" y1="410" x2="827.225" y2="410" class="corpus-line" />
+                                            <line x1="835.815" y1="410" x2="991.558" y2="410" class="corpus-line" />
+                                            <line x1="1000.033" y1="410" x2="1155.777" y2="410" class="corpus-line" />
+                                            <line x1="14.173" y1="428.425" x2="87.823" y2="428.425" class="corpus-line--under" />
+                                            <line x1="96.173" y1="428.425" x2="169.823" y2="428.425" class="corpus-line--under" />
+                                            <line x1="178.528" y1="428.425" x2="252.178" y2="428.425" class="corpus-line--under" />
+                                            <line x1="260.528" y1="428.425" x2="334.178" y2="428.425" class="corpus-line--under" />
+                                            <line x1="342.861" y1="428.425" x2="416.511" y2="428.425" class="corpus-line--under" />
+                                            <line x1="424.862" y1="428.425" x2="498.512" y2="428.425" class="corpus-line--under" />
+                                            <line x1="507.175" y1="428.425" x2="580.825" y2="428.425" class="corpus-line--under" />
+                                            <line x1="589.175" y1="428.425" x2="662.825" y2="428.425" class="corpus-line--under" />
+                                            <line x1="671.528" y1="428.425" x2="745.178" y2="428.425" class="corpus-line--under" />
+                                            <line x1="753.528" y1="428.425" x2="827.178" y2="428.425" class="corpus-line--under" />
+                                            <line x1="835.881" y1="428.425" x2="909.531" y2="428.425" class="corpus-line--under" />
+                                            <line x1="917.882" y1="428.425" x2="991.532" y2="428.425" class="corpus-line--under" />
+                                            <line x1="1000.235" y1="428.425" x2="1073.885" y2="428.425" class="corpus-line--under" />
+                                            <line x1="1082.235" y1="428.425" x2="1155.885" y2="428.425" class="corpus-line--under" />
+                                        </g>
+                                    </svg>
+                                    <img class="corpus-img" src="img_ch02/img_rank1.png" />
+                                    <div class="corpus-slider">
+                                        <input class="corpus-slider--selector" type="text" data-slider-min="1" data-slider-max="50" data-slider-step="1" data-slider-value="1" data-slider-tooltip="hide" />
+                                        <span class="corpus-slider--label">Image rank: <span class="corpus-slider--val">1</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <img class="protocol-img" src="../img/cap2.png">
+                                <p class="sup-p"><sup class="sup">1.</sup>We followed this sequence to clean up our csv</p>
+                                <img class="explanation-img--left" src="../img/wrangler01.png">
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <p>The patchwork shows only images that recur at least three times in the corpus. The more an image recurs in the corpus the bigger it is on the chart. In addition we put images with same content close together and the user can decide if he/she wants to see them separated or not.</p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <p>At first glance we can say that there were several groups of images that recur in different actors. The interesting fact is that there are different groups that refers to the same event and, even in group that aren’t linked to the same event, it is possible to find recurring elements. This finding shifted a little our perspective: in the beginning we were looking only for single images that had a big impact by themselves, while from these observations we realized that maybe it was worth to take a closer look to the event or element depicted rather than the image itself.</p>
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Timestamp: 27/11/2015 - 30/11/2015</h4>
+                                <h4>Data source: <a href="https://images.google.com/">Google Images</a>, <a href="http://www.alexa.com/">Alexa</a></h4>
+                                <h4><a href="https://www.dropbox.com/sh/yyxk0gemzljoe8p/AACRY2BLkOwh1Eq2v3EWTDZoa?dl=0"><i class="fa fa-arrow-circle-o-down"></i> Download data (31,4MB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <li>Agata Brilli</li>
+                            <li>Giacomo Ciurlo</li>
+                            <li>Michele Invernizzi</li>
+                            <li>Giulia Piccoli Trapletti</li>
+                            <li>Laura Toffetti</li>
+                            <li>Hou Xuanxuan</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Slider JavaScript -->
+    <script src="../js/bootstrap-slider.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

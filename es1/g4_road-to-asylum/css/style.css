@@ -1,0 +1,926 @@
+/*General style*/
+body {
+    background-color: #F7FAF4;
+    color: #4C6363;
+    font-family: 'Merriweather', serif;
+    position: relative; /*needed for ScrollSpy*/
+}
+mark {
+    background-color: #B9905A;
+    color: #F7FAF4;
+    cursor: pointer;
+    padding: 0.1em;
+}
+.popover {
+    background-color: #D5E2D3;
+    border-radius: 2px;
+    font-family: 'Merriweather', serif;
+}
+.popover-title {
+    background-color: #D5E2D3;
+    border-bottom: none;
+    color: #4C6363;
+    text-decoration: underline;
+}
+.popover.top > .arrow::after {
+    border-top-color: #D5E2D3;
+}
+.popover-content {
+    font-family: 'Lekton', sans-serif;
+}
+u.accepted {
+    color: #5DA093;
+    font-weight: 700;
+}
+u.rejected {
+    color: #925151;
+    font-weight: 700;
+}
+u.geneva {
+    color: #5DA093;
+    font-weight: 700;
+}
+u.subsidiary {
+    color: #8DBBB4;
+    font-weight: 700;
+}
+u.humanitarian {
+    color: #AAE5CF;
+    font-weight: 700;
+}
+u.isf {
+    color: #268E8E;
+    font-weight: 700;
+}
+u.amif {
+    color: #915151;
+    font-weight: 700;
+}
+footer {
+    background-color: #4C6363;
+}
+
+/*Affix style*/
+.affix {
+    background-color: #F7FAF4;
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix ~ section {
+    position: relative;
+    top: 80px; /*ricordarsi di modificarlo con l'altezza della barra finale!!!*/
+}
+.affix ~ .section-bkg--conclusion,
+.affix ~ footer {
+    position: relative;
+    top: -50px;
+}
+
+/*Hero*/
+.hero-video {
+    display: block;
+    height: auto;
+    margin: 80px auto 0;
+    max-width: 80%;
+}
+
+/*Navbar*/
+.navbar-default {
+    background-color: #F7FAF4;
+    border: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #4C6363;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #B9905A;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #B9905A;
+    outline: none;
+}
+.nav > li > a:active {
+    outline: none;
+}
+
+
+/*Sections*/
+.section-header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.section-title {
+    color: #C3945E;
+    font-family: 'Lekton', sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+.copy-title {
+    font-size: 1.9em;
+    line-height: 0.6;
+    margin-bottom: 24px;
+}
+.copy-text {
+    font-family: 'Lekton', sans-serif;
+    font-size: 1.1em;
+}
+.spaced-20 {
+    margin-top: 20px;
+}
+
+/*Phenomenon*/
+#phenomenon header {
+    margin: 80px 0;
+}
+.background {
+    background-image: url(routeMap.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-origin: border-box;
+    background-size: 100% auto;
+    height: 1050px;
+}
+.background h1 {
+    margin-top: 150px;
+}
+.copy-highlight--number {
+    color: #C3945E;
+    font-family: 'Merriweather', serif;
+    font-size: 5.6em;
+    font-weight: 700;
+    line-height: 0.8;
+    margin-top: 18px;
+    text-align: center;
+}
+.copy-highlight--text {
+    color: #C3945E;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+.right {
+    left: 70%;
+    line-height: 2.3;
+    position: relative;
+}
+/*Graph 01*/
+.graph01 {
+    height: auto;
+    margin: 50px 10% 50px;
+    width: 80%;
+}
+.graph01-chart-x line,
+.graph01-chart-y line{
+    fill:none;
+    opacity: 0.5;
+    stroke-linejoin:round;
+    stroke:#4C6363;
+    stroke-width:0.5px;
+}
+.graph01-quarters text{
+    fill:#4C6363;
+    font-family:'Lekton', sans-serif;
+    font-weight: 400;
+    font-size:11px;
+}
+.graph01-meter line,
+.graph01-meter polyline{
+    fill:none;
+    stroke-linejoin:round;
+    stroke-width:3px;
+    stroke:#4C6363;
+}
+.graph01-quantity text{
+    fill:#4C6363;
+    font-family:'Lekton', sans-serif;
+    font-weight: 400;
+    font-size:12px;
+}
+.graph01-year text{
+    fill:#4C6363;
+    font-family:'Lekton', sans-serif;
+    font-weight: 700;
+    font-size:15px;
+}
+.graph01-dots circle{
+    cursor: pointer;
+    fill:#F7FAF4;
+    stroke-width:3px;
+    stroke:#4C6363;
+    -webkit-transition: stroke 0.15s ease-in-out;
+    transition: stroke 0.15s ease-in-out; 
+}
+.graph01-dots circle:hover {
+    stroke: #C3945E;
+}
+.graph01-texture polygon {
+    fill:#4C6363;
+}
+.graph01-mline {
+    fill:none;
+    stroke-width:4px;
+    stroke:#4C6363;
+}
+.graph01-box {
+    display: none;
+}
+.graph01-box--fill {
+	fill: #BB905C;
+	opacity: 0.2;
+}
+.graph01-box--title {
+	fill: #BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+	text-decoration: underline;
+}
+.graph01-box--text {
+	fill: #BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 30px;
+    font-weight: 700;
+}
+.spaced-50 {
+    margin-top: 50px;
+}
+/* video */
+.graph-video {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.video-copy {
+    position: relative;
+}
+.video-copy .copy-text {
+    font-size: 0.9em;
+    position: absolute;
+    width: 30%
+}
+.video-copy .copy-text::before {
+    background-color: #4C6363;
+    top: -16%;
+    content:"";
+    height: 5px;
+    left: 0;
+    margin: 0 0 50%;
+    position: absolute;
+    width: 50%;
+}
+.video-text--01 {
+    top: 10%;
+    left: 15%;
+}
+.video-text--02 {
+    top: 28%;
+    left: 60%;
+}
+.video-text--03 {
+    top: 41%;
+    left: 15%;
+}
+.video-text--04 {
+    top: 54%;
+    left: 60%;
+}
+.video-text--05 {
+    top: 69%;
+    left: 15%;
+}
+.video-text--06 {
+    top: 84%;
+    left: 60%;
+}
+
+/*Reaction*/
+.bkg-reaction {
+    background-image: url(bkg-reaction.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-size: 100% auto;
+    height: 100px;
+}
+.section-title--reaction {
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+}
+.section-bkg--reaction {
+    background-color: #F1F0E5;
+}
+
+/*Graph 03*/
+.graph03 {
+    height: auto;
+    margin: 50px 10% 80px;
+    width: 80%;
+}
+.graph03-axes--line {
+	fill: none;
+	opacity: 0.1;
+	stroke-linejoin: round;
+	stroke: #4C6363;
+}
+.graph03-axes--dashnumber {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 13px;
+    font-weight: 400;
+}
+.graph03-axes--dash {
+	fill: none;
+	stroke-dasharray: 7;
+	stroke-linejoin: round;
+	stroke-width: 3px;
+	stroke: #4C6363;
+}
+.graph03-axes--number {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+}
+.graph03-axes--label {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 18px;
+    font-weight: 700;
+}
+.graph03-no--label {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 13px;
+    font-weight: 400;
+	opacity: 0.4;
+}
+.graph03-no--bar {
+	fill: #4C6363;
+	opacity: 0.4;
+}
+.graph03-yes--bar {
+	fill:#4C6363;
+}
+
+/*Graph 04*/
+.graph04 {
+    height: auto;
+    margin: 50px 0 80px;
+    width: 100%;
+}
+.graph04-text {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 700;
+}
+.graph04-accepted {
+	fill: #5DA093;
+}
+.graph04-rejected {
+	fill: #925151;
+}
+.basecolor {
+	fill: #4C6363;
+}
+.iraq {
+	fill: #BC82A1;
+}
+.kosovo {
+	fill: #B69DBA;
+}
+.albania {
+	fill: #B9905B;
+}
+.pakistan {
+	fill: #94786C;
+}
+.eritrea {
+	fill: #AB957B;
+}
+.afghanistan {
+	fill: #A3AF89;
+}
+.serbia {
+	fill: #92A091;
+}
+.syria {
+	fill: #A3BDC5;
+}
+.graph04-title {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 20px;
+    font-weight: 700;
+}
+.highlighted {
+    opacity: 0.7;
+}
+.graph04-btn--syria text {
+    fill: #C3945E;
+}
+.shadowed {
+    opacity: 0.05;
+}
+.graph04-btn--iraq,
+.graph04-btn--kosovo,
+.graph04-btn--albania,
+.graph04-btn--pakistan,
+.graph04-btn--eritrea,
+.graph04-btn--afghanistan,
+.graph04-btn--serbia,
+.graph04-btn--syria {
+    cursor: pointer;
+}
+
+/*Graph 05*/
+#reaction img {
+    margin-bottom: 50px;
+}
+.btn {
+    border-radius: 2px;
+    font-family: 'Lekton', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.btn-default {
+    background-color: transparent;
+    border-color: #4c6363;
+    color: #4c6363;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default:active, 
+.open > .dropdown-toggle.btn-default {
+    background-color: transparent;
+    border-color: #C3945E;
+    box-shadow: none;
+    color: #C3945E;
+}
+.btn-default.active, 
+.btn-default:active, 
+.open > .dropdown-toggle.btn-default {
+    border-width: 2.5px;
+    padding: 5px 12px;
+}
+.btn-flexContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.btn-flexItem {
+    width: 20%;
+    margin: 0 2% 10px;
+}
+.graph05 {
+    height: auto;
+    margin: 50px 0 0;
+    width: 100%;
+}
+.span {
+    font-style: italic;
+}
+
+/*Cooperation*/
+.bkg-cooperation {
+    background-image: url(bkg-cooperation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-size: 100% auto;
+    height: 100px;
+}
+.section-title--cooperation {
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    width: 210px;
+}
+
+/*Graph 06*/
+.graph06 {
+    height: auto;
+    margin: 0 10%;
+    position: relative;
+    top: -100px;
+    width: 80%;
+}
+.graph06-states--grey {
+	fill: #D3DDDA;
+	opacity: 0.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #F7FAF4;
+}
+.graph06-states {
+	fill: #BBC4C2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #F7FAF4;
+}
+.graph06-border {
+    fill: none;
+	stroke-linejoin: round;
+	stroke-width: 4px;
+}
+.graph06-arrow {
+    fill: none;
+	stroke-width: 3px;
+}
+.graph06-turkey {
+	stroke: #6D996B;
+}
+.graph06-lybia {
+	stroke: #975959;
+}
+.graph06-balkans {
+	stroke: #A77BA3;
+}
+.graph06-sahara {
+	stroke: #72A6CC;
+}
+.graph06-russia {
+	stroke: #6973AF;
+}
+.graph06-label--number {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+}
+.graph06-label--text {
+	fill:#4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 700;
+}
+.graph06-label--title {
+	fill:#4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 16px;
+    font-weight: 700;
+}
+.graph06-label--line {
+	fill: none;
+	opacity: 0.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #4C6363;
+}
+.graph06-circle,
+.graph06-label--circle {
+	fill: none;
+	stroke-width: 2px;
+	stroke: #268E8E;
+}
+.graph06-box {
+    display: none;
+}
+.graph06-box--fill {
+	fill: #BB905C;
+	opacity: 0.2;
+}
+.graph06-box--text {
+	fill: #BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+	text-decoration: underline;
+}
+.graph06-box--number {
+	fill: #BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 30px;
+    font-weight: 700;
+}
+.graph06-btn:hover .graph06-circle {
+    fill: #268E8E;
+}
+.graph06-btn:hover .graph06-btn--dot {
+    fill: #F7FAF4;
+}
+.graph06-btn--text {
+    cursor: pointer;
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 15px;
+    font-weight: 700;
+}
+.graph06-btn--dot {
+	fill: #4C6363;
+}
+
+/*Graph 07*/
+.graph07 {
+    height: auto;
+    margin: 50px 10%;
+    position: relative;
+    top: -50px;
+    width: 80%;
+}
+.graph07-eu {
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #DFE5E4;
+}
+.graph07-mountains {
+    fill: #476060;
+	opacity: 0.08;
+}
+.s4{
+	opacity:0.3;
+}
+.graph07-dash {
+	fill: none;
+    opacity: 0.3;
+	stroke-dasharray: 2,1,4,2,6,3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #040505;
+}
+.graph07-dash.thin {
+	stroke-width: 0.5px;
+	stroke: #476060;
+}
+.graph07-numb {
+	opacity: 0.35;
+    fill: #040505;
+}
+.graph07-circle,
+.graph07-label--circle {
+	fill: none;
+	stroke-width: 2px;
+	stroke: #915151;
+}
+.graph07-label--number {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+}
+.graph07-label--line {
+	fill: none;
+	opacity: 0.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #4C6363;
+}
+.graph07-label--title {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 15px;
+    font-weight: 700;
+}
+.graph07-btn .graph07-label--title {
+    cursor: pointer;
+}
+.graph07-btn:hover .graph07-circle {
+    fill: #915151;
+}
+.graph07-btn:hover path {
+    fill: #F7FAF4;
+}
+.graph07-label--mountain {
+	fill: #4C6363;
+	opacity: 0.55;
+}
+.graph07-label--text {
+	fill:#4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 700;
+}
+.graph07-box {
+    display: none;
+}
+.graph07-box--fill {
+	fill: #BB905C;
+	opacity: 0.2;
+}
+.graph07-box--title {
+	fill: #BB905C;
+	font-family:'Lekton', sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+	text-decoration: underline;
+}
+.graph07-box--number {
+	fill: #BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 30px;
+    font-weight: 700;
+}
+
+
+/*Graph 08*/
+.graph08 {
+    height: auto;
+    margin: 50px 10% 120px;
+    width: 80%;
+}
+.graph08-chart--line {
+	fill: none;
+    opacity: 0.5;
+	stroke-linejoin: round;
+	stroke: #D8D8D8;
+}
+.graph08-bar,
+.graph08-chart--par {
+	fill: none;
+	stroke-width: 2px;
+	stroke: #4C6363;
+}
+.graph08-chart--number {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 11px;
+    font-weight: 400;
+}
+.graph08-chart--year {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 11px;
+    font-weight: 700;
+}
+.graph08-chart--times,
+.graph08-btn--times {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 12px;
+    font-weight: 400;
+}
+.graph08-chart--info,
+.graph08-btn--text {
+	fill: #4C6363;
+	font-family: 'Lekton', sans-serif;
+	font-size: 9px;
+    font-weight: 400;
+} 
+.graph08-btn--text {
+    cursor: pointer;
+}
+.graph08-box {
+    display: none;
+}
+.graph08-box--fill {
+	fill: #BB905C;
+	opacity: 0.2;
+}
+.graph08-box--title {
+	fill:#BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 9px;
+    font-weight: 400;
+	text-decoration:underline;
+}
+.graph08-box--number {
+	fill:#BB905C;
+	font-family: 'Lekton', sans-serif;
+	font-size: 20px;
+    font-weight: 700;
+}
+.graph08-bar circle,
+.graph08-bar polygon {
+	fill: #4C6363;
+    stroke: none;
+}
+.graph08-btn:hover .graph08-btn--text,
+.graph08-btn:hover .graph08-btn--times {
+    fill: #BB905C;
+    font-weight: 700;
+}
+.graph08-btn:hover .graph08-bar rect {
+    fill: #BB905C;
+}
+.graph08-btn:hover .graph08-bar circle,
+.graph08-btn:hover .graph08-bar polygon {
+    fill: #F7FAF4;
+}
+
+/*Conclusion*/
+.bkg-conclusion {
+    background-image: url(bkg-conclusion.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-size: 100% auto;
+    height: 100px;
+}
+.section-bkg--conclusion {
+    background-color: #E5F0EB;
+}
+.section-bkg--conclusion article {
+    margin-bottom: 60px;
+}
+.conclusion {
+    margin-top: 50px;
+}
+
+/*Footer*/
+footer {
+    background-color: #4C6363;
+}
+.footer-copy {
+    padding-top: 30px;
+}
+.footer-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.footer-title {
+    font-family: 'Lekton', sans-serif;
+    font-size: 0.95em;
+    font-style: italic;
+    font-weight: 400;
+    color: #F7FAF4;
+}
+.footer-text {
+    font-family: 'Lekton', sans-serif;
+    font-weight: 400;
+    color: #F7FAF4;
+}
+.footer-img {
+    height: 40%;
+    position: relative;
+    top: 30px;
+    width: 40%;
+}
+.bottom-placeholder {
+    background-color: #4C6363;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/*Media Queries*/
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+    /*General style*/
+    a::after{
+        background-color: #B9905A;
+        bottom: 22%;
+        content:"";
+        height: 2.3px;
+        left: 0%;
+        margin: 0 8%;
+        position: absolute;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: transform 0.15s ease-in-out;
+        transition: transform 0.15s ease-in-out;
+        width: 84%;
+    }
+    .navbar-default .navbar-nav > .active > a::after{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    /*Header*/
+    .header {
+        height: 600px;
+    }
+    /*Navbar*/
+    .nav {
+        background-color: transparent;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .nav li {
+        margin: 0 70px;
+    }
+    /*Sections*/
+    
+    /*Phenomenon*/
+    #section1 {
+        padding-top: 70px;
+    }
+}

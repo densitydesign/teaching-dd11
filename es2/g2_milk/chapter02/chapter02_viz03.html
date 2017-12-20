@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>The Milk Myth</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">What about milk?</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">On Google</a>
+                    <a href="../chapter01/chapter01_viz02.html">On Wikipedia</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Is drinking milk healthy?</h5>
+                </li>
+
+                <li>
+                    <a href="chapter02_viz01.html">Inside the queries</a>
+                    <a href="chapter02_viz02.html">By authors - Category</a>
+                    <a href="chapter02_viz03.html">By authors - Topic</a>
+                    <a href="chapter02_viz04.html">Network of results</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Science vs Intermediary</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">In simple terms</a>
+                    <a href="../chapter03/chapter03_viz02.html">Common words</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Alternative users</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">#instamilk</a>
+                    <a href="../chapter04/chapter04_viz02.html">Active instagrammers</a>
+                    <a href="../chapter04/chapter04_viz03.html">Producers influence</a>
+                    <a href="../chapter04/chapter04_viz04.html">Same #hashtags</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <!-- Add your viz here -->
+                <svg version="1.1" id="legenda_attori_siti" class="col-md-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.5px" height="245.247px" viewBox="0 0 198.5 245.247" enable-background="new 0 0 198.5 245.247" xml:space="preserve">
+                    <path id="XMLID_276_" opacity="0.7" fill="#E5DCD5" d="M197.043,245.247H1.457c-0.805,0-1.457-0.763-1.457-1.704V1.704
+	C0,0.763,0.653,0,1.457,0h195.585c0.805,0,1.457,0.763,1.457,1.704v241.84C198.5,244.485,197.847,245.247,197.043,245.247z" />
+
+                    <g id="all" onclick="changeAttoriSiti('attori_siti1')">
+                        <rect id="XMLID_39_" x="41.141" y="221.847" fill="none" width="88.399" height="9.128" />
+                        <text id="XMLID_60_" transform="matrix(1 0 0 1 41.1412 230.5109)" fill="#262625" font-family="'AkkuratPro-Regular'" font-size="12">ALL</text>
+                        <rect id="XMLID_59_" x="18.615" y="219.712" opacity="0.7" fill="#BBA594" width="11.263" height="11.263" />
+                    </g>
+                    <g id="academics" onclick="changeAttoriSiti('attori_siti2')">
+                        <rect id="XMLID_353_" x="41.24" y="14.02" fill="none" width="116.236" height="9.173" />
+
+                        <text id="XMLID_364_" transform="matrix(1 0 0 1 41.2403 22.6839)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">ACADEMICS</text>
+                        <rect id="XMLID_307_" x="18.714" y="11.948" fill="#A6CFD9" width="11.263" height="11.263" />
+                    </g>
+                    <g id="experts" onclick="changeAttoriSiti('attori_siti3')">
+                        <rect id="XMLID_8_" x="41.24" y="38.925" fill="none" width="112.569" height="9.959" />
+
+                        <text id="XMLID_311_" transform="matrix(1 0 0 1 41.2403 47.5891)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">EXPERTS</text>
+                        <rect id="XMLID_309_" x="18.714" y="36.721" fill="#F29CA9" width="11.263" height="11.263" />
+                    </g>
+                    <g id="industries" onclick="changeAttoriSiti('attori_siti4')">
+                        <rect id="XMLID_103_" x="41.24" y="63.473" fill="none" width="107.903" height="9.893" />
+
+                        <text id="XMLID_343_" transform="matrix(1 0 0 1 41.2403 72.137)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">INDUSTRIES</text>
+                        <rect id="XMLID_339_" x="18.714" y="61.274" fill="#CABAD8" width="11.263" height="11.263" />
+                    </g>
+                    <g id="journalist" onclick="changeAttoriSiti('attori_siti5')">
+                        <rect id="XMLID_84_" x="41.24" y="87.963" fill="none" width="88.399" height="9.128" />
+
+                        <text id="XMLID_335_" transform="matrix(1 0 0 1 41.2403 96.6263)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">JOURNALISTS</text>
+                        <rect id="XMLID_331_" x="18.714" y="85.828" fill="#C8C882" width="11.263" height="11.263" />
+                    </g>
+                    <g id="mds" onclick="changeAttoriSiti('attori_siti6')">
+                        <rect id="XMLID_351_" x="41.24" y="112.516" fill="none" width="88.399" height="9.128" />
+
+                        <text id="XMLID_357_" transform="matrix(1 0 0 1 41.2403 121.18)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">MDs</text>
+                        <rect id="XMLID_320_" x="18.714" y="110.382" fill="#F9BD95" width="11.263" height="11.263" />
+                    </g>
+                    <g id="organizations" onclick="changeAttoriSiti('attori_siti7')">
+                        <rect id="XMLID_346_" x="41.24" y="137.07" fill="none" width="117.531" height="9.128" />
+
+                        <text id="XMLID_354_" transform="matrix(1 0 0 1 41.2403 145.7337)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">ORGANIZATIONS</text>
+                        <rect id="XMLID_329_" x="18.714" y="134.936" fill="#8AC4BF" width="11.263" height="11.263" />
+                    </g>
+                    <g id="writers" onclick="changeAttoriSiti('attori_siti8')">
+                        <rect id="XMLID_337_" x="41.24" y="161.624" fill="none" width="88.399" height="9.128" />
+
+                        <text id="XMLID_352_" transform="matrix(1 0 0 1 41.2403 170.2874)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">WRITERS</text>
+                        <rect id="XMLID_318_" x="18.714" y="159.49" fill="#AEB2BD" width="11.263" height="11.263" />
+                    </g>
+                    <g id="undefined" onclick="changeAttoriSiti('attori_siti9')">
+                        <rect id="XMLID_312_" x="41.24" y="186.414" fill="none" width="88.399" height="9.128" />
+
+                        <text id="XMLID_349_" transform="matrix(1 0 0 1 41.2403 195.0768)" fill="#2C292A" font-family="'AkkuratPro-Regular'" font-size="12">UNDEFINED</text>
+                        <rect id="XMLID_96_" x="18.615" y="184.279" fill="#B55772" width="11.263" height="11.263" />
+                    </g>
+                </svg>
+
+                <div class="col-md-10" id="grafico_attori">
+                    <div id="attori_siti1">
+                        <img src="../img/Chapter_2/viz03/all.svg" />
+                    </div>
+
+                    <div id="attori_siti2" style="display:none">
+                        <img src="../img/Chapter_2/viz03/academics.svg" />
+                    </div>
+
+                    <div id="attori_siti3" style="display:none">
+                        <img src="../img/Chapter_2/viz03/experts.svg" />
+                    </div>
+
+                    <div id="attori_siti4" style="display:none">
+                        <img src="../img/Chapter_2/viz03/industries.svg" />
+                    </div>
+
+                    <div id="attori_siti5" style="display:none">
+                        <img src="../img/Chapter_2/viz03/journalists.svg" />
+                    </div>
+
+                    <div id="attori_siti6" style="display:none">
+                        <img src="../img/Chapter_2/viz03/mds.svg" />
+                    </div>
+
+                    <div id="attori_siti7" style="display:none">
+                        <img src="../img/Chapter_2/viz03/organizations.svg" />
+                    </div>
+
+                    <div id="attori_siti8" style="display:none">
+                        <img src="../img/Chapter_2/viz03/writers.svg" />
+                    </div>
+
+                    <div id="attori_siti9" style="display:none">
+                        <img src="../img/Chapter_2/viz03/undefined.svg" />
+                    </div>
+
+                </div>
+
+                <script>
+                    function changeAttoriSiti(objName) {
+                        var obj = document.getElementById(objName);
+                        var objId = new Array();
+
+                        objId[0] = "attori_siti1";
+                        objId[1] = "attori_siti2";
+                        objId[2] = "attori_siti3";
+                        objId[3] = "attori_siti4";
+                        objId[4] = "attori_siti5";
+                        objId[5] = "attori_siti6";
+                        objId[6] = "attori_siti7";
+                        objId[7] = "attori_siti8";
+                        objId[8] = "attori_siti9";
+
+                        for (i = 0; i < objId.length; i++) {
+                            if (objName == objId[i]) {
+                                obj.style.display = "block";
+                            } else {
+                                tempObj = document.getElementById(objId[i]);
+                                tempObj.style.display = "none";
+                            }
+                        }
+                        return;
+                    }
+                </script>
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Chapter 2 - Is drinking milk healthy?</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>By authors - Topic</h1>
+
+                        <!-- Intro  -->
+                        <div id="section_giusto" class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <p>Till now we examined the different positions about a specific topic and we introduced the typology of authors present in the controversy.</p>
+
+                                <p>Here we are going to understand better how, how much and where they are speaking.</p>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <p><a href="/chapter02/chapter02_viz01.html#sec1">Inside the queries - Protocol</a></p>
+
+                                <p>The typology is defined thanks to the categories of websites found in the <strong>Wikipedia</strong> definition of “Website”, in the section “Types of websites”. This variety of typologies may be arbitrarily interpreted in any numbers of ways.</p>
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <p>The second chart shows the percentage of the different authors in each websites’ topic. As in the graph before the colors indicate the authors. The names on the top of the columns are themselves explicative of the main topic of the websites.</p>
+
+                                <p>It’s possible to see the exact percentage of the influence of a determined author in each topic, clicking on their names in the legend.</p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <p>In the second visualization the results confirm the expectation, in Health and Nutrition the main authors are experts, in Milk undefined authors, in Miscellany writers, in website about news journalist and in science and technology the authors are most academics.</p>
+
+                                <p>First of all, it’s interesting the presence of the websites where the main topic is only milk and, second, in this column all the authors are present, except for academics and journalists.</p>
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Timestamp: 21/11/2015</h4>
+                                <h4>Data source: <a href="https://www.google.com" target="_blank">Google</a></a></h4>
+                                <h4><a href="../data/chapter02_viz03_metadata.zip"><i class="fa fa-arrow-circle-o-down"></i> Download data (52KB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <li>Carola Barnaba</li>
+                            <li>Maddalena Bernasconi</li>
+                            <li>Chiara Bonsignore</li>
+                            <li>Eyleen Carolina Camargo</li>
+                            <li>Giada Casella</li>
+                            <li>Carlo Colombo</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Gruppo 3",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "IMDB keywords network",
+    "more": "",
+    "intro": ""
+  },
+  "legend": {
+    "edgeLabel": "Relationship with other keywords. Shorter is stronger",
+    "colorLabel": "Semantic category",
+    "nodeLabel": "Keyword"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "CLASS",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.1,
+      "maxNodeSize": 10.1,
+      "maxEdgeSize": 0.1,
+      "minNodeSize": 0.1
+    },
+    "drawingProperties": {
+      "labelThreshold": 15,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "straight",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

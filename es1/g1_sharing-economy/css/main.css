@@ -1,0 +1,535 @@
+body {
+    font-family: "proxima-nova", "Lato" ,sans-serif;
+    font-style: normal;
+    color: #2D2D2D;
+    background-color: #F6F7F7;
+    padding:0px;
+    margin: 0;
+}
+
+nav {
+    font-family: "inconsolata";
+    position: fixed;
+    top: 400px;
+    left:-35px;
+    transition: all 1s;
+    color: #63C2A6;
+}
+
+nav:hover {
+    left:-10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: none;
+    margin: none;
+}
+
+nav li {
+    opacity: 0.3;
+    transition: all 1s;
+    display: block;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #63C2A6;
+}
+
+nav a:hover {
+    color: #63C2A6;
+}
+
+nav a:active {
+    color: #63C2A6;
+}
+
+nav a:visited {
+    color: #63C2A6;
+}
+
+nav li:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-family:  "proxima-nova", "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.button {
+    padding: 0.3em;
+    background-color: transparent;
+    border: solid 2px #63C2A6;
+    font-family: "proxima-nova", "Lato", sans-serif;
+    font-size: 12pt;
+    color: #63C2A6;
+    text-align: center;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.button:hover {
+    background-color: #63C2A6;
+    color: #F6F7F7;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #428370;
+    color: #F6F7F7;
+    border: solid 2px #428370;
+}
+
+
+.container-fluid {
+    width: 1200px;
+    
+}
+
+.label {
+    background-color: #63C2A6;
+    color: #F6F7F7 !important;
+    font-size: 140%;
+    border-radius: 0;
+    display: block;
+    font-weight: 400 !important;;
+}
+
+.vertical-line {
+    border-left: solid 3px  #63C2A6;
+    
+    float: left;
+}
+
+ul {
+    
+    padding: none;
+    margin: none;
+    display: block;
+    float: left;
+    position: inside;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.bigTitle {
+    font-size: 400%;
+    line-height: 65px;
+    font-weight: 600;
+    
+}
+
+.sectionHeader {
+    margin-top:50px;
+}
+
+.source {
+    display: block;
+    margin-top: 30px;  
+    float: left;
+}
+
+span a {    
+    color:#63C2A6
+}
+
+span a:active {    
+    color:#63C2A6
+}
+
+span a:visited {    
+    color:#63C2A6
+}
+
+span a:hover {    
+    color:#63C2A6
+}
+/* 
+------------------------------------------------
+                LIGHT BACKGROUND 
+------------------------------------------------
+*/
+
+.light{
+    width: 100%;
+    padding: 50px;
+    min-height: 500px;
+    font-family: "proxima-nova", "Lato", sans-serif;
+    font-weight: 600;
+}
+
+.light p {
+    float: left;
+    font-weight: lighter;
+    font-size: 11pt;
+}
+
+.light h3 {
+    clear: both;
+}
+
+
+.light u {
+    color: #63C2A6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.light .title, .light h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #63C2A6;
+    padding-bottom: 3px;
+    float: left; !important;
+    margin-bottom: 40px;
+    margin-top:100px;
+    
+}
+
+.light .caption {
+    font-family: "inconsolata";
+    color: #929497;
+}
+
+/* 
+------------------------------------------------
+                DARK BACKGROUND 
+------------------------------------------------
+*/
+
+
+.dark {
+    background-color: #2D2D2D;
+    min-height: 500px;
+    color:#F6F7F7;
+    width: 100%;
+    padding: 50px;
+    min-height: 500px;
+     font-family: "proxima-nova", "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.dark p {
+
+    float: left;
+    font-weight: lighter;
+    font-size: 11pt;
+}
+
+.dark h3 {
+    clear: both;
+}
+
+
+.dark u {
+    color: #63C2A6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dark .title, .dark h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #63C2A6;
+    padding-bottom: 3px;
+    float:left;
+    margin-bottom: 40px;
+    margin-top:100px;
+     font-family: "proxima-nova", "Lato", sans-serif;
+}
+
+.dark .caption {
+    font-family: "inconsolata";
+    color: #929497;
+}
+
+/* 
+
+/* 
+------------------------------------------------
+                CATEGORY COULORS 
+------------------------------------------------
+*/
+
+.cat-1_BG {
+    background-color: #16A825;
+}
+
+.cat-1 {
+    color: #16A825;
+}
+
+.cat-2_BG {
+    background-color: #FF8CA9;
+}
+
+.cat-2 {
+    color: #FF8CA9;
+}
+
+.cat-3_BG {
+    background-color: #7BA100;
+}
+
+.cat-3 {
+    color: #7BA100;
+}
+
+.cat-4_BG {
+    background-color: #FF310D;
+}
+
+.cat-4 {
+    color: #FF310D;
+}
+
+.cat-5_BG {
+    background-color: #B05CA3;
+}
+
+.cat-5 {
+    color: #B05CA3;
+}
+
+.cat-6_BG {
+    background-color: #69489D;
+}
+.cat-6 {
+    color: #785EFF;
+}
+
+.cat-7_BG {
+    background-color: #D61129;   
+}
+
+.cat-7 {
+    color: #D61129;
+}
+
+.cat-8_BG {
+    background-color: #2462FF;
+}
+.cat-8 {
+    color: #2462FF;
+}
+
+.cat-9_BG {
+    background-color: #44A8DE;
+}
+
+.cat-9 {
+    color: #44A8DE;
+}
+
+.cat-10_BG {
+   background-color: #EC7827;
+}
+
+.cat-10 {
+    color: #EC7827;
+}
+
+.cat-11_BG {
+    background-color: #DBB900;
+}
+
+.cat-11 {
+    color: #DBB900;
+}
+
+.cat-12_BG {
+    background-color: #FF2EAB;
+}
+.cat-12 { 
+    color: #FF2EAB;
+}
+
+/* 
+------------------------------------------------
+        STYLE FOR THE STYLEGUIDE PAGE 
+------------------------------------------------
+*/
+
+#MainTitle {
+    font-size: 170pt;
+    font-weight: bolder;
+    line-height: 220px;
+    margin-top: 90px;
+    display: block;
+}
+
+.ExampleLine {
+    width: 100%;
+    height: 2px;
+    float: left;
+}
+
+.CatTitle {
+    float: left;
+    font-family: "inconsolata";
+}
+
+.CatExampleContainer {
+    height: 35px;
+}
+
+.CaptionContainer {
+    height: 150px;
+}
+
+
+/* 
+------------------------------------------------
+        STYLE FOR THE INDEX PAGE 
+------------------------------------------------
+*/
+
+
+/* 
+----------------------
+        SECTION-1 
+----------------------
+*/
+
+#section-1 {
+ min-height: 900px;      
+}
+
+#section-1 article {
+    margin-bottom: 50px;
+    margin-top: -150px;
+}
+
+#sec-1_img-1 {
+    width: 960px;
+    height: 560px;
+}
+
+/* 
+----------------------
+        SECTION-2
+----------------------
+*/
+
+#section-2 {
+       
+}
+
+#sec-2_img-1 {
+    width: 800px;
+    height: 781px;
+    margin-top: -400px
+}
+
+/* 
+----------------------
+        SECTION-3 
+----------------------
+*/
+
+#section-3 {
+       
+}
+
+#sec-3_img-1 {
+   width: 1200px;
+}
+
+.years {
+    margin: 0px 0px 20px 0px;
+}
+
+.year-label {
+    padding: 0.3em;
+    color: #63C2A6 ;
+    font-family: "proxima-nova", "Lato", sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    transition: all 0.5s;
+    font-weight: 400;
+}
+
+#sec-3_img-2 {
+   width: 800px;
+}
+
+.buttons-div {
+    margin-top:20px;
+}
+
+#sec-3_img-3{
+    width: 600px;
+}
+
+#sec-3_img-4 {
+   width: 800px;
+}
+
+#sec-3_img-6 {
+   margin-top: 30px;
+    width: 1200px;
+}
+
+#sec-3_img-7 {
+    margin-top: -350px;
+    height: 599.96px;
+}
+/* 
+----------------------
+        SECTION-4
+----------------------
+*/
+
+#section-4 {
+       
+}
+
+
+
+#sec-4_img-1 {
+    margin: 30px 0 ;
+    width: 1200px;
+}
+
+#sec-4_img-2 {
+    width: 800px;
+}
+
+/* 
+----------------------
+        SECTION-5
+----------------------
+*/
+
+#section-5 {
+       
+}
+
+/* 
+----------------------
+        FOOTER
+----------------------
+*/
+
+#footer {
+    min-height: 100px;
+    height: 250px;
+    margin-bottom: -50px;
+}
+#footer a{
+    color: #F6F7F7;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: #63C2A6;
+}

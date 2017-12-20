@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1012px"
+	 height="143px" viewBox="0 0 1012 143" enable-background="new 0 0 1012 143" xml:space="preserve">
+<g id="Capa_1">
+</g>
+<g id="facingBar">
+	<text transform="matrix(1 0 0 1 218.6021 77.6035)"><tspan x="0" y="0" fill="#63C9C9" font-family="'Raleway'" font-size="18">facing: 53%</tspan><tspan x="0" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">60 films</tspan></text>
+	<rect x="221" y="38" fill="#63C9C9" width="306" height="21"/>
+</g>
+<g id="backwardsBar">
+	<text transform="matrix(1 0 0 1 396.2271 77.6035)"><tspan x="0" y="0" fill="#457F6F" font-family="'Raleway'" font-size="18">backwards: 6,2%</tspan><tspan x="47.441" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">7 films</tspan></text>
+	<rect x="527" y="38" fill="#457F6F" width="34" height="21"/>
+</g>
+<g id="profileBar">
+	<text transform="matrix(1 0 0 1 543.3008 77.6035)"><tspan x="0" y="0" fill="#FFBB62" font-family="'Raleway'" font-size="18">profile: 12,4%</tspan><tspan x="28.428" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">14 films</tspan></text>
+	<rect x="561" y="38" fill="#FFBB62" width="71" height="21"/>
+</g>
+<g id="combinedBar">
+	<text transform="matrix(1 0 0 1 628.167 102.6035)"><tspan x="0" y="0" fill="#FF8062" font-family="'Raleway'" font-size="18">combined: 23%</tspan><tspan x="37.378" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">26 films</tspan></text>
+	<rect x="632" y="38" fill="#FF8062" width="132" height="21"/>
+	<line fill="none" stroke="#FF8062" stroke-miterlimit="10" x1="655.5" y1="61" x2="655.5" y2="87"/>
+</g>
+<g id="nokinesicBar">
+	<text transform="matrix(1 0 0 1 663.4453 77.6035)"><tspan x="0" y="0" fill="#B23B3F" font-family="'Raleway'" font-size="18">not applicable: 5,4%</tspan><tspan x="120.594" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">6 films</tspan></text>
+	<rect x="764" y="38" fill="#B23B3F" width="30" height="21"/>
+</g>
+</svg>

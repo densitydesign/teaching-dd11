@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="combobox">
+        <div id="gender" class="styled-select peach">
+            <select id='genderCombo' onchange='genderComboChange();'>
+                <option value='-1' title='-select one-'>Select gender</option>
+                <option value='0' title='Male'>Male</option>
+                <option value='1' title='Female'>Female</option>
+                <option value='2' title='Female - Pregnant'>Female (pregnant)</option>
+            </select>
+        </div>
+
+        <div id="age" class="styled-select peach">
+            <select id='ageCombo' onchange='ageComboChange();'>
+                <option value='-1' title='-select gender first-'>Select age</option>
+            </select>
+        </div>
+
+        <div id="tgt"></div>
+        <div id="combo_img"></div>
+    </div>
+    <script src="../js/scripts.js" type="text/javascript"></script>
+
+</body>
+
+</html>

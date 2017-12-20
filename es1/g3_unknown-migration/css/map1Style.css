@@ -1,0 +1,66 @@
+/**  FIRST - MAP  **/
+#firstMap {
+	width: 100%;
+	height: 800px;
+	background-color: #27303a;
+	overflow: hidden;
+}
+#firstMapInfo {
+	width: 321px;
+	height: 550px;
+	margin-left: 107px;
+	margin-top: 50px;
+	float: left;
+	padding-top: 20px;
+}
+#firstMapSVG {
+	width: 749px;
+	height: 782px;
+	float: right;
+}
+#firstMapInfoDescp {
+	width: 321px;
+	height: 130px;
+}
+#firstMapInteraction {
+	width: 321px;
+	height: 100px;
+	margin-top: 300px;
+}
+#map1PreviewAustria, #map1PreviewBelgium, #map1PreviewBulgaria, #map1PreviewCroatia, #map1PreviewCyprus, #map1PreviewCzech, #map1PreviewDenmark, #map1PreviewEstonia, #map1PreviewFinland, #map1PreviewFrance, #map1PreviewGermany, #map1PreviewGreece, #map1PreviewHungary, #map1PreviewIceland, #map1PreviewIreland, #map1PreviewItaly, #map1PreviewLatvia, #map1PreviewLithuania, #map1PreviewLuxemburg, #map1PreviewMalta, #map1PreviewNetherlands, #map1PreviewNorway, #map1PreviewPoland, #map1PreviewPortugal, #map1PreviewRomania, #map1PreviewSlovakia, #map1PreviewSlovenia, #map1PreviewSpain, #map1PreviewSweden, #map1PreviewSwitzerland, #map1PreviewUK {
+	width: 321px;
+	height: 100px;;
+	display: none;
+}
+
+.map1Austria:hover, .map1Belgium:hover, .map1Bulgaria:hover, .map1Croatia:hover, .map1Cyprus:hover, .map1Czech:hover, .map1Finland:hover, .map1Hungary:hover, .map1Iceland:hover, .map1Ireland:hover, .map1Latvia:hover, .map1Lithuania:hover, .map1Luxemburg:hover, .map1Malta:hover, .map1Norway:hover, .map1Poland:hover, .map1Portugal:hover, .map1Romania:hover, .map1Slovakia:hover, .map1Slovenia:hover, .map1Switzerland:hover {
+	fill: #ff8062;
+	transition: 0.3s all linear;
+}
+
+.map1Denmark:hover path, .map1France:hover path, .map1Estonia:hover path, .map1Germany:hover path, .map1Greece:hover path, .map1Italy:hover path, .map1Netherlands:hover path, .map1Spain:hover path, .map1Sweden:hover path, .map1UK:hover path {
+	fill: #ff8062;
+	transition: 0.3s all linear;
+}
+#map1label {
+	width: 321px;
+	height: 25px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 1.1em; 
+	color: #ff8062;
+}
+#map1Titoletto {
+	width: 321px;
+	height: 50px;
+	margin-top: 0px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 1em; 
+	color: #FFF;
+}
+/**  FIRST - MAP  -  END **/
+
+
+
+

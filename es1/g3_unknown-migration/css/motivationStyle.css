@@ -1,0 +1,115 @@
+#motivationsTab {
+	width: 1298px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#motivationsTabBackground {
+	width: 100%;
+	height: 30px;
+}	
+#motivationsTab ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#motivationsTab ul li {
+	display: block;
+	width: 214px;
+	height: 25px;
+	padding-top: 5px;
+	border-style: solid;
+	border-color: #EAE2CC;
+	border-width: 0px 1px 0 1px;
+	float: left;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	font-weight: 700;
+	cursor: pointer;
+}
+.motivationsTabActive {
+	background-color: #EAE2CC;
+	color: #27303A;
+}
+.motivationsTabNonActive {
+	background-color: #27303A;
+	color: #EAE2CC;
+}
+#motivationViz {
+	width: 100%;
+	height: 700px;
+	margin-top: 10px;
+}
+.incomeViz, .languageViz, .gdpViz, .qualityViz, .labourViz {
+	display: none;
+}
+#vizDescp {
+	width: 321px;
+	height: 180px;
+	font-family: 'Merriweather', serif;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+#motivationLeyend {
+	width: 214px;
+	height: 400px;
+}
+#languageViz {
+	width: 640px;
+	height: 640px;
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+}
+#incomeViz {
+	width: 1062px;
+	height: 573px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#gdpViz {
+	width: 740px;
+	height: 570px;
+	float: left;
+	margin-top: 40px;
+}
+#qualityViz {
+	width: 572px;
+	height: 535px;
+	float: left;
+	margin-top: 50px;
+}
+#labourViz {
+	width: 578px;
+	height: 617px;
+	margin-left: 80px;
+	float: left;
+	margin-top: 10px;
+}
+.noDescp {
+	height:auto !important;
+}
+
+/** P R O X I M I T Y **/
+
+#proximityViz {
+	width:810px;
+	height:730px;
+	float: right;
+}
+
+#irelandProx2, #unitedkingdomProx2, #norwayProx2, #swedenProx2, #finlandProx2, #estoniaProx2, #latviaProx2, #lithuaniaProx2, #denmarkProx2, #luxembourgProx2, #italiaProx2, #franceProx2, #portugalProx2, #spainProx2, #greeceProx2, #bulgariaProx2, #romaniaProx2, #croatiaProx2, #hungaryProx2, #maltaProx2, #sloveniaProx2, #switzerlandProx2, #austriaProx2, #slovakiaProx2, #czechrepublicProx2, #polandProx2, #germanyProx2, #liechtensteinProx2, #netherlandsProx2, #belgiumProx2  {
+	display: none;
+}
+
+#leyend {
+	width:321px;
+	height:650px;
+	margin-left: 107px;
+	margin-top: 30px;
+	float: left;
+}
+.turn {
+	fill: #000;
+}

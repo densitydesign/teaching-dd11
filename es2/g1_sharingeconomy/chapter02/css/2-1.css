@@ -1,0 +1,49 @@
+
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#428371;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#63C3A7;stroke-width:3.5;stroke-miterlimit:10;}
+	.st3{fill:#2D2D2D;}
+	.st4{fill:#333333;}
+	.st5{fill:#F6F7F7;}
+	.st6{font-family:'ProximaNova-Regular';}
+	.st7{font-size:12;}
+	.st8{display:none;}
+	.st9{display:inline;}
+	.st10{fill:none;stroke:#909296;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#909296;stroke-miterlimit:10;stroke-dasharray:3.0028,3.0028;}
+	.st12{fill:#F6F7F6;}
+	.st13{fill:#929497;}
+	.st14{fill:none;stroke:#909296;stroke-miterlimit:10;stroke-dasharray:3.0003,3.0003;}
+	.st15{display:inline;fill:none;stroke:#F6F7F6;stroke-miterlimit:10;}
+	
+		.st16{display:inline;fill:none;stroke:#686868;stroke-width:0.5672;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:0.5672,1.1344;}
+	.st17{display:inline;fill:url(#XMLID_118_);}
+	.st18{display:inline;fill:none;stroke:#41806F;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st19{display:inline;fill:url(#XMLID_119_);}
+	.st20{fill:none;stroke:#909296;stroke-miterlimit:10;stroke-dasharray:2.9903,2.9903;}
+	.st21{display:inline;fill:none;stroke:#F6F7F7;stroke-miterlimit:10;}
+	.st22{display:inline;fill:url(#XMLID_121_);}
+	.st23{display:inline;fill:url(#XMLID_122_);}
+	
+		.st24{display:inline;fill:#F6F7F7;stroke:#686868;stroke-width:0.5672;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:0.5672,1.1344;}
+	.st25{display:inline;fill:none;stroke:#63C3A7;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st26{display:inline;fill:url(#XMLID_124_);}
+	.st27{display:inline;fill:none;stroke:#909296;stroke-miterlimit:10;stroke-dasharray:3;}
+	.st28{display:inline;fill:none;stroke:#929497;stroke-width:2;stroke-miterlimit:10;}
+	.st29{display:inline;fill:none;stroke:#A2D7C7;stroke-width:3;stroke-miterlimit:10;}
+	.st30{fill:#A2D7C7;}
+    .st31{
+        opacity:0;
+}
+.active_link{
+    font-family: "ProximaNova-Bold";
+    font-weight: 600;
+/*
+    fill: #63c2a6; 
+    color: #63c2a6; 
+*/
+    text-decoration: line-through;
+}
+.menu{
+    cursor: pointer;
+}

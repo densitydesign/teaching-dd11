@@ -1,0 +1,61 @@
+.showyear {
+    display:block;
+}
+
+.button {
+    cursor: pointer;
+    fill: #4D4D4D;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    fill: #fff;
+}
+
+.wordbutton {
+    cursor: pointer;
+    fill: #4D4D4D;
+    transition: all 0.3s;
+}
+
+.wordbutton:hover {
+    cursor: pointer;
+    fill: #fff;
+}
+
+.clicked {
+    fill: #fff;
+    text-decoration: line-through;
+}
+
+.clicked-1 {
+    fill: #fff;
+    text-decoration: line-through;
+}
+
+.clicked-2 {
+    fill: #fff;
+    text-decoration: line-through;
+}
+
+.clicked-3 {
+    fill: #fff;
+    text-decoration: line-through;
+}
+
+.ShowTextOnMouseOver {
+    cursor: crosshair;
+}
+
+.ShowText {
+    fill:#fff;
+}
+
+.my-viz {
+    background-color:  #2D2D2D;
+}
+
+.CrossCursor {
+    cursor: crosshair;
+}

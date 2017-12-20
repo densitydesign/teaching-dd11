@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function clickYes() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result_yes").innerHTML = localStorage.clickcount;
+            } else {
+                document.getElementById("result_yes").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+        
+        function clickNo() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result_no").innerHTML = localStorage.clickcount;
+            } else {
+                document.getElementById("result_no").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p>
+        <button onclick="clickYes()" type="button">Click yes!</button>
+        <button onclick="clickNo()" type="button">Click no!</button>
+    </p>
+    <div id="result_yes">0</div>
+    <div id="result_no">0</div>
+    
+</body>
+
+</html>

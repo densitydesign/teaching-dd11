@@ -1,0 +1,1249 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'serif72_beta_rgbold';
+    src: url('../fonts/serif72beta-bold-webfont.eot');
+    src: url('../fonts/serif72beta-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/serif72beta-bold-webfont.woff2') format('woff2'),
+         url('../fonts/serif72beta-bold-webfont.woff') format('woff'),
+         url('../fonts/serif72beta-bold-webfont.ttf') format('truetype'),
+         url('../fonts/serif72beta-bold-webfont.svg#serif72_beta_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'serif72_betablack';
+    src: url('../fonts/serif72beta-black-webfont.eot');
+    src: url('../fonts/serif72beta-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/serif72beta-black-webfont.woff2') format('woff2'),
+         url('../fonts/serif72beta-black-webfont.woff') format('woff'),
+         url('../fonts/serif72beta-black-webfont.ttf') format('truetype'),
+         url('../fonts/serif72beta-black-webfont.svg#serif72_betablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+    background-image: url(../images/video_simulation.png);
+}
+.right {
+    float: right !important;
+}
+.left {
+    float: left !important;
+}
+#moveDown {
+    width: 80px;
+    height: 40px;
+    background-image: url(../images/moveDown.png);
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#moveDown:hover {
+    opacity: 1;
+}
+#arrowsInstrucion {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    position: fixed;
+    z-index: 5555;
+    background-image: url(../images/arrow_keys_please.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+  	transition: 1s opacity;
+}
+h {
+	color: #000;
+}
+h1 {
+	width: 600px;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	font-family: 'serif72_betablack';
+	font-size: 3em;
+	text-align: center;
+	color: white;
+}
+h2 {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'serif72_betablack';
+	font-size: 1.8em;
+	text-align: center;
+	color: white;
+}
+#titlesContent {
+	width: 100%;
+	height: 85%;
+	padding-top: 20%;
+}
+#titles3 h1 {
+	border: none;
+	font-size: 6em;
+}
+
+#titles4 {
+	background-color: rgba(10,0,0,0.8);
+}
+
+/** MENU **/
+
+#menu {
+	width: 20px;
+	height: 60%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	position: fixed;
+	z-index: 9999;
+}
+##menu li a {
+	width 10px;
+	height: 10px;
+	display: block;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+
+/** INTRODUCTION **/
+#introduction {
+    background-color: #ea5f44;
+}
+#introduction p {
+    width: 75%;
+    height: 266px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'serif72_beta_rgbold';
+    color: #FFF;
+    font-size: 2.2em;
+    
+}
+
+/** INTRO GENERATOR **/
+#introGenerator {
+    background-image: url(../images/introGenerator_ornament);
+    background-repeat: repeat-x;
+    background-position: bottom;
+	background-color: #76ad92;
+}
+#introGenImg {
+    width: 490px;
+	height: 347px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 12%;
+}
+
+/** GENERATOR **/
+#generatorSection {
+    background-image: url(../images/generator_ornament);
+    background-repeat: repeat-x;
+    background-position: top;
+	background-color: #D2D2C5;
+}
+#generatorSubSection {
+	width: 90%;
+	height: 100%;
+    padding-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#generatorSubSectionStats {
+    width: 90%;
+	height: 90%;
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: none;
+}
+#genItem {
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin-left: 2px;
+    overflow: hidden;
+}
+#genStepsIndex {
+    width: 300px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+#stepIndex {
+    float: left;
+    color: #EA5F44;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+.stepActive {
+    opacity: 1;
+}
+.stepOff {
+    opacity: 0.2;
+    color: #333 !important;
+    font-size: 0.5em;
+}
+#genLogo {
+    width: 300px;
+    height: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#genImputNameWrapper {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#imputName {
+    width: 298px;
+    height: 50px;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-indent: 5px;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+}
+#genCtrlTitle {
+    width: 300px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    font-size: 1.5em;
+}
+
+#genCtrlDropsWrapper {
+    width: 300px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#genCtrlButtonsWrapper {
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+}
+#selectorItem {
+    width: 300px;
+    height: 80px;
+}
+#selectorTitleWrapper {
+    width: 300px;
+    height: 35px;
+}
+#selectorTitle {
+    width: 285px;
+    height: 35px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: #EA5F44;
+}
+#selectorArrow {
+    width: 15px;
+    height: 25px;
+    padding-top: 10px;
+    float: right;
+}
+#selectorAlert {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #9b9b92;
+}
+.alertDisplay {
+    display: none;
+    margin-top: -66px;
+	font-style: normal !important;
+    font-size: 1em !important;
+    color: #EA5F44 !important;
+}
+.alertDisplayPreset {
+    display: none;
+	font-style: normal !important;
+    font-size: 1em !important;
+    color: #EA5F44 !important;
+}
+.turned {
+    transform: rotate(180deg);
+}
+.aestheticAspects, .lifeAspects {
+    display: none;
+}
+.skipPreset {
+	display: none;
+}
+#genItemStats {
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.genItemStatsCenter {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: #000;
+    border-right-color: #000;
+    border-left-width: 1px;    
+    border-right-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#statsItemsWrapper {
+    width: 1010px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#statsTitle {
+    width: 100%;
+    height: 40px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    font-size: 1.5em;
+}
+#genStatTitle {
+    width: 300px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1em;
+}
+#genStatBlank {
+    width: 300px;
+    height: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#treeMap {
+    width: 145px;
+    height: 145px;
+    float: left;
+}
+#treeMapLeyend {
+    width: 155px;
+    height: 145px;
+    float: left;
+}
+#treeMapLeyendItem {
+    width: 165px;
+    height: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #000;
+}
+box {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+#statsButtonsWrapper {
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+/** WHY SECTION **/
+#whySection {
+    background-image: url(../images/why_ornament.png);
+    background-repeat: repeat-x;
+    background-position: top;
+	background-color: #ea5f44;
+}
+#whyIndex {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 9999;
+}
+#why1 {
+    width: 100%;
+    height: 100%;
+}
+#plusInfo {
+    width: 155px;
+    height: 100%;
+    float: left;
+}
+#plusInfo img {
+    margin-top: 500px;
+    margin-left: -115px;
+    cursor: pointer;
+}
+#plusInfo img:hover {
+    margin-left: 0px;
+    transition: 0.2s all linear;
+}
+#whytext {
+    width: 100%;
+    height: 91%;
+    padding-top: 9%;
+    margin-left: 155px;
+}
+#whyText1 {
+    width: auto;
+    height: auto;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    font-size: 2em;
+}
+#whyText2 {
+    width: auto;
+    height: auto;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+#whyReasons {
+    width: 900px;
+    height: 280px;
+
+}
+#whyItem {
+    width: auto;
+    height: 280px;
+    float: left;
+}
+
+#whyItemNumber {
+    width: auto;
+    height: auto;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    font-size: 7em;
+    float: left;
+}
+#whyItemText {
+    width: 270px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 22px;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    font-size: 1.5em;
+    float: left;
+}
+#whyGraphSmall {
+    width: 364px;
+    height: 144px;
+}
+#why2 {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #76ad92;
+}
+#why2Content {
+    width: 100%;
+    height: 92%;
+    padding-top: 8%;
+}
+#closeWhy2 {
+    position: relative;
+    z-index: 9999;
+    float: right;
+    cursor: pointer;
+    margin: 10px 10px 0px 0px;
+}
+#statsTitle2 {
+    width: 950px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'serif72_betablack';
+    color: #FFF;
+    font-size: 1.5em;
+}
+#whyGraphBig {
+    width: 950px;
+    height: 486px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/** COMPARISON INTRO **/
+#greenConector {
+	background-color: #76ad92;
+}
+#redConector {
+	background-color: #ea5f44;
+}
+#comparisonIntro {
+    width: 75%;
+    height: 85%;
+    padding-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'serif72_beta_rgbold';
+    color: #FFF;
+    font-size: 2.2em;
+}
+#comparisonIntro #page9Name {
+    font-family: 'serif72_beta_rgbold';
+    color: #FFF;
+    font-size: 2.2em;
+}
+
+
+
+/** CONFRONT **/
+
+#confrontSection {
+    height: auto;
+	background-color: #d2d2c5;
+}
+#confrontScroll {
+    width: 72px;
+    height: 95%;
+    padding-top: 5%;
+    float: left;
+    position: relative;
+    z-index: 9999;
+    display: none;
+}
+#confrontScroll img {
+    margin-top: 211px;    
+}
+
+
+@media all and (max-width:1080px) and (min-width:100px) {
+#confrontScroll {
+    display: none;
+}  
+}
+#confrontColWrapper {
+    height: 95%;
+    width: 1080px;
+    padding-top: 7%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+#confrontCol_1_2 {
+    width: 720px;
+    height: 560px;
+    float: left;
+}
+.scrollingModules {
+    height: 350px;
+    width: 720px;
+    overflow-y: auto;
+	
+}
+.hideScrollingBar::-webkit-scrollbar { 
+	width: 0 !important 
+}
+#titlesCol_1_2 {
+    width: 100p%;
+    height: 56px;
+}
+#titlesCol_1_2 img, #confrontYouTitle img {
+    margin-left: 70px;
+}
+#titlesTextCol_1_2 {
+    width: 100%;
+    height: 80px;
+}
+#confrontCol_3 {
+    width: 360px;
+    height: 490px;
+    overflow: hidden;
+    float: right;
+}
+#confrontMoviesTitle{
+    width: 314px;
+    height: 56px;
+    padding-left: 45px;
+    float: left;
+}
+#confrontPeopleTitle{
+    width: 333px;
+    height: 56px;
+    padding-left: 25px;
+    float: left;
+    border-left-style: dotted;
+    border-left-color: #000;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-right-color: #000;
+    border-right-width: 1px;
+}
+#confrontYouTitle {
+    width: 304px;
+    height: 56px;
+    padding-left: 55px;
+}
+
+#confrontMoviesDescp {
+    width: 359px;
+    height: 60px;
+    padding-top: 20px;
+    font-family: 'serif72_betablack';
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+    float: left;
+    text-align: center;
+}
+#confrontPeopleDescp {
+    width: 358px;
+    height: 60px;
+    padding-top: 20px;
+    font-family: 'serif72_betablack';
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+    float: left;
+    text-align: center;
+    border-left-style: dotted;
+    border-left-color: #000;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-right-color: #000;
+    border-right-width: 1px;
+}
+#confrontYouDescp {
+    width: 359px;
+    height: 40px;
+    padding-top: 20px;
+    font-family: 'serif72_betablack';
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.moduloFilm {
+    width: 718px;
+    height: 330px !important;
+    border-right: dotted;
+    border-right-width: 1px;
+}
+#16 {
+    width: 718px;
+    height: 330px !important;
+}
+#moduloCinema {
+    width: 359px;
+    height: 100%;
+    float: left;
+    border-right: dotted;
+    border-right-width: 1px;
+}
+#moduloIMDB {
+    width: 358px;
+    height: 100%;
+    float: right;
+}
+#filmTitle {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+#youtubeTrailer {
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#filmInfo {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#characterPhoto {
+    width: 104px;
+    height: 94px;
+    float: left;
+    margin-right: 10px;
+}
+#characterName {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.3em;
+}
+#characterDescp {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1em;
+    font-weight: 300;
+}
+#imdbNumber {
+    width: 100%;
+    height: 25px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    text-align: center;
+    font-size: 1.1em;
+}
+#chartKeywords {
+    width: 218px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+#percentNoCriminal {
+    height: 20px;
+    float: left;
+    text-align: left;
+    text-indent: 2px;
+    background-color: #76AE93;
+}
+#percentCriminal {
+    height: 20px;
+    float: right;
+    text-align: right;
+    background-color: #EB5F44;
+}
+#keywordsWrapper {
+    width: 300px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    overflow-y: auto;
+}
+neg {
+    color: #EB5F44;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+pos {
+    color: #76AE93;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+neu {
+    color: rgba(0,0,0,0.8);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.personShort {
+    height: 20px !important;
+    margin-top: 0px !important;
+    overflow: hidden;
+    font-size: 0.8em;
+    font-family: 'serif72_beta_rgbold';
+    color: #76AE93;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(255,255,255,1);
+}
+.personShort:hover {
+    height: 315px !important;
+    transition: 1s;
+    color: #FFF;
+}
+#yorSelectionChartWrapper {
+    width: 360px;
+    height: 350px;
+    overflow: hidden;
+}
+#yourSelectionLeftLeyend {
+    width: 33px;
+    height: 320px;
+    float: left;
+}
+#yourBarChartWrapper {
+    width: 327px;
+    height: 350px;
+    float: left;
+}
+#yourBarChartItem {
+    width: 71px;
+    height: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+#yourBarChartItemTitle {
+    width: 71px;
+    height: 54px;
+    padding-top: 5px;
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.barWrapper {
+    height: 293px;
+	width: 71px;
+}
+#yourBarChartItem li {
+    width: 71px;
+    height: 4px;
+    display: block;
+}
+.noMatchYour {
+    background-color: rgba(0,0,0,0.1);
+}
+.previousMatch {
+    background-color: rgba(0,0,0,0.2);
+}
+.matchingGender {
+    background-color: #C46687; 
+}
+.matchingAge {
+    background-color: #5EB46C; 
+}
+.matchingEthnicity {
+    background-color: #6669C4; 
+}
+.matchingWork {
+    background-color: #006E89; 
+}
+
+
+/** MOZAIC SECTION **/
+#mozaicoSection {
+	background-color: #d2d2c5; 
+}
+#mozaicContentWrapper{
+    width: 1080px;
+    width: 1080px;
+    height: auto;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mozaicIndex {
+    width: 937px;
+    height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 10px;
+}
+#mozaicIndexText {
+    width: 500px;
+    height: 100px;
+    float: left;
+}
+#mozaicLeyend {
+    width: 413px;
+    height: 100px;
+    float: right;
+}
+#mozaicExplanation {
+    width: 440px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #656561;
+}
+#mozaicTitle {
+    width: 360px;
+    height: 35px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    font-size: 1.5em;
+}
+#mozaicWrapper {
+    width: 937px;
+    height: 538px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mozaicItem {
+    width: 102px;
+    height: 0px;
+    float: left;
+    margin: 1px;
+    padding-top: 65px;
+    overflow: hidden;
+}
+#mozaicItem a {
+    text-decoration: none;
+}
+#mozaicItemText {
+    width: 100%;
+    height: 33px;
+    background-color: #F5BA4B;
+    padding: 2px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+#mozaicItem:hover {
+    height: 35px;
+    padding-top: 30px;
+    transition: 0.2s;
+}
+#mozaicItem i {
+    font-size: 0.8em;
+    color: #555;
+    margin-left: 2px;
+}
+
+.film1-1 {
+    background-image: url(../images/char_red_green/a%20better%20life_carlos.jpg);
+}
+.film2-1 {
+    background-image: url(../images/char_red_green/a%20better%20life_luis.jpg);
+}
+.film3-1 {
+    background-image: url(../images/char_red_green/a%20day%20without%20a%20mexican_joe.jpg);
+}
+.film4-1 {
+    background-image: url(../images/char_red_green/a%20day%20without%20a%20mexican_illegal%20migrant.jpg);
+}
+.film5-1 {
+    background-image: url(../images/char_red_green/a%20day%20witohut%20a%20mexican_jose.jpg);
+}
+.film6-1 {
+    background-image: url(../images/char_red_green/alambrista_roberto.jpg);
+}
+.film7-1 {
+    background-image: url(../images/char_red_green/america101_angel.jpg);
+}
+.film8-1 {
+    background-image: url(../images/char_red_green/america101_carlos.jpg);
+}
+.film9-1 {
+    background-image: url(../images/char_red_green/ask%20the%20dust_camila.jpg);
+}
+.film10-1 {
+    background-image: url(../images/char_red_green/border%20cop_illegal%20migrant%20captured.jpg);
+}
+.film11-1 {
+    background-image: url(../images/char_red_green/border%20cop_pregnant%20woman%20copy.jpg);
+}
+.film12-1 {
+    background-image: url(../images/char_red_green/border%20incident_illegals.jpg);
+}
+.film13-1 {
+    background-image: url(../images/char_red_green/bread%20and%20roses_maya.jpg);
+}
+.film14-1 {
+    background-image: url(../images/char_red_green/bread%20and%20roses_rosa.jpg);
+}
+.film15-1 {
+    background-image: url(../images/char_red_green/broken%20border_pablo.jpg);
+}
+.film16-1 {
+    background-image: url(../images/char_red_green/buscando%20a%20leti_leti.jpg);
+}
+.film17-1 {
+    background-image: url(../images/char_red_green/buscando%20a%20leti_letis%20mother.jpg);
+}
+.film18-1 {
+    background-image: url(../images/char_red_green/cellmates_emilio.jpg);
+}
+.film19-1 {
+    background-image: url(../images/char_red_green/coyote_badguy.jpg);
+}
+.film20-1 {
+    background-image: url(../images/char_red_green/coyote_j%20copy.jpg);
+}
+.film21-1 {
+    background-image: url(../images/char_red_green/crash_daniel.jpg);
+}
+.film22-1 {
+    background-image: url(../images/char_red_green/crash_maria.jpg);
+}
+.film23-1 {
+    background-image: url(../images/char_red_green/crossingover_mireya.jpg);
+}
+.film24-1 {
+    background-image: url(../images/char_red_green/espaldas%20mojadas_rafael.jpg);
+}
+.film25-1 {
+    background-image: url(../images/char_red_green/fastfoodnation_raul.jpg);
+}
+.film26-1 {
+    background-image: url(../images/char_red_green/fightingforfreedom_angelina.jpg);
+}
+.film27-1 {
+    background-image: url(../images/char_red_green/fightingforfreedom_maria.jpg);
+}
+.film28-1 {
+    background-image: url(../images/char_red_green/fightingforfreedom_oscar.jpg);
+}
+.film29-1 {
+    background-image: url(../images/char_red_green/freejolito_illegalmigrant.jpg);
+}
+.film30-1 {
+    background-image: url(../images/char_red_green/freejolito_jolito.jpg);
+}
+.film31-1 {
+    background-image: url(../images/char_red_green/freejolito_rudeguyrestaurant.jpg);
+}
+.film32-1 {
+    background-image: url(../images/char_red_green/frontera_miguel.jpg);
+}
+.film33-1 {
+    background-image: url(../images/char_red_green/frontera_paulina.jpg);
+}
+.film34-1 {
+    background-image: url(../images/char_red_green/goalthedreambegins_santiago.jpg);
+}
+.film35-1 {
+    background-image: url(../images/char_red_green/illegales_firstwoman.jpg);
+}
+.film36-1 {
+    background-image: url(../images/char_red_green/illegales_man.jpg);
+}
+.film37-1 {
+    background-image: url(../images/char_red_green/illegales_secondmigrant.jpg);
+}
+.film38-1 {
+    background-image: url(../images/char_red_green/laciudad_female.jpg);
+}
+.film39-1 {
+    background-image: url(../images/char_red_green/laciudad_firstmale.jpg);
+}
+.film40-1 {
+    background-image: url(../images/char_red_green/laciudad_secondmale.jpg);
+}
+.film41-1 {
+    background-image: url(../images/char_red_green/machete_luz.jpg);
+}
+.film42-1 {
+    background-image: url(../images/char_red_green/machete_machete.jpg);
+}
+.film43-1 {
+    background-image: url(../images/char_red_green/machete_sartana.jpg);
+}
+.film44-1 {
+    background-image: url(../images/char_red_green/malanoche_johnny.jpg);
+}
+.film45-1 {
+    background-image: url(../images/char_red_green/manoamano_1.jpg);
+}
+.film46-1 {
+    background-image: url(../images/char_red_green/manoamano_2.jpg);
+}
+.film47-1 {
+    background-image: url(../images/char_red_green/pepeandsantovsamerica_pepe.jpg);
+}
+.film48-1 {
+    background-image: url(../images/char_red_green/roadtoopportunity_julio.jpg);
+}
+.film49-1 {
+    background-image: url(../images/char_red_green/roadtoopportunity_juliosfather.jpg);
+}
+.film50-1 {
+    background-image: url(../images/char_red_green/sangredemisangre_juan.jpg);
+}
+.film51-1 {
+    background-image: url(../images/char_red_green/sangredemisangre_diego.jpg);
+}
+.film52-1 {
+    background-image: url(../images/char_red_green/sinnombre_sayra.jpg);
+}
+.film53-1 {
+    background-image: url(../images/char_red_green/sinnombre_willy.jpg);
+}
+.film54-1 {
+    background-image: url(../images/char_red_green/spanglish_cristina.jpg);
+}
+.film55-1 {
+    background-image: url(../images/char_red_green/spanglish_flor.jpg);
+}
+.film56-1 {
+    background-image: url(../images/char_red_green/sueno_antonio.jpg);
+}
+.film57-1 {
+    background-image: url(../images/char_red_green/the%20dead%20sleep%20easy_wrestler.jpg);
+}
+.film58-1 {
+    background-image: url(../images/char_red_green/thegentlemandonlamacha_character1.jpg);
+}
+.film59-1 {
+    background-image: url(../images/char_red_green/thegoldendream_chauk.jpg);
+}
+.film60-1 {
+    background-image: url(../images/char_red_green/thegoldendream_juan.jpg);
+}
+.film61-1 {
+    background-image: url(../images/char_red_green/thegoldendream_osvaldo.jpg);
+}
+.film62-1 {
+    background-image: url(../images/char_red_green/theimmigrant_firstmexican.jpg);
+}
+.film63-1 {
+    background-image: url(../images/char_red_green/theimmigrant_secondmexican.jpg);
+}
+.film64-1 {
+    background-image: url(../images/char_red_green/theriseandfalloftheiramericandream_carlos.jpg);
+}
+.film65-1 {
+    background-image: url(../images/char_red_green/theriseandfalloftheiramericandream_michael.jpg);
+}
+.film66-1 {
+    background-image: url(../images/char_red_green/theriseandfalloftheiramericandream_vijay%20copy.jpg);
+}
+.film67-1 {
+    background-image: url(../images/char_red_green/thethreeburialsofmelquiadesestrada_melquiades.jpg);
+}
+.film68-1 {
+    background-image: url(../images/char_red_green/underthesamemoon_carlos.jpg);
+}
+.film69-1 {
+    background-image: url(../images/char_red_green/underthesamemoon_enrique.jpg);
+}
+.film70-1 {
+    background-image: url(../images/char_red_green/underthesamemoon_rosario.jpg);
+}
+.film71-1 {
+    background-image: url(../images/char_red_green/undocumented_character.jpg);
+}
+.film72-1 {
+    background-image: url(../images/char_red_green/valledelagrimas_jose.jpg);
+}
+
+hGender {
+    color: #C46687;
+}
+hAge {
+    color: #5EB46C;
+}
+hSkin {
+    color: #6669C4;
+}
+hWork {
+    color: #006E89;
+}
+
+
+hl {
+    color: #FFF;
+	font-weight: 700;
+}
+
+#footer {
+    width: 100%;
+    height: 169px;
+    padding-top: 40px;
+    background-color: black;
+    bottom: 0px;
+    position: absolute;
+} 
+#footerBlocksWrapper {
+    width: 960px;
+    height: 123px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footerBlock {
+    width:280px;
+    height: 123px;
+    margin-right: 2px;
+    float: left;
+    font-family: 'serif72_beta_rgbold';
+    font-size: 16px;
+    color: #EA5F44;
+}
+#footerBlock a {
+    text-decoration: none;
+    color: #EA5F44;
+}
+#footerLogo {
+    width: 114px;
+    height: 108px;
+    padding-top: 15px;
+    float: left;
+}

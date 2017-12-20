@@ -1,0 +1,79 @@
+#person {
+	width: 225px;
+	height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;;
+    background-image: url(../images/generator_char_display_bg.png);
+    cursor: crosshair;
+}
+#person2 {
+	width: 250px;
+	height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;;
+    background-image: url(../images/generator_char_display_bg.png);
+    cursor: crosshair;
+}
+
+select {
+	width: 300px;
+    height: 30px;
+	border: none;
+	background-color: #9b9b92;
+	font-family: 'Roboto', sans-serif;
+    font-style: italic;
+	color: #FFF; 
+	font-weight: 300;
+	font-size: 1.2em;
+	-webkit-appearance:none;
+    -moz-appearance: none;
+    border-radius: 0px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    border: none;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+	color: #FFF; 
+	font-weight: 300;
+	font-size: 1.5em;
+    background-color: #76AD92;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    border-radius: 0px;
+}
+button:hover {
+    background-color: #93BCA7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.prevGenStep {
+    background-color: rgba(0,0,0,0) !important;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #76AD92;
+    color: #76AD92;
+}
+.prevGenStep:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/**
+.next1MaleChildAmerindian, .next1MaleChildBlack, .next1MaleChildMestizo, .next1MaleChildWhite, .next1MaleLess30Amerindian, .next1MaleLess30Black, .next1MaleLess30Mestizo, .next1MaleLess30White, .next1MaleMore30Amerindian, .next1MaleMore30Black, .next1MaleMore30Mestizo, .next1MaleMore30White, .next1MaleOldAmerindian, .next1MaleOldBlack, .next1MaleOldMestizo, .next1MaleOldWhite, .next1FemaleChildAmerindian, .next1FemaleChildBlack, .next1FemaleChildMestizo, .next1FemaleChildWhite, .next1FemaleLess30Amerindian, .next1FemaleLess30Black, .next1FemaleLess30Mestizo, .next1FemaleLess30White, .next1FemaleMore30Amerindian, .next1FemaleMore30Black, .next1FemaleMore30Mestizo, .next1FemaleMore30White, .next1FemaleOldAmerindian, .next1FemaleOldBlack, .next1FemaleOldMestizo, .next1FemaleOldWhite {
+    display:none;
+}
+**/
+.aestheticMaleChildAmerindian, .aestheticMaleChildBlack, .aestheticMaleChildMestizo, .aestheticMaleChildWhite, .aestheticMaleLess30Amerindian, .aestheticMaleLess30Black, .aestheticMaleLess30Mestizo, .aestheticMaleLess30White, .aestheticMaleMore30Amerindian, .aestheticMaleMore30Black, .aestheticMaleMore30Mestizo, .aestheticMaleMore30White, .aestheticMaleChildWhite, .aestheticMaleOldAmerindian, .aestheticMaleOldBlack, .aestheticMaleOldMestizo, .aestheticMaleOldWhite, .aestheticFemaleChildAmerindian, .aestheticFemaleChildBlack, .aestheticFemaleChildMestizo, .aestheticFemaleChildWhite, .aestheticFemaleLess30Amerindian, .aestheticFemaleLess30Black, .aestheticFemaleLess30Mestizo, .aestheticFemaleLess30White, .aestheticFemaleMore30Amerindian, .aestheticFemaleMore30Black, .aestheticFemaleMore30Mestizo, .aestheticFemaleMore30White, .aestheticFemaleOldAmerindian, .aestheticFemaleOldBlack, .aestheticFemaleOldMestizo, .aestheticFemaleOldWhite {
+    display: none;
+}
+
+.lifeMaleChildAmerindian, .lifeMaleChildBlack, .lifeMaleChildMestizo, .lifeMaleChildWhite, .lifeMaleLess30Amerindian, .lifeMaleLess30Black, .lifeMaleLess30Mestizo, .lifeMaleLess30White, .lifeMaleMore30Amerindian, .lifeMaleMore30Black, .lifeMaleMore30Mestizo, .lifeMaleMore30White, .lifeMaleChildWhite, .lifeMaleOldAmerindian, .lifeMaleOldBlack, .lifeMaleOldMestizo, .lifeMaleOldWhite, .lifeFemaleChildAmerindian, .lifeFemaleChildBlack, .lifeFemaleChildMestizo, .lifeFemaleChildWhite, .lifeFemaleLess30Amerindian, .lifeFemaleLess30Black, .lifeFemaleLess30Mestizo, .lifeFemaleLess30White, .lifeFemaleMore30Amerindian, .lifeFemaleMore30Black, .lifeFemaleMore30Mestizo, .lifeFemaleMore30White, .lifeFemaleOldAmerindian, .lifeFemaleOldBlack, .lifeFemaleOldMestizo, .lifeFemaleOldWhite {
+    display: none;
+}

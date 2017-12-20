@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>The Milk Myth</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">What about milk?</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">On Google</a>
+                    <a href="../chapter01/chapter01_viz02.html">On Wikipedia</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Is drinking milk healthy?</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Inside the queries</a>
+                    <a href="../chapter02/chapter02_viz02.html">By authors - Category</a>
+                    <a href="../chapter02/chapter02_viz03.html">By authors - Topic</a>
+                    <a href="../chapter02/chapter02_viz04.html">Network of results</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Science vs Intermediary</h5>
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">In simple terms</a>
+                    <a href="../chapter03/chapter03_viz02.html">Common words</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Alternative users</h5>
+                </li>
+
+                <li>
+                    <a href="chapter04_viz01.html">#instamilk</a>
+                    <a href="chapter04_viz02.html">Active instagrammers</a>
+                    <a href="chapter04_viz03.html">Producers influence</a>
+                    <a href="chapter04_viz04.html">Same #hashtags</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <!-- Add your viz here -->
+                <iframe src="../chapter04/confronto/index.html" height="650" width="1425"></iframe>
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Chapter 04 - Alternative users</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>Same #hashtags</h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <p>Once found the results from the analysis of active and the two major brand for almond milk and coconut milk, the aim is to understand if there are connections and particular influences that the brands may have on users and vice versa.</p>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <img id="tree" src="../img/Chapter_4/viz04/tree.svg" />
+                                <p>The hashtags, which appear in the captions of the first 100 pictures of @lovemysilk and of the first 100 pictures of @so_delicious (link al protocollo precedente), are extracted with <strong>websta.me</strong> and <strong>import.io</strong>. The result is compared with the users’ list of hashtags, compiled on the basis of the pictures’ captions, extracted in the same way and sorted by amount of repetition.</p>
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <p>There are four columns of hashtags, the first two are related to the brands and the third and the fourth refers to the users’. The hashtags are arranged in order from the more mentioned to the less one. The corresponding hashtags among the lists are highlighted with different colors to facilitate the detection of the same in the other columns.</p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <p>The brands focus their use of hashtags in a really small list of choices, while the users embrace several topics. An obvious conclusion, due to the fact that the amount of the users is higher and they’re different each other, but the main curiosity is that brands and hashtags have a specific word in common, that is vegan, and its declination whatveganseat for Silk and almond milk.</p>
+
+                                <p>If you consider these and the other underlined hashtags, that are protein, organic and healthy, they’re not just particularly meaningful, but they’re also always in the top-half of the lists, suggesting a mutual influence between brands and users, that are connected in some way to these two types of milk alternatives.</p>
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Timestamp: 10/12/2015</h4>
+                                <h4>Data source: <a href="https://www.instagram.com" target="_blank">Instagram</a></h4>
+                                <h4><a href="../data/chapter04_viz04_metadata.zip"><i class="fa fa-arrow-circle-o-down"></i> Download data (25KB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <li>Carola Barnaba</li>
+                            <li>Maddalena Bernasconi</li>
+                            <li>Chiara Bonsignore</li>
+                            <li>Eyleen Carolina Camargo</li>
+                            <li>Giada Casella</li>
+                            <li>Carlo Colombo</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

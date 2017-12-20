@@ -1,0 +1,96 @@
+id;source;target;weight;label;indegree
+1;Canada;legal;1;legal;1
+2;Canada;legal;1;legal;1
+3;Canada;legal;1;legal;1
+4;Canada;legal;1;legal;1
+5;United States;quality;1;quality;1
+6;United States;legal;1;legal;1
+7;United States;safety;1;safety;1
+8;United States;safety;1;safety;1
+19;Brazil;price;1;price;1
+20;Brazil;legal;1;legal;1
+21;Brazil;legal;1;legal;1
+22;Brazil;price;1;price;1
+57;Netherlands;trending;1;trending;1
+58;Netherlands;service;1;service;1
+59;Netherlands;service;1;service;1
+60;Netherlands;service;1;service;1
+65;United Kingdom;quality;1;quality;1
+66;United Kingdom;legal;1;legal;1
+67;United Kingdom;safety;1;safety;1
+68;United Kingdom;safety;1;safety;1
+89;Italy;legal;1;legal;1
+90;Italy;safety;1;safety;1
+91;Italy;legal;1;legal;1
+92;Italy;\;1;\;1
+98;Poland;quality;1;quality;1
+99;Poland;legal;1;legal;1
+100;Poland;safety;1;safety;1
+101;Poland;safety;1;safety;1
+102;Germany ;service;1;service;1
+103;Germany ;price;1;price;1
+104;Germany ;legal;1;legal;1
+105;Germany ;safety;1;safety;1
+138;France;legal;1;legal;1
+139;France;service;1;service;1
+140;France;legal;1;legal;1
+141;France;price;1;price;1
+142;Australia;legal;1;legal;1
+143;Australia;legal;1;legal;1
+144;Australia;safety;1;safety;1
+145;Australia;quality;1;quality;1
+146;Belgium;trending;1;trending;1
+147;Belgium;service;1;service;1
+148;Belgium;service;1;service;1
+149;Belgium;trending;1;trending;1
+154;China ;quality;1;quality;1
+155;China ;legal;1;legal;1
+156;China ;safety;1;safety;1
+157;China ;safety;1;safety;1
+158;Croatia;quality;1;quality;1
+159;Croatia;legal;1;legal;1
+160;Croatia;safety;1;safety;1
+161;Croatia;safety;1;safety;1
+162;Denmark;legal;1;legal;1
+163;Denmark;service;1;service;1
+164;Denmark;legal;1;legal;1
+165;Denmark;\;1;\;1
+166;India;service;1;service;1
+167;India;legal;1;legal;1
+168;India;price;1;price;1
+169;India;service;1;service;1
+170;Malaysia;legal;1;legal;1
+171;Malaysia;quality;1;quality;1
+172;Malaysia;legal;1;legal;1
+173;Malaysia;safety;1;safety;1
+174;New Zealand;quality;1;quality;1
+175;New Zealand;legal;1;legal;1
+176;New Zealand;safety;1;safety;1
+177;New Zealand;safety;1;safety;1
+178;Philippines;\;1;\;1
+179;Philippines;quality;1;quality;1
+180;Philippines;legal;1;legal;1
+181;Philippines;safety;1;safety;1
+182;South Africa;quality;1;quality;1
+183;South Africa;legal;1;legal;1
+184;South Africa;safety;1;safety;1
+185;South Africa;safety;1;safety;1
+186;South Korea;legal;1;legal;1
+187;South Korea;legal;1;legal;1
+188;South Korea;quality;1;quality;1
+189;South Korea;trending;1;trending;1
+190;Spain;legal;1;legal;1
+191;Spain;legal;1;legal;1
+192;Spain;legal;1;legal;1
+193;Spain;legal;1;legal;1
+194;Thailand;quality;1;quality;1
+195;Thailand;legal;1;legal;1
+196;Thailand;quality;1;quality;1
+197;Thailand;quality;1;quality;1
+198;Romania;legal;1;legal;1
+199;Romania;legal;1;legal;1
+200;Romania;service;1;service;1
+201;Bulgaria;quality;1;quality;1
+202;Bulgaria;legal;1;legal;1
+203;Bulgaria;safety;1;safety;1
+204;Bulgaria;safety;1;safety;1

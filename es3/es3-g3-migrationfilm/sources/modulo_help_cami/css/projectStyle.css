@@ -1,0 +1,506 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'serif72_beta_rgbold';
+    src: url('../fonts/serif72beta-bold-webfont.eot');
+    src: url('../fonts/serif72beta-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/serif72beta-bold-webfont.woff2') format('woff2'),
+         url('../fonts/serif72beta-bold-webfont.woff') format('woff'),
+         url('../fonts/serif72beta-bold-webfont.ttf') format('truetype'),
+         url('../fonts/serif72beta-bold-webfont.svg#serif72_beta_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'serif72_betablack';
+    src: url('../fonts/serif72beta-black-webfont.eot');
+    src: url('../fonts/serif72beta-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/serif72beta-black-webfont.woff2') format('woff2'),
+         url('../fonts/serif72beta-black-webfont.woff') format('woff'),
+         url('../fonts/serif72beta-black-webfont.ttf') format('truetype'),
+         url('../fonts/serif72beta-black-webfont.svg#serif72_betablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.scrollingModules {
+    height: 350px;
+    width: 720px;
+    overflow-y: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.adaptable {
+    width: 100%
+}
+#arrowsInstrucion {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    background-image: url(../images/arrow_keys_please.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+  	transition: 1s opacity;
+}
+h1 {
+	width: 560px;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	font-family: 'serif72_betablack';
+	font-size: 3em;
+	text-align: center;
+	color: white;
+}
+h2 {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'serif72_betablack';
+	font-size: 1.8em;
+	text-align: center;
+	color: white;
+}
+#titlesContent {
+	width: 100%;
+	height: 85%;
+	padding-top: 15%;
+}
+#titles3 h1 {
+	border: none;
+	font-size: 6em;
+}
+
+#titles4 {
+	background-color: rgba(10,0,0,0.8);
+	/**-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);**/
+}
+
+/** MENU **/
+
+#menu {
+	width: 20px;
+	height: 60%;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	position: fixed;
+	z-index: 9999;
+}
+##menu li a {
+	width 10px;
+	height: 10px;
+	display: block;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+/** SECTIONS **/
+#whySection {
+	background-color: #ea5f44;
+}
+#greenConector {
+	background-color: #76ad92;
+}
+
+/** INTRODUCTION **/
+#introduction {
+    background-color: #ea5f44;
+}
+#introduction p {
+    width: 75%;
+    height: 266px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'serif72_beta_rgbold';
+    color: #FFF;
+    font-size: 2.2em;
+    
+}
+
+/** INTRO GENERATOR **/
+#introGenerator {
+    background-image: url(../images/introGenerator_ornament);
+    background-repeat: repeat-x;
+    background-position: bottom;
+	background-color: #76ad92;
+}
+#introGenImg {
+    width: 490px;
+	height: 347px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 15%;
+    
+}
+
+/** GENERATOR **/
+#generatorSection {
+    background-image: url(../images/generator_ornament);
+    background-repeat: repeat-x;
+    background-position: top;
+	background-color: #D2D2C5;
+}
+#generatorSubSection {
+	width: 90%;
+	height: 90%;
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#generatorSubSectionStats {
+    width: 90%;
+	height: 90%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: none;
+}
+#genItem {
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin-left: 2px;
+    overflow: hidden;
+}
+#genItemStats {
+    width: 33%;
+    height: 90%;
+    float: left;
+    margin-left: 2px;
+    overflow: hidden;
+}
+#genStepsIndex {
+    width 100%;
+    height: 30px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+#stepIndex {
+    float: left;
+    margin-left: 9%;
+    margin-right: 5%;
+    color: #76AD92;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.stepActive {
+    opacity: 1;
+}
+.stepOff {
+    opacity: 0.2;
+    color: #333 !important;
+    font-size: 0.5em;
+}
+#genLogo {
+    width: 300px;
+    height: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#genImputNameRapper {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.2);  
+}
+#genCtrlTitle {
+    width: 300px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    font-size: 1.5em;
+}
+
+#genCtrlDropsWrapper {
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#genCtrlButtonsWrapper {
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+}
+#selectorItem {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;    
+}
+#selectorTitleWrapper {
+    width: 300px;
+    height: 35px;
+}
+#selectorTitle {
+    width: 285px;
+    height: 35px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: #EA5F44;
+}
+#selectorArrow {
+    width: 15px;
+    height: 25px;
+    padding-top: 10px;
+    float: right;
+}
+#selectorAlert {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #9b9b92;
+}
+.turned {
+    transform: rotate(180deg);
+}
+.aestheticAspects, .lifeAspects {
+    display: none;
+}
+#genItemStats {
+    width: 33%;
+    height: 85%;
+    float: left;
+    margin-left: 2px;
+    overflow: hidden;
+}
+#statsTitle {
+    width: 100%;
+    height: 40px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    font-size: 1.5em;
+}
+#genStatTitle {
+    width: 300px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1em;
+}
+#genStatBlank {
+    width: 300px;
+    height: 147px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+/** WHY SECTION **/
+
+#moveLeft{
+  top: 20px;
+  left: 20px;
+  position:absolute;
+  z-index:999;
+  font-size: 1em;
+  cursor:pointer;
+}
+#moviesSelectionChart {
+	background-color: #76ad92;
+}
+
+/** CONFRONT **/
+
+#confrontSection {
+    height: auto;
+	background-color: #d2d2c5;
+}
+#confrontColWrapper {
+    height: auto;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#confrontCol_1_2 {
+    width: 720px;
+    height: auto;
+}
+
+.moduloFilm {
+    width: 718px;
+    height: 330px !important;
+    border-right: dotted;
+    border-right-width: 1px;
+}
+#moduloCinema {
+    width: 359px;
+    height: 100%;
+    float: left;
+    border-right: dotted;
+    border-right-width: 1px;
+}
+#moduloIMDB {
+    width: 358px;
+    height: 100%;
+    float: right;
+}
+#filmTitle {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+#youtubeTrailer {
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#filmInfo {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#characterPhoto {
+    width: 104px;
+    height: 94px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#characterName {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.3em;
+}
+#characterDescp {
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1em;
+    font-weight: 300;
+}
+#imdbNumber {
+    width: 100%;
+    height: 25px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'serif72_betablack';
+    color: #000;
+    text-align: center;
+    font-size: 1.1em;
+}
+#chartKeywords {
+    width: 218px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+#percentNoCriminal {
+    height: 20px;
+    float: left;
+    text-align: left;
+    text-indent: 2px;
+    background-color: #76AE93;
+}
+#percentCriminal {
+    height: 20px;
+    float: right;
+    text-align: right;
+    background-color: #EB5F44;
+}
+#keywordsWrapper {
+    width: 324px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    overflow-y: auto;
+}
+neg {
+    color: #EB5F44;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+pos {
+    color: #76AE93;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+neu {
+    color: rgba(0,0,0,0.2);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

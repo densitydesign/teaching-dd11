@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DensityDesign 2015/2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-5816319-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+
+
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <a href="/dd11/index.html" class="text-uppercase">
+                        <i class="fa fa-home"></i> Home page
+                    </a>
+                </div>
+                <li>
+                    <h4>Migration Backstage</h4>
+                </li>
+                <li>
+                    <a href="../introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Definition of our movie corpus</h5>
+                    <!--CHAPTER 1-->
+                </li>
+
+                <li>
+                    <a href="../chapter01/chapter01_viz01.html">What films are the most relevant when searching for migration movies?</a>
+                    <!-- confronto liste-->
+                    <a href="../chapter01/chapter01_viz02.html">How do we define the selection criteria?</a>
+                    <!--box office-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Related topics</h5>
+                    <!--CHAPTER 2-->
+                </li>
+
+                <li>
+                    <a href="../chapter02/chapter02_viz01.html">Which are the most relevant themes and how are they distributed in our movies?</a>
+                    <!-- treemaps-->
+                    <a href="../chapter02/chapter02_viz02.html">How are these topics linked to each other?</a>
+                    <!--gephi-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">From where to where</h5>
+                    <!--CHAPTER 3-->
+                </li>
+
+                <li>
+                    <a href="../chapter03/chapter03_viz01.html">How nations and cultures are connected through the eyes of cinema?</a>
+                    <!-- map-->
+                </li>
+                <li>
+                    <h5 class="text-uppercase">Movies visuals </h5>
+                    <!--CHAPTER 4-->
+                </li>
+
+                <li>
+                    <a href="../chapter04/chapter04_viz01.html">Are trends identified on the pieces that film producers make to advertise their films?</a>
+                </li>
+
+                <li>
+                    <h5 class="text-uppercase">How do people react</h5>
+                    <!--CHAPTER 5-->
+                </li>
+
+                <li>
+                    <a href="../chapter05/chapter05_viz01.html">What aspects of our movies are more interesting  for spectators? How do they talk about these aspects?</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <!-- Visualization-->
+        <div id="viz">
+            <a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+            <div class="my-viz">
+                <iframe src="treemap/treemap.html"></iframe>
+                <!-- Add your viz here -->
+            </div>
+        </div>
+        <!-- End of Visualization -->
+
+        <!-- Main content  -->
+        <div id="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Side scrolling menu  -->
+                    <div class="col-md-3 text-uppercase" id="leftCol">
+                        <ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+                            <li><a href="#sec0">Introduction</a></li>
+                            <li><a href="#sec1">Protocol</a></li>
+                            <li><a href="#sec2">How to read it</a></li>
+                            <li><a href="#sec3">Findings</a></li>
+                            <li><a href="#sec4">Data</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Side scrolling menu -->
+
+                    <!-- Text  -->
+                    <div class="col-md-9 main-content">
+                        <h5 class="text-uppercase">Related topics</h5>
+                        <!-- Title of the "chapter"  -->
+                        <h1>Which are the most relevant themes and how are they distributed in our movies? </h1>
+
+                        <!-- Intro  -->
+                        <div class="section-content" id="sec0">
+                            <div class="section-text">
+                                <h3>Introduction</h3>
+                                <br/>
+                                <p>A film is a complex artwork, not only for the fact that it has several level of interpretation, but also because the story in itself connects different themes with new relations every time.
+                                    <br/> In this chapter we would like to analyze the topics that are connected to it and discover which are the ones that have more in common with the topic of migration.
+                                    <br/> In order to do that we collected the keywords on Imdb for each movies and sort them in some main topics.
+                                </p>
+                                <img src="images/tag_proportion.png">
+                                <br/>
+                                <p>This visualization explores some selected arguments (job, arts, immigration, family, criminality, cultural differences, sex, violence and security forces) and shows how they are spread out through our movies. </p>
+                            </div>
+                        </div>
+                        <!-- End of intro -->
+
+                        <!-- Protocol  -->
+                        <div class="section-content" id="sec1">
+                            <div class="section-text">
+                                <h3>Protocol</h3>
+                                <br/>
+                                <p>1. Once the 120 movie list was set, each Imdb page url of these films has been scraped using <a href="https://www.kimonolabs.com/" target="_blank">Kimono</a>.
+                                    <br/> 2. A dataset has been created with the 120 urls.
+                                    <br/> 3. We added the string “<i>/keywords?ref_=tt_stry_kw</i>” to all urls using regular expressions in Text Wrangler in order to allow an automated scraping.
+                                    <br/> 4. Using these 120 new urls, a second Kimono API was created to obtain a dataset containing all keywords related to our movies.
+                                    <br/> 5. A pivot table in Excel helped us to discover which were the most recurring keywords and to create an univocal list with 5216 keywords.
+                                    <br/> 6. We noticed that keywords were often too specific, so we decided to assign them to more general topics. The 40 more recurrent theme were: violence, travel, time, technology, sport, social issues, sex, security forces, religion, relationships, reference, politics, people, other, nationalities, media, love, language, justice, job, immigration, history, health, places, gender issues, food, film, family, emotions, education, economy, death, cultural differences, criminality, car, arts, animals, ages, addiction and sexual abuse.
+                                    <br/> 7. Once this dataset was obtained, we selected the more interesting themes in order to visualize only the more relevant issues. These themes were: violence, job, arts, immigration, family, criminality, cultural difference, sex and security forces.
+                                    <br/> 8. A single-column dataset was created for each movie containing only the tags of the topics we selected.
+                                    <br/> 9. Using <a href="http://app.raw.densitydesign.org/" target="_blank">Raw</a> we create 120 treemap visualization: the “<i>Tag</i>” value is assigned to the dimensions “<i>Hierarchy</i>” and “<i>Color</i>”. the size is given by the repetition of the tag in the movie. Height and width are set to 500 px and padding is set to 1 px.
+                                    <br/> 10. In Illustrator the 120 treemaps were assembled and colored. The graphs are disposed in a boustrophedic way (from the top left corner to the bottom left, starting from left to right, then viceversa till the bottom), following our ranking criteria (see previous chapter).
+                                    <br/> 11. Each category had a color assigned which tend to red if the topic has a more negative connotation and blue for a more positive tendency, with white in the middle for the neutral themes.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End of protocol  -->
+
+                        <!-- How to read it  -->
+                        <div class="section-content" id="sec2">
+                            <div class="section-text">
+                                <h3>How to read it</h3>
+                                <br/>
+                                <p>Each treemap of the mosaic represent one movie. They are disposed in a boustrophedic way (from the top left corner to the bottom left, starting from left to right, then vice versa till the bottom), following our ranking criteria (see previous chapter).
+                                    <br/> Each category had a color assigned which tend to red if the topic has a more negative connotation and blue for a more positive tendency, with white in the middle for the neutral themes.
+                                    <br/> By switching on each theme at the time, different patterns can be visualized. These patterns show how themes are spread out in our movies.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End of how to read it -->
+
+                        <!-- Findings  -->
+                        <div class="section-content" id="sec3">
+                            <div class="section-text">
+                                <h3>Findings</h3>
+                                <br/>
+                                <p>What is interesting to point out is that two principal kinds of patterns can be seen through this visualization. On one hand, we can see that themes characterized by evident negative connotation (criminality and violence) appear in the high zone of the visualization together with other categories (like sex and security forces) which are not characterized by a clearly negative trait but whose connotation softly tend to the negative side of the color palette.
+                                    <br/>
+                                    <br/> Family is a topic strongly present and equally spread through our films.
+                                    <br/> On the other hand, is interesting to discover that two themes such as “cultural differences” and “immigration” are more spread along the lower half of the graph than on the higher one. Despite the fact that these two categories are composed by keywords strongly related to our main theme, we can suppose that cinematographic industry prefers to attract audience levering on topics that seems more appealing (like violence and sex) while omitting other aspects more connected with migration but less attractive for the average spectators.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End of findings  -->
+
+                        <!-- Data  -->
+                        <div class="section-content" id="sec4">
+                            <div class="section-text">
+                                <h3>Data</h3>
+                                <h4>Data source: <a href="http://www.imdb.com/" target="_blank">IMDB</a></h4>
+                                <h4><a href="../data/chapter2/Keywords%20and%20tags.xls"><i class="fa fa-arrow-circle-o-down"></i> Keywords and Tags (830KB)</a></h4>
+                                <h4><a href="../data/chapter2/treemap.xls"><i class="fa fa-arrow-circle-o-down"></i> Treemap (608KB)</a></h4>
+                            </div>
+                        </div>
+                        <!-- End of data  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+        <!-- Footer - Add your names here -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>project by</h4>
+                        <ul>
+                            <ul>
+                                <li>Camila Borrero</li>
+                                <li>Pietro Cedone</li>
+                                <li><a href="https://www.behance.net/luciacosma" target="_blank">Lucia Cosma</a></li>
+                                <li><a href="http://www.sebastianforero-mcd.com" target="_blank">Sebastián Forero</a></li>
+                                <li>Giovanni Rabuffetti</li>
+                                <li>Ziqiao Xie</li>
+                            </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                        <h4>Faculty</h4>
+                        <ul>
+                            <li>Paolo Ciuccarelli</li>
+                            <li>Marco Fattore</li>
+                            <li>Stefano Mandato</li>
+                            <li>Michele Mauri</li>
+                            <li>Salvatore Zingale</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-2 col-xs-12">
+                        <h4>Teaching Assistants</h4>
+                        <ul>
+                            <li>Angeles Briones</li>
+                            <li>Daniele Ciminieri</li>
+                            <li>Gabriele Colombo</li>
+                            <li>Azzurra Pini</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <!-- Sidemenu and scroll -->
+    <script src="../js/scroll.js"></script>
+    <script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

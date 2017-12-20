@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>DensityDesign 2015/2016</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fontawesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../css/style.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5816319-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+<div id="wrapper" class="toggled">
+
+<!-- Sidebar Menu - Don't change the existing URLs, just add if you have more chapters of visualizations-->
+
+
+
+<div id="sidebar-wrapper">
+<ul class="sidebar-nav">
+<div class="sidebar-brand">
+<a href="/dd11/index.html" class="text-uppercase"> 
+<i class="fa fa-home"></i> Home page
+</a>
+</div>
+<li>
+<h4>Migration Backstage</h4>
+</li>
+<li>
+<a href="../introduction.html">Introduction</a>
+</li>
+<li>
+<h5 class="text-uppercase">Definition of our movie corpus</h5> <!--CHAPTER 1-->
+</li>
+
+<li>
+<a href="../chapter01/chapter01_viz01.html">What films are the most relevant when searching for migration movies?</a> <!-- confronto liste-->
+<a href="../chapter01/chapter01_viz02.html">How do we define the selection criteria?</a> <!--box office-->
+</li>
+<li>
+<h5 class="text-uppercase">Related topics</h5> <!--CHAPTER 2-->
+</li>
+
+<li>
+<a href="../chapter02/chapter02_viz01.html">Which are the most relevant themes and how are they distributed in our movies?</a> <!-- treemaps-->
+<a href="../chapter02/chapter02_viz02.html">How are these topics linked to each other?</a> <!--gephi-->
+</li>
+<li>
+<h5 class="text-uppercase">From where to where</h5> <!--CHAPTER 3-->
+</li>
+
+<li>
+<a href="../chapter03/chapter03_viz01.html">How nations and cultures are connected through the eyes of cinema?</a> <!-- map-->
+</li>
+<li>
+<h5 class="text-uppercase">Movies visuals </h5> <!--CHAPTER 4-->
+</li>
+
+<li>
+<a href="../chapter04/chapter04_viz01.html">Are trends identified on the pieces that film producers make to advertise their films?</a>
+</li>
+	
+<li>
+<h5 class="text-uppercase">How do people react</h5> <!--CHAPTER 5-->
+</li>
+
+<li>
+<a href="../chapter05/chapter05_viz01.html">What aspects of our movies are more interesting  for spectators? How do they talk about these aspects?</a>
+</li>
+</ul>
+</div>
+
+<!-- /#sidebar-wrapper -->
+
+
+<!-- Page Content -->
+<!-- Visualization-->
+<div id="viz">
+<a href="#menu-toggle" class="menu-sidebar" id="menu-toggle"><i class="fa fa-bars"></i></span></a>
+<div class="my-viz">
+	<iframe src="listeViz/listeViz.html"></iframe>
+<!-- Add your viz here -->
+</div>
+</div><!-- End of Visualization -->
+
+<!-- Main content  -->
+<div id="page-content-wrapper">
+<div class="container">
+<div class="row">
+
+<!-- Side scrolling menu  -->
+<div class="col-md-3 text-uppercase" id="leftCol">
+<ul class="nav nav-stacked affix-top hidden-sm hidden-xs" id="sidebar">
+<li><a href="#sec0">Introduction</a></li>
+<li><a href="#sec1">Protocol</a></li>
+<li><a href="#sec2">How to read it</a></li>
+<li><a href="#sec3">Findings</a></li>
+<li><a href="#sec4">Data</a></li>
+</ul>
+</div><!-- End of Side scrolling menu -->
+
+<!-- Text  -->
+<div class="col-md-9 main-content">
+<h5 class="text-uppercase">Definition of our movie corpus</h5><!-- Title of the "chapter"  -->
+<h1>What films are the most relevant when searching for migration movies? </h1>
+
+<!-- Intro  -->
+<div class="section-content" id="sec0">
+<div class="section-text">
+<h3>Introduction</h3><br/>
+<p>As a first step of our research we wanted to find a corpus of movies that are more relevant referring to the topic of migration.
+In order to do that we collected and compared several movie lists, expecting that if a movie is often present it is because the story it’s more adherent to our theme.</p>
+<p>Furthermore we tried to approach our research from different points of access considering some possible channels that people could use to select a movie about migration. That has driven us to choose platforms such as Google and Wikipedia and some of the more diffuse and complete database dedicated exclusively to movies like: <a href="http://www.imdb.com/" target="_blank">IMDB</a>, <a href="https://www.themoviedb.org/" target="_blank">The Movie DB</a>, <a href="http://www.allmovie.com/" target="_blank">All Movie</a>
+</p>
+</div>
+</div><!-- End of intro -->
+
+<!-- Protocol  -->
+<div class="section-content" id="sec1">
+<div class="section-text">    
+<h3>Protocol</h3><br/>
+
+<p>1. We chose 6 queries: 
+immigration, immigrant, migration, migrant, emigration, emigrant.</p>
+
+<p>2. Five different platforms were selected based on two requirements: they should allow the use of keywords for the research and have a clear ranking criterion. We decided to use:
+	<a href="http://www.google.com/" target="_blank">google.com</a>, <a href="http://www.wikipedia.org/" target="_blank">wikipedia.org</a>, <a href="http://www.imdb.com/" target="_blank">imdb.com</a>, <a href="https://www.themoviedb.org/" target="_blank">themoviedb.com</a>, <a href="http://www.allmovie.com/" target="_blank">allmovie.com</a>.</p>
+
+<p>The queries were adapted to take advantage of the specific characteristics of the platforms. Here the processes we followed in each platforms:</p>
+<br/>
+<p><strong>Google:</strong></p>
+<p>a. With the query “movies”  the browser returns a slider with the covers of the movies ranked by a “most frequently asked” criterion.<br/>
+b. Google.com (only english pages) with incognito window navigation.<br/>
+c. Six queries were matched with the word “movies”:  “<i>immigration movies</i>”, “<i>immigrant movies</i>”, “<i>emigration movies</i>”, “<i>emigrant movies</i>”, “<i>migration movies</i>”, “<i>migrant movies</i>”.<br/>
+d. Only two queries returned some results: immigration movies and immigrant movies.<br/>
+e. Manual scraping of the results.<br/>
+f. Two resulting lists: for “<i>immigration movies</i>” and “<i>immigrant movies</i>” both with 51 results.</p>
+
+<p><strong>Wikipedia:</strong></p>
+<p>a. In wikipedia there’s an already existing category “<i>Films about Immigration</i>” which lists 160 movies.<br/>
+	b. Use of <a href="http://stats.grok.se/" target="_blank">stats.grok.se</a> to sort them with a popularity ranking based on the page views in the last 90 days.<br/>
+c. Manual compilation of a dataset collecting the titles, the views and the positioning from the most to the least viewed.<br/>
+
+<p><strong>Allmovie:</strong></p>
+	<p>a. Use of filter “<i>Movie themes</i>” in the section “<i>Advanced search</i>”. Typing the word “<i>migr</i>” it returns the filter “<i>Immigrant life</i>” with movies displayed with a popularity criterion.<br/>
+		b. Scraping with <a href="https://www.kimonolabs.com/" target="_blank">Kimono</a>. 728 resulting movies</p>
+
+<p><strong>Themdb:</strong></p>  
+<p>a. It allows to browse through the movies in the section “<i>Discover</i>”. We used the filters “Year: none” “<i>Sort by: Popularity</i>” and the keywords: “<i>immigration</i>”, “<i>immigrant</i>”, “<i>migration</i>”, “<i>migrant</i>”, “<i>emigration</i>”, “<i>emigrant</i>”. <br/>
+b. The query “<i>migrant</i>” didn’t return any result.<br/>
+c. Scraped each outcome with <a href="https://www.kimonolabs.com/" target="_blank">Kimono</a>. The resulting lists were the following: “<i>immigration</i>” with 63 movies, “<i>immigrant</i>” with 71 movies, “<i>emigration</i>” with 17 movies, “<i>emigrant</i>” with 5 movies and “<i>migration</i>” with 12 movies.</p>
+
+<p><strong>Imdb:</strong></p>
+<p>a. Type “<i>migr</i>” in the search field selecting “<i>Keywords</i>” in the drop-down menu. Selection of all lists with these queries: “<i>immigration</i>”, “<i>immigrant</i>”, “<i>migration</i>”, “<i>migrant</i>”, “<i>emigration</i>”, “<i>emigrant</i>”. <br/>
+Results sorted by popularity.<br/>
+b. Scraping with <a href="https://www.kimonolabs.com/" target="_blank">Kimono</a> with following results: “<i>immigration</i>” list with 867 films, “<i>immigrant</i>” list with 1259 films, “<i>emigration</i>” list with 220 films, “<i>emigrant</i>” list with 111 films, “<i>migration</i>” list with 236 films and “<i>migrant</i>” list with 56 films.</p>
+<br/>
+<p>3. All lists were reordered in Excel with title, year and positioning of each movie.</p>
+<p>4.A contingency table was created listing all 3140 titles in the rows and the 15 lists in the columns. The values showed at the intersection is the position of the movie in the list.</p>
+<p>5.The occurrences were calculated using the Excel function “Count”.</p>
+<p>6.The movies with at least three occurrences formed the basis of our corpus.</p>
+<p>7.The plots of all movies were read to verify the connection with our topic. If they narrate a fictional migration, they take place in future or the topic was considered only marginally they were excluded.Thirteen movies were left out.</p>
+<p>8.The remaining 120 movies were reordered according to their occurrences and the popularity based on Imdb ranking.
+To set the popularity ranking between our 120 films we created an Imdb pro account. All movies were collected in a personal list, then sorted by popularity. A Kimono scraping API created a dataset with the internal popularity ranking.</p>
+<p>9.The movies with higher occurrences at the beginning, the lower ones at the bottom. The movies with same occurrence value were ordered following imdb popularity.</p>
+
+	
+</div>
+</div><!-- End of protocol  -->
+
+<!-- How to read it  -->
+<div class="section-content" id="sec2">
+<div class="section-text">    
+<h3>How to read it</h3><br/>
+<p>All lists are displayed vertically, grouped by searching queries and ordered from the shortest to the longest. <br/>
+Each element represents a movie: the one at the top is related to the first movie of the list  while the one at the bottom is the last. If a film appears at least in three lists, the related element is highlighted so the positions of the selected movies inside the lists are visible. <br/>
+Under the platform name, a bar visualizes the percentage of selected movies on the total movies of a certain list.
+By using of the drop-down-menu, it’s possible to see the position of the selected film in each list.
+</p>
+</div>
+</div><!-- End of how to read it -->
+
+<!-- Findings  -->
+<div class="section-content" id="sec3">
+<div class="section-text">   
+<h3>Findings</h3><br/>
+<p>Out of the 3140 movies collected in these 15 lists, 133 were present in at least 3 lists, and 120 were considered relevant after reading the plots.<br/>
+Two of the main findings: even though they’re shorter than others, the lists collected using <b>Google</b> and <strong>Wikipedia</strong> have an higher percentage of selected movies, which means they are more reliable when looking for a relevant movie related to the topic. <br/>
+Secondly, the lists found in <strong>Themdb</strong> are less in agreement with the others, in particular with the Google ones.
+</p>
+</div>
+</div><!-- End of findings  -->
+
+<!-- Data  -->
+<div class="section-content" id="sec4">
+<div class="section-text"> 
+<h3>Data</h3>
+<h4>Data source: <a href="http://www.google.com/" target="_blank">Google</a>, <a href="https://en.wikipedia.org/wiki/Category:Films_about_immigration" target="_blank">Wikipedia</a>,<a href="http://www.imdb.com/" target="_blank">IMDB</a>, <a href="https://www.themoviedb.org/" target="_blank">The Movie DB</a>, <a href="http://www.allmovie.com/" target="_blank">All Movie</a></h4>
+<h4><a href="../data/chapter1/Our%20list.xls"><i class="fa fa-arrow-circle-o-down"></i> Our List (64MB)</a></h4>
+</div>
+</div><!-- End of data  --> 
+</div>
+</div>
+</div>
+</div>
+<!-- /#page-content-wrapper -->
+<!-- Footer - Add your names here -->
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-6">
+<a href="http://www.densitydesign.org/"><img src="../img/density_logo.png"></a>  
+</div>
+<div class="col-md-2 col-sm-2 col-xs-6">
+<a href="http://www.dipartimentodesign.polimi.it/"><img src="../img/dip_logo.png"></a>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-6">
+<h4>project by</h4>
+<ul>
+<ul>
+<li>Camila Borrero</li>
+<li>Pietro Cedone</li>
+<li><a href="https://www.behance.net/luciacosma" target="_blank">Lucia Cosma</a></li>
+<li><a href="http://www.sebastianforero-mcd.com" target="_blank">Sebastián Forero</a></li>
+<li>Giovanni Rabuffetti</li>
+<li>Ziqiao Xie</li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-6">
+<h4>Faculty</h4>
+<ul>
+<li>Paolo Ciuccarelli</li>
+<li>Marco Fattore</li>
+<li>Stefano Mandato</li>
+<li>Michele Mauri</li>
+<li>Salvatore Zingale</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-2 col-xs-12">
+<h4>Teaching Assistants</h4>
+<ul>
+<li>Angeles Briones</li>
+<li>Daniele Ciminieri</li>
+<li>Gabriele Colombo</li>
+<li>Azzurra Pini</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+e.preventDefault();
+$("#wrapper").toggleClass("toggled");
+});
+</script>
+
+<!-- Sidemenu and scroll -->
+<script src="../js/scroll.js"></script>
+<script src="../js/sidemenu.js"></script>
+
+</body>
+
+</html>

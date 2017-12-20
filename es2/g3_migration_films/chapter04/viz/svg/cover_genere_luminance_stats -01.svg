@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1012px"
+	 height="160.405px" viewBox="0 -17.405 1012 160.405" enable-background="new 0 -17.405 1012 160.405" xml:space="preserve">
+<g id="genereBaseStatLum">
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="23" y1="115.75" x2="990" y2="115.75"/>
+	<line fill="none" stroke="#666666" stroke-miterlimit="10" stroke-dasharray="3,3" x1="23" y1="65.666" x2="990" y2="65.666"/>
+	<text transform="matrix(1 0 0 1 925.3193 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">western</text>
+	<text transform="matrix(1 0 0 1 859.8926 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">short</text>
+	<text transform="matrix(1 0 0 1 773.0625 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">romance</text>
+	<text transform="matrix(1 0 0 1 706.8379 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">music</text>
+	<text transform="matrix(1 0 0 1 624.791 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">flim-noir</text>
+	<text transform="matrix(1 0 0 1 555.5566 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">drama</text>
+	<text transform="matrix(1 0 0 1 459.7168 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">documentary</text>
+	<text transform="matrix(1 0 0 1 408.2168 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">crime</text>
+	<text transform="matrix(1 0 0 1 325.478 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">comedy</text>
+	<g>
+		<text transform="matrix(1 0 0 1 245.0176 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">biography</text>
+	</g>
+	<text transform="matrix(1 0 0 1 170.8232 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">animation</text>
+	<text transform="matrix(1 0 0 1 94.5352 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">adventure</text>
+	<text transform="matrix(1 0 0 1 31.9888 136)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">action</text>
+</g>
+<g id="westernStatLum">
+	<text transform="matrix(1 0 0 1 942.8887 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">61</text>
+	<polyline points="932.109,54.666 932.109,15.666 967.109,15.666 967.109,54.666 	"/>
+	<rect x="932.109" y="54.665" fill="#FFFFFF" width="35" height="61"/>
+</g>
+<g id="shortStatLum">
+	<text transform="matrix(1 0 0 1 867.2578 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">59</text>
+	<rect x="857.167" y="15.666" width="35" height="51"/>
+	<rect x="857.167" y="66.665" fill="#FFFFFF" width="35" height="49"/>
+</g>
+<g id="romanceStatLum">
+	<text transform="matrix(1 0 0 1 792.2051 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">56</text>
+	<rect x="782.226" y="15.666" width="35" height="44"/>
+	<rect x="782.226" y="59.665" fill="#FFFFFF" width="35" height="56"/>
+</g>
+<g id="musicStatLum">
+	<text transform="matrix(1 0 0 1 717.4326 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">49</text>
+	<rect x="707.283" y="15.666" width="35" height="51"/>
+	<rect x="707.283" y="66.665" fill="#FFFFFF" width="35" height="49"/>
+</g>
+<g id="flim-noirStatLum">
+	<text transform="matrix(1 0 0 1 642.7695 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">52</text>
+	<rect x="632.342" y="15.666" width="35" height="48"/>
+	<rect x="632.342" y="63.665" fill="#FFFFFF" width="35" height="52"/>
+</g>
+<g id="dramaStatLum">
+	<text transform="matrix(1 0 0 1 567.7363 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">55</text>
+	<rect x="557.399" y="15.666" width="35" height="45"/>
+	<rect x="557.399" y="60.665" fill="#FFFFFF" width="35" height="55"/>
+</g>
+<g id="documentaryStatLum">
+	<text transform="matrix(1 0 0 1 492.5288 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">48</text>
+	<rect x="482.458" y="15.666" width="35" height="52"/>
+	<rect x="482.458" y="67.665" fill="#FFFFFF" width="35" height="48"/>
+</g>
+<g id="crimeStatLum">
+	<text transform="matrix(1 0 0 1 418.6523 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">51</text>
+	<rect x="407.516" y="15.666" width="35" height="49"/>
+	<rect x="407.516" y="64.665" fill="#FFFFFF" width="35" height="51"/>
+</g>
+<g id="comedyStatLum">
+	<text transform="matrix(1 0 0 1 342.9756 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">53</text>
+	<rect x="332.574" y="15.666" width="35" height="47"/>
+	<rect x="332.574" y="62.665" fill="#FFFFFF" width="35" height="53"/>
+</g>
+<g id="biographyStatLum">
+	<g>
+		<text transform="matrix(1 0 0 1 268.0532 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">52</text>
+	</g>
+	<rect x="257.632" y="15.666" width="35" height="48"/>
+	<rect x="257.632" y="63.665" fill="#FFFFFF" width="35" height="52"/>
+</g>
+<g id="animationStatLum">
+	<text transform="matrix(1 0 0 1 193.8262 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">51</text>
+	<rect x="182.689" y="15.666" width="35" height="49"/>
+	<rect x="182.689" y="64.665" fill="#FFFFFF" width="35" height="51"/>
+</g>
+<g id="adventureStatLum">
+	<text transform="matrix(1 0 0 1 118.1426 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">54</text>
+	<rect x="107.748" y="61.665" fill="#FFFFFF" width="35" height="54"/>
+	<rect x="107.748" y="15.666" width="35" height="46"/>
+</g>
+<g id="actionStatLum">
+	<text transform="matrix(1 0 0 1 42.7261 7.0059)" fill="#FFFFFF" font-family="'Raleway'" font-size="13">50</text>
+	<rect x="32.806" y="15.666" width="35" height="50"/>
+	<rect x="32.806" y="65.667" fill="#FFFFFF" width="35" height="50"/>
+</g>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ykproject style="050805" name="Untitled" font="SansSerif-PLAIN-12" desc="New dictionary" location="/Users/pietrocedone/Dropbox/D E N S I T Y/[02] Fase 2/[10]Commenti/yoshi1.ykp" creationdate="Fri Dec 18 17:56:59 CET 2015">
+<dictionary  patternengine="substring">
+<cnode name="Untitled" desc="New dictionary">
+<cnode name="america*" desc="">
+<pnode name="america*"/>
+</cnode>
+<cnode name="better" desc="">
+<pnode name="better"/>
+</cnode>
+<cnode name="crim*" desc="">
+<pnode name="crim*"/>
+</cnode>
+<cnode name="desper*" desc="">
+<pnode name="desper*"/>
+</cnode>
+<cnode name="dram*" desc="">
+<pnode name="dram*"/>
+</cnode>
+<cnode name="emigr*" desc="">
+<pnode name="emigr*"/>
+</cnode>
+<cnode name="famil*" desc="">
+<pnode name="famil*"/>
+</cnode>
+<cnode name="force*" desc="">
+<pnode name="force*"/>
+</cnode>
+<cnode name="foreig*" desc="">
+<pnode name="foreig*"/>
+</cnode>
+<cnode name="hope*" desc="">
+<pnode name="hope*"/>
+</cnode>
+<cnode name="human*" desc="">
+<pnode name="human*"/>
+</cnode>
+<cnode name="illeg*" desc="">
+<pnode name="illeg*"/>
+</cnode>
+<cnode name="immigr*" desc="">
+<pnode name="immigr*"/>
+</cnode>
+<cnode name="job*" desc="">
+<pnode name="job*"/>
+</cnode>
+<cnode name="land*" desc="">
+<pnode name="land*"/>
+</cnode>
+<cnode name="life" desc="">
+<pnode name="life"/>
+</cnode>
+<cnode name="love*" desc="">
+<pnode name="love*"/>
+</cnode>
+<cnode name="migr*" desc="">
+<pnode name="migr*"/>
+</cnode>
+<cnode name="peopl*" desc="">
+<pnode name="peopl*"/>
+</cnode>
+<cnode name="poor*" desc="">
+<pnode name="poor*"/>
+</cnode>
+<cnode name="real*" desc="">
+<pnode name="real*"/>
+</cnode>
+<cnode name="relig*" desc="">
+<pnode name="relig*"/>
+</cnode>
+<cnode name="united states" desc="">
+<pnode name="united states"/>
+</cnode>
+<cnode name="usa" desc="">
+<pnode name="usa"/>
+</cnode>
+<cnode name="viol*" desc="">
+<pnode name="viol*"/>
+</cnode>
+</cnode>
+</dictionary>
+<documentlist>
+<document title="plain_txt_total.txt" location="/Users/pietrocedone/Dropbox/D E N S I T Y/[02] Fase 2/[10]Commenti/parti tema/plain_txt_total.txt" locale="it_IT" charsetname="MacRoman"/>
+</documentlist>
+</ykproject>

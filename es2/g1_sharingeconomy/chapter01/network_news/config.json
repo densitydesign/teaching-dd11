@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "What do the news talk about?",
+    "more": "",
+    "intro": "Relationship between newspaper and most frequent keywords"
+  },
+  "legend": {
+    "edgeLabel": "Frequency",
+    "nodeLabel": "Newspapers and keywords"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 1,
+      "maxNodeSize": 40,
+      "maxEdgeSize": 45,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 6,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "line",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 20,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#63C2A6",
+      "defaultLabelBGColor": "#ddd",
+        "defaultEdgeHoverColor": "#63C2A6",
+        "defaultEdgeColor": "#f6f7f7"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1012px"
+	 height="143px" viewBox="0 0 1012 143" enable-background="new 0 0 1012 143" xml:space="preserve">
+<g id="Capa_1">
+</g>
+<g id="peopleBar">
+	<text transform="matrix(1 0 0 1 218.6021 77.6035)"><tspan x="0" y="0" fill="#63C9C9" font-family="'Raleway'" font-size="18">people: 38,9%</tspan><tspan x="0" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">44 films</tspan></text>
+	<rect x="221" y="38" fill="#63C9C9" width="225" height="21"/>
+</g>
+<g id="placeBar">
+	<text transform="matrix(1 0 0 1 457.5962 77.6035)"><tspan x="0" y="0" fill="#FFBB62" font-family="'Raleway'" font-size="18">place: 22,2%</tspan><tspan x="25.334" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">25 films</tspan></text>
+	<rect x="446" y="38" fill="#FFBB62" width="123" height="21"/>
+</g>
+<g id="peopleandplaceBar">
+	<text transform="matrix(1 0 0 1 591.0332 77.6035)"><tspan x="0" y="0" fill="#FF8062" font-family="'Raleway'" font-size="18">people and place: 38,9%</tspan><tspan x="152.314" y="21" fill="#CCCCCC" font-family="'Raleway'" font-size="14">44 films</tspan></text>
+	<rect x="569" y="38" fill="#FF8062" width="225" height="21"/>
+</g>
+</svg>

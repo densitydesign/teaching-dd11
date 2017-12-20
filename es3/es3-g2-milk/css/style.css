@@ -1,0 +1,1396 @@
+@font-face {
+    font-family: "Sophia";
+    src: url("../fonts/sophia/Sophia.otf") format("opentype");
+}
+
+
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background: url("../img/background.jpg");
+    background-size: 100vh;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#content {
+    display: none;
+}
+
+#loading {
+    margin: auto;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+#loading img {
+    width: 100vw;
+    margin-top: -7vh;
+}
+
+
+/* Cookie */
+
+.cookie_hidden {
+    position: absolute;
+    width: 22vw;
+    height: 35vh;
+    background-color: #ffffff;
+    bottom: 4%;
+    right: 2%;
+    opacity: 0;
+}
+
+.cookie_visible {
+    position: absolute;
+    width: 22vw;
+    height: 35vh;
+    background-color: #ffffff;
+    opacity: 0.9;
+    bottom: 4%;
+    right: 2%;
+}
+
+.text_cookie {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.ok {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #8dcdd9;
+    border: 1px solid #8dcdd9;
+    padding: 1%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.ok:hover {
+    background-color: #8dcdd9 !important;
+    color: #ffffff;
+}
+
+iframe {
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Sophia', sans-serif;
+    font-size: 6em;
+    line-height: 0.9em;
+}
+
+.text {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.highlighted_blue {
+    background-color: #8dcdd9;
+}
+
+.highlighted_white {
+    background-color: #ffffff;
+}
+
+a {
+    color: #333 !important;
+}
+
+.fonte {
+    font-size: 0.9em;
+}
+
+.title_montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    line-height: 0.9em;
+}
+
+.little_title_montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+/* One */
+
+#intro_hidden {
+    display: none;
+}
+
+#intro_hidden img {
+    height: 100vh;
+    transform: translateX(-35%);
+}
+
+@media only screen and (max-width: 768px) {
+    #intro {
+        display: none;
+    }
+    #intro_hidden {
+        display: block !important;
+    }
+}
+
+
+/* Two */
+
+.two {
+    height: 100vh;
+    position: relative;
+}
+
+#rectangle_two {
+    width: 55vw;
+    height: 45vh;
+    border: 1px solid #8dcdd9;
+    position: absolute;
+    transform: translateX(5vw);
+    top: 19%;
+}
+
+.title_two {
+    margin-top: 8vh;
+    z-index: 1;
+    position: relative;
+}
+
+.text_two {
+    margin-top: 4vh;
+}
+
+.two img {
+    position: relative;
+    z-index: 2;
+    margin-top: -5vh;
+    transform: translateX(5vw);
+    width: 25vw;
+}
+
+.fonte_two {
+    transform: translateY(-2vh);
+}
+
+@media only screen and (max-width: 768px) {
+    .title_two {
+        margin-top: 0;
+        z-index: 1;
+        position: relative;
+        transform: translateY(10vh);
+    }
+    .text_two {
+        margin-top: 15vh;
+    }
+    .two img {
+        position: relative;
+        z-index: 2;
+        margin-top: 5vh;
+        transform: translateX(5vw);
+        width: 90vw;
+    }
+    .fonte_two {
+        transform: translateY(7vh);
+    }
+    .two {
+        height: 200vh;
+    }
+}
+
+
+/* Three */
+
+.three {
+    height: 100vh;
+    position: relative;
+}
+
+#rectangle_three {
+    width: 43vw;
+    height: 33vh;
+    border: 1px solid #8dcdd9;
+    position: absolute;
+    top: 10%;
+}
+
+.title_three {
+    margin-top: 5vh;
+    z-index: 1;
+    position: relative;
+}
+
+#food_supplies img {
+    margin-top: 8vh;
+}
+
+.fonte_three {
+    margin-top: 5vh;
+}
+
+#shopping_list img {
+    position: absolute;
+    top: -25vh;
+    left: 3vw;
+}
+
+#healthy {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Four */
+
+.four {
+    height: 100vh;
+    width: 100vw;
+}
+
+#healthy {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8DCDD9 !important;
+}
+
+#healthy_inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.title_four {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Vuoto */
+
+#vuoto1 {
+    height: 250vh;
+}
+
+
+/* Five */
+
+.five {
+    height: 50vh;
+    position: relative;
+}
+
+#supermarket {
+    width: 100vw;
+}
+
+
+/* Six */
+
+.six {
+    height: 100vh;
+    position: relative;
+}
+
+#plus {
+    width: 3.5vw;
+    position: absolute;
+    top: 45.1vh;
+    left: 4.8vw;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.crossRotate:active {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+#scaffale {
+    width: 100vw;
+}
+
+.milks {
+    height: 70vh;
+    z-index: 3;
+    position: absolute;
+    top: 3vh;
+}
+
+.milks_hidden {
+    display: none;
+}
+
+#cow_milk {
+    transform: translateX(3.5vw);
+    cursor: pointer;
+}
+
+#lactose_free {
+    transform: translateX(3.5vw);
+    cursor: pointer;
+}
+
+#organic_milk {
+    cursor: pointer;
+}
+
+#plant_milk {
+    cursor: pointer;
+}
+
+#scelta_latti {
+    width: 100vw;
+    height: 30vh;
+    bottom: 0vh;
+    position: absolute;
+    cursor: pointer;
+}
+
+.valori_nutrizionali_hidden {
+    display: none;
+}
+
+.valori_nutrizionali_visible {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0vh;
+    z-index: 3;
+}
+
+
+/* Modal */
+
+.md-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.md-show {
+    visibility: visible;
+}
+
+
+/* Content styles */
+
+.md-content {
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.md-content button {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+.md-effect-12 .md-content {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.md-effect-12 .md-content h3,
+.md-effect-12 .md-content {
+    background: transparent;
+}
+
+.md-show.md-effect-12 .md-content {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+/* Approfondimento latte mucca primo giro */
+
+#app_cow_1 {
+    background: url("../img/background_cow_milk.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#x_cow {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#rectangle_cow_1 {
+    width: 30vw;
+    height: 65vh;
+    left: 35vw;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 19vh;
+}
+
+.title_montserrat_cow_1 {
+    padding-top: 9vh;
+    text-align: center;
+    z-index: 1;
+}
+
+.text_cow_1 {
+    padding-top: 8vh;
+}
+
+#amount_calcium {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+
+#app_cow_1 a {
+    text-align: center;
+}
+
+.fonte_cow_1 {
+    display: block;
+    margin-top: 12vh;
+}
+
+
+/* Approfondimento latte organico primo giro */
+
+#app_organic_1 {
+    background: url("../img/background_organic_milk.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#x_organic {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#rectangle_organic_1 {
+    width: 30vw;
+    height: 77vh;
+    left: 35vw;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 12vh;
+}
+
+.title_montserrat_organic_1 {
+    padding-top: 1.8vh;
+    text-align: center;
+    z-index: 1;
+}
+
+.text_organic_1 {
+    padding: 5vh 3.5vw 0 3.5vh;
+}
+
+#position_hormone {
+    width: 35vw;
+    margin-left: 31.5vw;
+    margin-top: 5vh;
+}
+
+.fonte_organic_1 {
+    display: block;
+    margin-top: 5vh;
+    padding-left: 5vw;
+}
+
+
+/* Approfondimento latte senza lattosio primo giro */
+
+#app_lactose_free_1 {
+    background: url("../img/background_lactose_free.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#x_lactose_free {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#rectangle_lactose_free_1 {
+    width: 30vw;
+    height: 65vh;
+    left: 35vw;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 15.5vh;
+}
+
+.title_montserrat_lactose_free_1 {
+    padding-top: 5vh;
+    text-align: center;
+    z-index: 1;
+}
+
+.text_lactose_free_1 {
+    padding: 5vh 3.5vw 0 3.5vh;
+}
+
+#digest_lactose {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 8vh;
+}
+
+.fonte_lactose_free_1 {
+    display: block;
+    margin-top: 6vh;
+    padding-left: 5vw;
+}
+
+
+/* Approfondimento latte vegetale primo giro */
+
+#app_plant_milk_1 {
+    background: url("../img/background_plant_milk.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#x_plant_milk {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#rectangle_plant_milk_1 {
+    width: 45vw;
+    height: 45vh;
+    left: 15vw;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 12.5vh;
+}
+
+.title_montserrat_plant_milk_1 {
+    padding-top: 2vh;
+    text-align: center;
+    z-index: 1;
+}
+
+.text_plant_milk_1 {
+    padding: 5vh 3.5vw 0 3.5vh;
+}
+
+#google_trends {
+    width: 42vw;
+    transform: translateX(-4vw);
+    display: inline;
+}
+
+.fonte_plant_milk_1 {
+    display: block;
+    margin-top: 6vh;
+}
+
+
+/* Approfondimento scelta latti */
+
+#app_milk_megastore {
+    background: url("../img/background.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#x_milk_megastore {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+.title_montserrat_milk_megastore {
+    padding-top: 2vh;
+    text-align: center;
+    z-index: 1;
+}
+
+#milk_megastore {
+    width: 70vw;
+    margin-left: 20vw;
+    margin-top: 4vh;
+}
+
+.title_megastore {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+
+/* Seven */
+
+.seven {
+    height: 100vh;
+}
+
+
+/* Vuoto */
+
+#vuoto2 {
+    height: 150vh;
+}
+
+
+/* Eight */
+
+.eight {
+    height: 100vh;
+    position: relative;
+}
+
+.title_eight {
+    position: relative;
+    text-align: center;
+    padding-top: 4.5vh;
+}
+
+.text_eight {
+    margin-top: 2vh;
+    text-align: center;
+    padding: 0 4% 0 4%;
+}
+
+#daily_information {
+    padding-top: 3vh;
+    width: 32vw;
+}
+
+
+/* Nine */
+
+.nine {
+    height: 100vh;
+}
+
+.title_nine {
+    margin-top: 5vh;
+    position: relative;
+}
+
+.text_nine_right {
+    margin-top: 8vh;
+    text-align: left;
+}
+
+.text_nine {
+    margin-top: 8vh;
+    text-align: right;
+}
+
+.fonte_nine {
+    text-align: right;
+}
+
+#plant_milk_side {
+    padding-right: 5vw;
+}
+
+#ingredients_cow {
+    right: 0vw;
+    position: absolute;
+    margin-top: 20vh;
+}
+
+#ingredients_plant {
+    margin-top: 9vh;
+}
+
+#plus_cow {
+    height: 7vh;
+    position: absolute;
+    top: 48vh;
+    left: 2vw;
+    cursor: pointer;
+}
+
+#plus_cow_hover {
+    height: 8vh;
+    position: absolute;
+    top: 48vh;
+    left: 7vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#plus_cow:hover + #plus_cow_hover {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+#plus_plant {
+    height: 7vh;
+    position: absolute;
+    top: 48vh;
+    right: 2vw;
+    cursor: pointer;
+}
+
+#plus_plant_hover {
+    height: 8vh;
+    position: absolute;
+    top: 48vh;
+    right: 7vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#plus_plant:hover + #plus_plant_hover {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+
+/* Approfondimento latte mucca secondo giro */
+
+#app_cow_2 {
+    background: url("../img/background_cow_milk.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 172vh;
+}
+
+.title_montserrat_cow_milk_2 {
+    padding-top: 2vh;
+    z-index: 1;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.text_cow_milk_2 {
+    padding-left: 0vw;
+}
+
+#legenda_parole svg {
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+#legenda_parole ul {
+    list-style: none;
+}
+
+#grafico_parole img {
+    margin-top: 10vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+#all,
+#food,
+#milk,
+#deseases,
+#who,
+#studies,
+#human,
+#nutrients {
+    cursor: pointer;
+}
+
+#modal-12 {
+    height: 100%;
+}
+
+#x_cow_milk_2 {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#modal_cow {
+    margin-top: 2vh;
+}
+
+
+/* Approfondimento latte vegetale secondo giro */
+
+.title_montserrat_plant_milk_2 {
+    padding-top: 2vh;
+    z-index: 1;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.text_plant_milk_2 {
+    padding-left: 0vw;
+}
+
+#silk_sodelicious {
+    margin-top: 8vh;
+}
+
+#silk {
+    margin-top: 8vh;
+}
+
+#sodelicious {
+    margin-top: 8vh;
+}
+
+.silk_sodelicious {
+    clear: both;
+    margin-top: 21vh;
+    padding-left: 1vw;
+    position: absolute;
+}
+
+#brand_material {
+    margin-top: 12vh;
+}
+
+#x_plant_milk_2 {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+
+/* Ten */
+
+.ten {
+    width: 100vw;
+    height: 100vh;
+}
+
+#plus_lactose {
+    height: 7vh;
+    position: absolute;
+    top: 30vh;
+    left: 2vw;
+    cursor: pointer;
+}
+
+#plus_lactose_hover {
+    height: 8vh;
+    position: absolute;
+    top: 30vh;
+    left: 7vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#plus_lactose:hover + #plus_lactose_hover {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+.title_ten {
+    margin-top: 10vh;
+    position: relative;
+}
+
+.text_ten {
+    margin-top: 12vh;
+    text-align: right;
+}
+
+.fonte_ten {
+    text-align: right;
+    margin-top: 20vh;
+}
+
+#global_lactose_tolerance {
+    margin-top: 5vh;
+}
+
+#plus_cow_3 {
+    height: 7vh;
+    position: absolute;
+    top: 30vh;
+    left: 2vw;
+    cursor: pointer;
+}
+
+#plus_cow_hover_3 {
+    height: 8vh;
+    position: absolute;
+    top: 30vh;
+    left: 7vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#plus_cow_3:hover + #plus_cow_hover_3 {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+
+/* Approfondimento latte senza lattosio secondo giro */
+
+#app_lactose_milk_2 {
+    background: url("../img/background_lactose_free.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title_montserrat_lactose_milk_2 {
+    padding-top: 2vh;
+    z-index: 1;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.text_lactose_milk_2 {
+    padding-left: 0vw;
+    padding-top: 5vh;
+}
+
+#x_lactose_milk_2 {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+.fonte_ten_2 {
+    position: absolute;
+    bottom: 5vh;
+    padding-left: 0vw;
+}
+
+.styled-select {
+    background: url("../img/arrowdown.svg") no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+    display: inline-block;
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 268px;
+}
+
+.peach {
+    background-color: #f2a77f;
+}
+
+.peach select {
+    color: #fff;
+}
+
+#combobox_iframe {
+    width: 40vw;
+    margin-top: -5vh;
+}
+
+#combobox {
+    width: 100%;
+    height: 100%;
+    background: url("../img/background_lactose_free.jpg") !important;
+    background-size: 100vh !important;
+}
+
+#tgt {
+    color: transparent;
+}
+
+#gender {}
+
+#age {
+    margin-top: 10vh;
+}
+
+#combo_img {
+    margin-top: 5vh;
+}
+
+
+/* Approfondimento mucca-3 secondo giro */
+
+#app_cow_milk_3 {
+    background: url("../img/background_cow_milk.jpg");
+    background-size: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title_montserrat_cow_milk_3 {
+    padding-top: 2vh;
+    z-index: 1;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.text_cow_milk_3 {
+    padding-left: 0vw;
+    padding-top: 5vh;
+}
+
+#x_cow_milk_3 {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+.fonte_ten_2 {
+    position: absolute;
+    bottom: 5vh;
+    padding-left: 0vw;
+}
+
+
+/* Eleven */
+
+.eleven {
+    width: 100vw;
+    height: 100vh;
+}
+
+#plus_organic {
+    height: 7vh;
+    position: absolute;
+    top: 48vh;
+    right: 2vw;
+    cursor: pointer;
+}
+
+#plus_organic_hover {
+    height: 8vh;
+    position: absolute;
+    top: 48vh;
+    right: 7vw;
+    opacity: 0;
+    z-index: 101;
+}
+
+#plus_organic:hover + #plus_organic_hover {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+.title_eleven {
+    margin-top: 5vh;
+    position: relative;
+}
+
+#organic_process {
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.fonte_eleven {
+    position: absolute;
+    bottom: 2vh;
+}
+
+
+/* Approfondimento latte organico secondo giro */
+
+.title_montserrat_organic_milk_2 {
+    padding-top: 2vh;
+    z-index: 1;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.text_organic_milk_2 {
+    padding-left: 0vw;
+}
+
+#x_organic_milk_2 {
+    width: 2.5vw;
+    margin-left: 95.5vw;
+    margin-top: 3.8vh;
+    cursor: pointer;
+}
+
+#maintaining_cows_1 {
+    margin-top: 5vh;
+}
+
+.text_organic_2 {
+    margin-top: 5vh;
+}
+
+#maintaining_cows_2 {
+    margin-top: 10vh;
+}
+
+.fonte_eleven_2 {
+    margin-top: 7vh;
+}
+
+#organic_numbers {
+    opacity: 0;
+}
+
+#organic_graph:hover + #organic_numbers {
+    opacity: 1 !important;
+    transition: 0.3s all linear;
+}
+
+#cow_numbers {
+    opacity: 0;
+}
+
+#cow_graph:hover + #cow_numbers {
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+
+/* Twelve */
+
+.twelve {
+    width: 100vw;
+    height: 100vh;
+}
+
+.title_twelve {
+    margin-top: 5vh;
+    position: relative;
+    text-align: center;
+}
+
+.text_twelve {
+    margin-top: 5vh;
+    text-align: right;
+}
+
+.fonte_twelve {
+    text-align: right;
+    margin-top: 10vh;
+}
+
+.tipologie {
+    margin-top: -50vh;
+    transform: translateX(3vw);
+}
+
+#legend_tipologie {
+    margin-top: 22vh;
+    cursor: pointer;
+}
+
+#milk_sales {
+    margin-top: 10vh;
+}
+
+.st0 {
+    opacity: 0.6;
+    fill: #356069;
+}
+
+.st1 {
+    fill: none;
+}
+
+.st2 {
+    font-family: 'Montserrat-Regular';
+}
+
+.st3 {
+    font-size: 15;
+}
+
+.st4 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    opacity: 0.6;
+    fill: #5196A3;
+}
+
+.st6 {
+    opacity: 0.6;
+    fill: #36BFD9;
+}
+
+.st7 {
+    fill: #86D9E8;
+}
+
+.st8 {
+    opacity: 0.6;
+    fill: #86D9E8;
+}
+
+/* Thirteen */
+
+.thirteen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.title_thirteen {
+    margin-top: 2vh;
+    position: relative;
+    text-align: center;
+}
+
+#cestino {
+    position: fixed;
+    width: 80vw;
+}
+
+.button_finale {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #8dcdd9 !important;
+    border: 1px solid #8dcdd9;
+    padding: 1% 4% 1% 4%;
+    cursor: pointer;
+    display: inline;
+}
+
+.button_finale:hover {
+    background-color: #8dcdd9 !important;
+    color: #ffffff !important;
+}
+
+.button_center {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.left {
+    margin-left: 1vw;
+}
+
+.yes_no_hidden {
+    visibility: hidden;
+    margin-top: 2vh;
+}
+
+.fonti_finale {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.button_sharing {
+    border: 1.5px solid black;
+    padding: 1%;
+    cursor: pointer;
+    display: inline;
+}
+
+.button_sharing:hover {
+    background-color: #8dcdd9 !important;
+    color: #ffffff !important;
+}
+
+.button_sharing img {
+    height: 5vh;
+}
+
+#knowledge {
+    height: 100vh;
+}
+
+#knowledge_1 {
+    height: 100vh;
+}
+
+#sharing {
+    height: 100vh;
+}
+
+#informed_1 {
+    height: 100vh;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #272725;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    top: 175vh;
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+
+
+.footer h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

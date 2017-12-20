@@ -1,0 +1,73 @@
+/* Tiny Carousel */
+
+body {
+    margin: 0 !important;
+    background: url("img/background.jpg");
+    background-size: 100vh;
+    height: 100vh;
+}
+
+#carousel {
+    width: 100%;
+    height: 100%;
+    background: url("img/scaffale_close.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+#slider1 {
+    height: 95%;
+    overflow: hidden;
+    padding: 0 0 10px;
+}
+
+#slider1 .viewport {
+    left: 75.7vw;
+    top: 34vh;
+    width: 24vh;
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.prev {
+    position: relative;
+    width: 2vw;
+    left: 72.5vw;
+    top: 49vh;
+}
+
+.next {
+    position: relative;
+    width: 2vw;
+    left: 87.5vw;
+    top: 49vh;
+}
+
+.x {
+    width: 3.5vw;
+    position: relative;
+    top: 45.1vh;
+    left: 4.8vw;
+}
+
+#slider1 .disable {
+    visibility: hidden;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+#slider1 .overview li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 1px;
+    height: 121px;
+    width: 236px;
+}
