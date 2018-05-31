@@ -1,6 +1,6 @@
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400italic,400,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400italic,400,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 
 
 html {
@@ -69,7 +69,7 @@ display: block;
 }
 
 #div2:hover{
-background: url("../img/div2.png") no-repeat left top fixed;	
+background: url("../img/div2.png") no-repeat left top fixed;
 }
 
 #div3{
