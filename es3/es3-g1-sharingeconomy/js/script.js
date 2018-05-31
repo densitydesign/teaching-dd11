@@ -237,7 +237,7 @@ $(document).ready(function () {
                 
                     var classString ='companyWebsite mix '+ can + ' ' + canVerbNOSPACE + ' ' + canComplementNOSPACE + ' ' + need + ' ' + needVerbNOSPACE + ' ' + needComplementNOSPACE;
                     
-                    $('#grid').append('<a class="' + classString +'" href="'+ website +'" target="_blank"> <div class="companyBox"> <img class="companyLogo" src="_images/logos/'+ nameNOSPACE +'.jpg"/> <h5 class="companyName">'+ name +'</h5> <p class="companyDescription">'+ description +'</p> </div> </a>');
+                    $('#grid').append('<a class="' + classString +'" href="'+ website +'" target="_blank"> <div class="companyBox"> <img class="companyLogo" src="images/logos/'+ nameNOSPACE +'.jpg"/> <h5 class="companyName">'+ name +'</h5> <p class="companyDescription">'+ description +'</p> </div> </a>');
                 
                 }
                 
